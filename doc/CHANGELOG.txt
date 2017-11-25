@@ -1,0 +1,334 @@
+﻿Kujawiak Viewer 1.7pre
+
+- feature:
+ ` let thumbnail panel have multiple selections
+ ` show GPS location on Google Maps
+ ` French translation
+
+- bugfix:
+ ` fix bug: cannot next/prev by mouse wheel
+ ` fix bug: crash when down cross tree
+ ` fix bug: keep lefttop doesn't work
+ ` fix bug: position of zoom by mouse wheel is incorrect
+ ` fix bug: image is not updated after rotate and save
+ ` fix bug: Loaded didn't be handled correctly when exploring
+ ` fix bug: h>w images will be distorted in rescale task
+ ` fix bug: format in rescale manager is not shown correctly
+ ` fix bug: get size from Exif instead of real size
+ ` fix bug: cannot explore rescaled folder by click on the row except status col
+ ` fix bug: status is incorrect when moving item in rescale manager
+ ` fix bug: crash when rotate a read only file
+ ` fix bug: bmp rotation is incorrect after rotate jpeg losslessly
+ ` fix bug: didn't use original bmp as source when save as new file
+ ` fix bug: images like png won't be loaded completely
+ ` fix bug: thumb size is original size for non-JPEG files
+ ` fix bug: sometimes dragging from image to thumbnail panel causes error
+ ` fix bug: thumbnail button cannot be clicked normally
+ ` show FNumber instead of MaxApertureValue in summary
+ ` add Flash into summary and sort them
+ ` add view style option: autofit, bestbit, and extend
+ ` let image be shown before its path is located
+ ` avoid unnecessary reload when locate file
+ ` let getting properties/metadata work when exploring
+ ` raise upper bound of target size in rescale task
+ ` sync the creation/modification time of saved image to the source
+ ` don't set edited when not load completely
+ ` let not load completely be more transparent to user
+ ` still append sub directory according to size string after user select directory by dialog in rescale manager
+ ` double confirm when overwriting original file
+ ` rotate losslessly without asking
+
+- issue:
+ ` some functions may not work properly on gtk
+
+- todo:
+ ` getting images from scanners and cameras
+ ` slideshow effect
+ ` multi monitor
+ ` 7z/rar file support
+
+----------------------------------------------------------------
+Kujawiak Viewer 1.6
+
+- feature:
+ ` show rough preview before picture is fully loaded
+ ` rescale manager
+ ` Russian and Ukrainian support (thanks Alex Po)
+ ` Simplified Chinese support
+ ` export options to file and load it if exists
+ ` accept UNC path
+ ` more information on status bar which can be shown on fullscreen
+ ` draw text of EXIF subset as summary
+ ` explore and set external tools
+ ` file association backup and restore
+ ` reg/unreg command
+ ` automatically rotate according to EXIF
+ ` traverse in history
+ ` drag and drop
+ ` let direct keys work when browsing with filesystem
+ ` zoom selected area only and load completely automatically for it
+
+- bugfix:
+ ` improve loading time and avoid unnecessary refresh
+ ` fix abnormal auto fit when browsing different w/h ratio
+ ` fix failing to start new slideshow if escape after pause
+ ` use TAB to switch instead of setting focus when mouse over
+ ` fix abnormal rotation
+ ` saving JPEG with normal quality to avoid increasing size
+ ` fix incorrect toogle status after switching locale or resizing
+ ` show alpha picture correctly
+ ` fix the error when exiting by x button
+ ` fix the error in thumbnail panel when clear and show new thumbnails
+ ` resize toolbar more accurately
+
+- issue:
+ ` some functions may not work properly on gtk
+
+- todo:
+ ` getting images from scanners and cameras
+ ` slideshow effect
+ ` multi monitor
+ ` 7z/rar file support
+
+----------------------------------------------------------------
+Kujawiak Viewer 1.5
+
+- feature:
+ ` prefetch files
+ ` Italian language support (thanks Giacomo Margarito!)
+ ` Japanese language support
+ ` link FreeImage statically (one executable)
+ ` recompiled with vc compiler
+ ` compiled binary for Ubuntu
+ ` may repeat slideshow in directory
+ ` toolbar icon fits window width automatically
+ ` map ESC to quit if not in slideshow or fullscreen
+ ` auto hide cursor when fullscreen
+ ` command line interface
+
+- bugfix:
+ ` don't load image twice sometimes
+ ` keep using converted bmp as wallpaper after theme changed
+ ` use filter for scaling correctly
+ ` save button is not set correctly when not load file completely
+ ` refine the way of not load file completely
+ ` upper case of extensions are added to filter under gtk
+ ` stop immediately when slideshow
+ ` disable screensaver during slideshow
+ ` pause slideshow first if traversing in tree
+ ` change cursor when drag picture
+ ` set window size appropriately when opening single file
+ ` may adjust slideshow interval by mouse clicking
+ ` cannot do slideshow if no file selected
+
+- issue:
+ ` some functions may not work properly on gtk
+
+- todo:
+ ` drag and drop
+ ` prefetch options
+ ` export options to file and load it if exists
+ ` 7z/rar file support
+ 
+----------------------------------------------------------------
+Kujawiak Viewer 1.4
+
+- feature:
+ ` rotate JPEG file losslessly
+ ` zoom extend
+ ` set as wallpaper (scale to fit, scale to extend)
+ ` none wallpaper, background color
+ ` pause/continue for slideshow
+ ` scale and align for printing
+ ` rebuild for FreeImage 3.11.0
+
+- bugfix:
+ ` can input number directly for slideshow interval
+
+- issue:
+ ` fullscreen is incorrect under gtk
+ ` filter is case sensitive under gtk
+
+- todo:
+ ` increase speed of loading/scaling
+ ` 7z/rar file support
+
+----------------------------------------------------------------
+Kujawiak Viewer 1.3
+
+- feature:
+ ` file quality and information can be kept when saving
+ ` extract EXIF metadata
+ ` zoom in directly by mouse select
+ ` print, print preview, page setup
+ ` set as wallpaper (center, tile, stretch)
+
+- bugfix:
+ ` traverse to sibling after deleting file
+ ` zoom in/out with fixed mouse position
+
+- issue:
+ ` fullscreen is incorrect under gtk
+ ` filter is case sensitive under gtk
+
+- todo:
+ ` more options for setting wallpaper
+ ` scale and align for printing
+ ` 7z/rar file support
+
+----------------------------------------------------------------
+Kujawiak Viewer 1.2
+
+- feature:
+ ` load picture not completely by default (scale to fit directly)
+ ` slide show with adjustable interval
+ ` rebuild for FreeImage 3.10.0
+
+- bugfix:
+ ` error occurs if paste before any copy/cut
+ ` error when recreate menus
+
+- issue:
+ ` file quality and information may be stripped when saving
+ ` fullscreen is incorrect under gtk
+ ` filter is case sensitive under gtk
+
+- todo:
+ ` rar file support
+ ` more image related support
+ ` multiple selection in tree control
+
+----------------------------------------------------------------
+Kujawiak Viewer 1.1
+
+- feature:
+ ` load FreeImage.dll automatically (in the same directory or system directory)
+ ` zoom in/out with various filters (with FreeImage.dll)
+ ` may scale pictures and save (with FreeImage.dll)
+ ` faster thumbnails loading for local files (with FreeImage.dll)
+ ` browse files with fixed scale/rotation/lefttop
+ ` filter can be switched to *.* for managing files
+ ` show current scale in status bar
+
+- bugfix:
+ ` show pictures with rotation 90/270 in full screen mode correctly
+ ` copyto/moveto won't leave current directory
+ ` regenerate popup menu when switching language
+ ` JPG files will be saved with better quality (NOT complete)
+ ` show archive panel when using "Browse with kuView" to open archive files
+ ` open *.jpeg as JPG files automatically
+ ` click on tree won't cause renaming
+
+- issue:
+ ` file quality and information may be stripped when saving
+ ` fullscreen is incorrect under gtk
+ ` filter is case sensitive under gtk
+
+- todo:
+ ` rar file support
+ ` more image related support
+ ` multiple selection in tree control
+
+----------------------------------------------------------------
+Kujawiak Viewer 1.0
+
+- feature:
+ ` copy/paste/delete/rename files
+ ` language modules detecting
+ ` show progress when loading/copying/moving/deleting
+ ` thumbnails loading can be interrupted
+ ` resize icon according to screen width
+ ` zoom can be controlled by Ctrl+MouseScroll
+ ` file can be saved after rotating (NOT complete)
+ ` save as supported picture format
+ ` popup menu
+
+- bugfix:
+ ` MouseScroll/KeyPress behavior depend on panels
+ ` auto focus on panels according to cursor
+ ` remove flicker in thumbnail panel when loading
+ ` replace "Home Directory" with "Go Home"
+ ` reclassify menu and toolbar icon
+ ` can load thumbnails in root directory
+ ` restore panel status after exiting fullscreen
+
+- issue:
+ ` it is not suited for huge file
+ ` file quality and information may be stripped when saving
+ ` fullscreen is incorrect under gtk
+
+- todo:
+ ` rar file support
+ ` more image related support
+
+----------------------------------------------------------------
+Kujawiak Viewer 0.9
+
+- feature:
+ ` filesystem/archive/thumbnail window
+ ` file association (WITHOUT restore function!)
+ ` show busy cursor when loading
+ ` add "Home Directory" shortcut in filesystem window (win32)
+ ` switch view mode automatically when opening file/dir
+ ` linux version (gtk)
+
+- bugfix:
+ ` keep view mode after changing language
+
+- issue:
+ ` it is not suited for huge file
+
+- todo:
+ ` copy/paste/delete files
+ ` rar file support
+
+----------------------------------------------------------------
+Kujawiak Viewer 0.8
+
+- feature:
+ ` multiple language support (traditional chinese)
+ ` browse pictures in archive (zip file)
+ ` standard/archive view switch
+ ` popup menu on system tray icon
+ ` rotate picture ccw/cw
+
+- bugfix:
+ ` skip scale operation if no picture
+ ` delete about dialog after show
+
+- issue:
+ ` it is not suited for huge file
+
+- todo: 
+ ` thumbnail view
+ ` rar file support
+ ` more ui response when loading
+ ` file association
+
+----------------------------------------------------------------
+Kujawiak Viewer 0.7.6
+
+- feature:
+ ` shell integration (may add "Browse with kuView" entry to ContextMenu)
+
+----------------------------------------------------------------
+Kujawiak Viewer 0.7.4
+
+- feature:
+ ` minimize to system tray
+
+- bugfix:
+ ` browse and view hidden file/directory
+
+----------------------------------------------------------------
+Kujawiak Viewer 0.7
+
+- feature:
+ ` browse directories and files by tree
+ ` take a directory or file as parameter to open
+ ` Zoom in/out/fit/100%
+ ` Full Screen
+ ` browse in a directory (Page Up/Down, Home/End)
+ ` easy to use (toolbar/key)
+ ` unicode file/directory name compatible
+ ` BMP/PNG/JPG/TIF/GIF/PNM/PCX/ICO/CUR/ANI/XPM

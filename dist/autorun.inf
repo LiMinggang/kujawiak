@@ -1,0 +1,3 @@
+[AUTORUN]
+OPEN=autoexec.bat
+ICON=kuview\kuview.exe,0

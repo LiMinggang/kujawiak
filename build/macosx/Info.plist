@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>kujawiak.sourceforge.net</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>kuview.bin</string>
+	<key>CFBundleIconFile</key>
+	<string>kujawiak_t.icns</string>
+	<key>CFBundleName</key>
+	<string>kuview.bin</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>kuVu</string>
+	<key>CFBundleVersion</key>
+	<string>VERSION</string>
+	<key>CFBundleShortVersionString</key>
+	<string>VERSION</string>
+	<key>CFBundleGetInfoString</key>
+	<string>kuView, (c) 2012 Augustino</string>
+	<key>CFBundleLongVersionString</key>
+	<string>Kujawiak Viewer, Copyright (c) 2012 Augustino</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright (c) 2012 Augustino</string>
+	<key>LSRequiresCarbon</key>
+	<true/>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+</dict>
+</plist>

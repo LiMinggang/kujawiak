@@ -1,0 +1,955 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kujawiak Viewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 19:48+0800\n"
+"PO-Revision-Date: 2010-11-12 11:47+0800\n"
+"Last-Translator: Augustino Zhuang <augustino@users.sourceforge.net>\n"
+"Language-Team: Kujawiak Team <augustino@users.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\\include\n"
+
+#: ..\src/ku.h:104
+msgid "Enumerating items in Archive Panel..."
+msgstr "正在列举项目至压缩档窗格..."
+
+#: ..\src/ku.h:105
+msgid "Deleting all items in Archive Panel..."
+msgstr "正在清除压缩档窗格里的项目..."
+
+#: ..\src/ku.h:106
+msgid "Loading thumbs in selected directory..."
+msgstr "正在载入此目录中的缩图..."
+
+#: ..\src/ku.h:107
+msgid "File has been saved: "
+msgstr "文件已保存: "
+
+#: ..\src/ku.h:108
+msgid "Operation has been canceled."
+msgstr "动作已取消."
+
+#: ..\src/ku.h:109
+msgid "Cut: "
+msgstr "剪切: "
+
+#: ..\src/ku.h:110
+msgid "Copy: "
+msgstr "复制: "
+
+#: ..\src/ku.h:111
+msgid "Copying: "
+msgstr "正在复制: "
+
+#: ..\src/ku.h:112
+msgid "Moving: "
+msgstr "正在移动: "
+
+#: ..\src/ku.h:113
+msgid "Deleting: "
+msgstr "正在删除: "
+
+#: ..\src/ku.h:114
+msgid "File has been renamed: "
+msgstr "文件已重命名: "
+
+#: ..\src/ku.h:115
+msgid "File has been copied: "
+msgstr "文件已复制: "
+
+#: ..\src/ku.h:116
+msgid "File has been moved: "
+msgstr "文件已移动: "
+
+#: ..\src/ku.h:117
+msgid "File has been deleted: "
+msgstr "文件已删除: "
+
+#: ..\src/ku.h:118
+msgid "File doesn't contain any metadata..."
+msgstr "此文件不存在任何图片资讯..."
+
+#: ..\src/ku.h:119
+msgid "This is the first in history."
+msgstr "这是历史中的最前一个."
+
+#: ..\src/ku.h:120
+msgid "This is the last in history."
+msgstr "这是历史中的最後一个."
+
+#: ..\src/ku.h:121
+msgid "No branch before this in history."
+msgstr "历史中在此之前没有分支."
+
+#: ..\src/ku.h:123
+msgid "Interrupted by user."
+msgstr "动作已中止."
+
+#: ..\src/ku.h:124
+msgid "Please select a picture."
+msgstr "请选择图片档."
+
+#: ..\src/ku.h:125
+msgid "Please select a directory which contains pictures."
+msgstr "请选择存有图片档的目录."
+
+#: ..\src/ku.h:127
+msgid "Please wait or interrupt current operation!"
+msgstr "请稍候或中止目前的工作!"
+
+#: ..\src/ku.h:128
+msgid "Cannot save: "
+msgstr "无法保存: "
+
+#: ..\src/ku.h:129
+msgid "Cannot rename: "
+msgstr "无法重命名: "
+
+#: ..\src/ku.h:130
+msgid "Cannot copy: "
+msgstr "无法复制: "
+
+#: ..\src/ku.h:131
+msgid "Cannot move: "
+msgstr "无法移动: "
+
+#: ..\src/ku.h:132
+msgid "Cannot delete: "
+msgstr "无法删除: "
+
+#: ..\src/ku.h:133
+msgid "Cannot mkdir: "
+msgstr "无法新建目录: "
+
+#: ..\src/ku.h:134
+msgid "Cannot rmdir: "
+msgstr "无法删除目录: "
+
+#: ..\src/ku.h:135
+msgid "Already exists: "
+msgstr "文件已存在: "
+
+#: ..\src/ku.h:136
+msgid "Doesn't exist: "
+msgstr "文件不存在: "
+
+#: ..\src/ku.h:137
+msgid "Destination is source!\n"
+msgstr "目的与来源为同一文件!\n"
+
+#: ..\src/ku.h:138
+msgid "Destination is in source!\n"
+msgstr "目的地在来源目录之中!\n"
+
+#: ..\src/ku.h:139
+msgid "Destination is invalid!\n"
+msgstr "无效的目的地!\n"
+
+#: ..\src/ku.h:140
+msgid "Setting a picture in archive as wallpaper is not supported!"
+msgstr "不支援将压缩档中的图片设为壁纸!"
+
+#: ..\src/ku.h:141
+msgid "Cannot preview! Please check printer setting..."
+msgstr "无法预览! 请确认打印机设定..."
+
+#: ..\src/ku.h:142
+msgid ""
+"There was an error during printing!\n"
+"Please check printer and try again..."
+msgstr ""
+"打印过程发生错误!\n"
+"请检查打印机并重试..."
+
+#: ..\src/ku.h:146
+msgid "&File"
+msgstr "文件(&F)"
+
+#: ..\src/ku.h:147
+msgid "&Save\tCtrl+S"
+msgstr "保存文件(&S)\tCtrl+S"
+
+#: ..\src/ku.h:148
+msgid "Save &As..."
+msgstr "另存为(&A)..."
+
+#: ..\src/ku.h:149
+msgid "Pa&ge Setup"
+msgstr "页面设定(&G)\""
+
+#: ..\src/ku.h:150
+msgid "Print Pre&view...\tShift+P"
+msgstr "打印预览...(&V)\tShift+P"
+
+#: ..\src/ku.h:151
+msgid "&Print\tCtrl+P"
+msgstr "打印(&P)\tCtrl+P"
+
+#: ..\src/ku.h:152
+msgid "Explore"
+msgstr "档案总管"
+
+#: ..\src/ku.h:154
+msgid "External Editor"
+msgstr "外部编辑器"
+
+#: ..\src/ku.h:156
+msgid "Open with %TOOL%"
+msgstr "打开%TOOL%"
+
+#: ..\src/ku.h:158
+msgid "Prope&rties\t["
+msgstr "属性(&R)\t["
+
+#: ..\src/ku.h:160
+msgid "M&etadata\t]"
+msgstr "图片资讯(&E)\t]"
+
+#: ..\src/ku.h:161
+msgid "S&ummary\t`"
+msgstr "摘要(&U)\t`"
+
+#: ..\src/ku.h:162
+msgid "Status &Bar\tCtrl+B"
+msgstr "状态列(&B)\tCtrl+B"
+
+#: ..\src/ku.h:163
+msgid "&Interrupt\tCtrl+I"
+msgstr "中止(&I)\tCtrl+I"
+
+#: ..\src/ku.h:164
+msgid "&Reload\tF5"
+msgstr "重新载入(&R)\tF5"
+
+#: ..\src/ku.h:165
+msgid "Minimi&ze\tCtrl+Z"
+msgstr "最小化(&Z)\tCtrl+Z"
+
+#: ..\src/ku.h:166
+msgid "&Restore"
+msgstr "恢复(&R)"
+
+#: ..\src/ku.h:167
+msgid "&Quit\tCtrl+Q"
+msgstr "退出(&Q)\tCtrl+Q"
+
+#: ..\src/ku.h:169
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#: ..\src/ku.h:170
+msgid "Rotate -90\tAlt+LEFT"
+msgstr "逆时针旋转90度\tAlt+LEFT"
+
+#: ..\src/ku.h:171
+msgid "Rotate +90\tAlt+RIGHT"
+msgstr "顺时针旋转90度\tAlt+RIGHT"
+
+#: ..\src/ku.h:172
+msgid "&Scale"
+msgstr "缩放图片尺寸(&S)"
+
+#: ..\src/ku.h:174
+#: ..\src/ku.h:227
+msgid "&Traverse"
+msgstr "浏览(&T)"
+
+#: ..\src/ku.h:175
+msgid "Go &Home\tAlt+HOME"
+msgstr "用户目录(&H)\tAlt+HOME"
+
+#: ..\src/ku.h:176
+msgid "Fa&vorite\tAlt+END"
+msgstr "惯用目录(&V)\tAlt+END"
+
+#: ..\src/ku.h:177
+msgid "&Previous in Directory"
+msgstr "目录中的前一个文件(&P)"
+
+#: ..\src/ku.h:178
+msgid "&Next in Directory"
+msgstr "目录中的后一个文件(&N)"
+
+#: ..\src/ku.h:179
+msgid "&First in Directory"
+msgstr "目录中的最前一个文件(&F)"
+
+#: ..\src/ku.h:180
+msgid "La&st in Directory"
+msgstr "目录中的最后一个文件(&S)"
+
+#: ..\src/ku.h:181
+msgid "Move &Up in Tree"
+msgstr "在浏览窗格中上移(&U)"
+
+#: ..\src/ku.h:182
+msgid "Move &Down in Tree"
+msgstr "在浏览窗格中下移(&D)"
+
+#: ..\src/ku.h:183
+msgid "Move &Left in Tree"
+msgstr "在浏览窗格中左移(&L)"
+
+#: ..\src/ku.h:184
+msgid "Move &Right in Tree"
+msgstr "在浏览窗格中右移(&R)"
+
+#: ..\src/ku.h:185
+msgid "Back in History\tCtrl+UP"
+msgstr "上一笔历史\tCtrl+UP"
+
+#: ..\src/ku.h:186
+msgid "Forward in History\tCtrl+DOWN"
+msgstr "下一笔历史\tCtrl+DOWN"
+
+#: ..\src/ku.h:187
+msgid "Jump to Branch in History\tCtrl+BACK"
+msgstr "跳至历史中的分支\tCtrl+BACK"
+
+#: ..\src/ku.h:189
+#: ..\src/ku.h:229
+msgid "&View"
+msgstr "查看(&V)"
+
+#: ..\src/ku.h:190
+msgid "F&ull Screen\tENTER"
+msgstr "全屏(&U)\tENTER"
+
+#: ..\src/ku.h:191
+msgid "Zoom &In\t+"
+msgstr "放大(&I)\t+"
+
+#: ..\src/ku.h:192
+msgid "Zoom &Out\t-"
+msgstr "缩小(&O)\t-"
+
+#: ..\src/ku.h:193
+msgid "Zoom &100%\t*"
+msgstr "普通尺寸(&1)\t*"
+
+#: ..\src/ku.h:194
+msgid "Zoom &Fit\t/"
+msgstr "最佳匹配(&F)\t/"
+
+#: ..\src/ku.h:195
+msgid "Zoom &Extend\t\\"
+msgstr "最适剪裁(&E)\t\\"
+
+#: ..\src/ku.h:196
+msgid "Opa&que"
+msgstr "半透明(&Q)"
+
+#: ..\src/ku.h:197
+msgid "&Slide Show\tSPACE"
+msgstr "幻灯片播放(&S)\tSPACE"
+
+#: ..\src/ku.h:198
+msgid "Pause &Slide Show\tSPACE"
+msgstr "暂停播放(&S)\tSPACE"
+
+#: ..\src/ku.h:199
+msgid "Continue &Slide Show\tSPACE"
+msgstr "继续播放(&S)\tSPACE"
+
+#: ..\src/ku.h:201
+msgid "&Panel"
+msgstr "窗格(&P)"
+
+#: ..\src/ku.h:202
+msgid "&Filesystem\tF10"
+msgstr "浏览窗格(&F)\tF10"
+
+#: ..\src/ku.h:203
+msgid "&Archive\tF11"
+msgstr "压缩档窗格(&A)\tF11"
+
+#: ..\src/ku.h:204
+msgid "&Thumbnail\tF12"
+msgstr "缩图窗格(&T)\tF12"
+
+#: ..\src/ku.h:206
+msgid "&Manage"
+msgstr "管理(&M)"
+
+#: ..\src/ku.h:207
+msgid "&New Directory"
+msgstr "新建目录(&N)"
+
+#: ..\src/ku.h:208
+msgid "&Rename File\tF2"
+msgstr "重新命名(&R)\tF2"
+
+#: ..\src/ku.h:209
+msgid "Cu&t File\tCtrl+X"
+msgstr "剪下文件(&T)\tCtrl+X"
+
+#: ..\src/ku.h:210
+msgid "&Copy File\tCtrl+C"
+msgstr "复制文件(&C)\tCtrl+C"
+
+#: ..\src/ku.h:211
+msgid "&Paste File\tCtrl+V"
+msgstr "粘贴文件(&P)\tCtrl+V"
+
+#: ..\src/ku.h:212
+msgid "&Delete File\tDEL"
+msgstr "删除文件(&D)\tDEL"
+
+#: ..\src/ku.h:213
+msgid "&Move File To..."
+msgstr "移动文件至(&M)..."
+
+#: ..\src/ku.h:214
+msgid "Copy File &To..."
+msgstr "复制文件至(&T)..."
+
+#: ..\src/ku.h:216
+msgid "Tool&s"
+msgstr "工具(&S)"
+
+#: ..\src/ku.h:217
+#: ..\src/ku.h:249
+msgid "&Rescale Manager"
+msgstr "转档管理器(&R)"
+
+#: ..\src/ku.h:219
+msgid "&Option"
+msgstr "设置(&O)"
+
+#: ..\src/ku.h:220
+msgid "&Shell Integration"
+msgstr "介面整合(&S)"
+
+#: ..\src/ku.h:221
+msgid "File &Association"
+msgstr "文件关联(&A)"
+
+#: ..\src/ku.h:222
+msgid "&Desktop"
+msgstr "桌面(&D)"
+
+#: ..\src/ku.h:223
+msgid "Set as &Wallpaper"
+msgstr "设为壁纸(&W)"
+
+#: ..\src/ku.h:224
+msgid "&None Wallpaper"
+msgstr "纯色壁纸(&N)"
+
+#: ..\src/ku.h:225
+msgid "&Background Color"
+msgstr "桌面底色(&B)"
+
+#: ..\src/ku.h:226
+msgid "&Language"
+msgstr "语言(&L)"
+
+#: ..\src/ku.h:228
+msgid "&Favorite"
+msgstr "惯用目录(&F)"
+
+#: ..\src/ku.h:230
+msgid "Fixed &Scale"
+msgstr "固定查看比例(&S)"
+
+#: ..\src/ku.h:231
+msgid "Fixed &Rotation"
+msgstr "固定旋转角度(&R)"
+
+#: ..\src/ku.h:232
+msgid "Fixed &LeftTop"
+msgstr "固定移动位置(&L)"
+
+#: ..\src/ku.h:233
+msgid "Load &Completely"
+msgstr "总是完整载入全档(&C)"
+
+#: ..\src/ku.h:234
+msgid "&Prefetch"
+msgstr "预载(&P)"
+
+#: ..\src/ku.h:235
+msgid "Scale &Filter"
+msgstr "缩放滤镜(&F)"
+
+#: ..\src/ku.h:236
+msgid "Bo&x"
+msgstr "Bo&x"
+
+#: ..\src/ku.h:237
+msgid "&Bicubic"
+msgstr "&Bicubic"
+
+#: ..\src/ku.h:238
+msgid "Bi&linear"
+msgstr "Bi&linear"
+
+#: ..\src/ku.h:239
+msgid "B-&Spline"
+msgstr "B-&Spline"
+
+#: ..\src/ku.h:240
+msgid "&Catmull-Rom"
+msgstr "&Catmull-Rom"
+
+#: ..\src/ku.h:241
+msgid "&Lanczos"
+msgstr "&Lanczos"
+
+#: ..\src/ku.h:242
+msgid "Slide Sho&w"
+msgstr "幻灯片播放(&W)"
+
+#: ..\src/ku.h:243
+msgid "Repeat"
+msgstr "重覆"
+
+#: ..\src/ku.h:244
+#: ..\src/ku.h:292
+msgid "Interval"
+msgstr "播放间隔"
+
+#: ..\src/ku.h:245
+msgid "S&ummary"
+msgstr "摘要(&U)"
+
+#: ..\src/ku.h:246
+msgid "&Position"
+msgstr "位置(&P)"
+
+#: ..\src/ku.h:247
+msgid "&Color"
+msgstr "色彩(&C)"
+
+#: ..\src/ku.h:248
+msgid "&External Tools"
+msgstr "外部编辑器(&E)"
+
+#: ..\src/ku.h:250
+msgid "&Max Concurrent"
+msgstr "并行工作数上限(&M)"
+
+#: ..\src/ku.h:251
+msgid "&Generate Config File"
+msgstr "创建组态档"
+
+#: ..\src/ku.h:253
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#: ..\src/ku.h:254
+msgid "&About"
+msgstr "关於(&A)"
+
+#: ..\src/ku.h:256
+msgid "&Remove It"
+msgstr "单张移除(&R)"
+
+#: ..\src/ku.h:257
+msgid "&Clear All"
+msgstr "全部移除(&C)"
+
+#: ..\src/ku.h:262
+msgid "Please select language:"
+msgstr "请选择语言:"
+
+#: ..\src/ku.h:264
+msgid "Do you want to continue?"
+msgstr "确定要继续吗?"
+
+#: ..\src/ku.h:265
+msgid ""
+"\n"
+"Do you want to skip it and continue?"
+msgstr ""
+"\n"
+"略过这个动作并继续吗?"
+
+#: ..\src/ku.h:266
+msgid "Confirm"
+msgstr "确认"
+
+#: ..\src/ku.h:267
+msgid "Rotate/Clone original file losslessly?"
+msgstr "无损地旋转/复制原始文件?"
+
+#: ..\src/ku.h:268
+msgid ""
+"This function is NOT complete!\n"
+"File quality and information may be STRIPPED!!\n"
+msgstr ""
+"此功能并\"不\"完整!\n"
+"文件品质与资讯可能会漏失!\n"
+
+#: ..\src/ku.h:269
+msgid ""
+"Current file has been modified,\n"
+"reload original file now?"
+msgstr ""
+"文件已更动,\n"
+"是否要重新载入?"
+
+#: ..\src/ku.h:270
+msgid "Please input directory name:"
+msgstr "请输入目录名称:"
+
+#: ..\src/ku.h:271
+msgid "Please input new name:"
+msgstr "请输入新名称:"
+
+#: ..\src/ku.h:272
+msgid "The file will be deleted!\n"
+msgstr "文件将被删除!\n"
+
+#: ..\src/ku.h:273
+msgid ""
+"Favorite is default location on startup, and can be found quickly by clicking Favorite button/menu.\n"
+"Current: "
+msgstr ""
+"惯用目录是开启时的默认位置, 并可由惯用目录按钮/选单快速找到.\n"
+"目前设为: "
+
+#: ..\src/ku.h:275
+msgid "Drive"
+msgstr "磁碟"
+
+#: ..\src/ku.h:276
+msgid "Directory"
+msgstr "目录"
+
+#: ..\src/ku.h:277
+msgid "File"
+msgstr "文件"
+
+#: ..\src/ku.h:278
+msgid ""
+"Please select where to add\n"
+"\"Browse with kuView\" entry:\n"
+"(ContextMenu on right click)"
+msgstr ""
+"请选择要在哪些右键选单加入\n"
+"\"Browse with kuView\" 项目:"
+
+#: ..\src/ku.h:279
+msgid "Browse with kuView"
+msgstr "Browse with kuView"
+
+#: ..\src/ku.h:280
+msgid "Please select file extension:"
+msgstr "请选择关联副档名:"
+
+#: ..\src/ku.h:281
+#: ..\src/ku.h:299
+msgid "Center"
+msgstr "置中"
+
+#: ..\src/ku.h:282
+msgid "Tile"
+msgstr "并排显示"
+
+#: ..\src/ku.h:283
+msgid "Stretch"
+msgstr "延展"
+
+#: ..\src/ku.h:284
+msgid "Scale to Fit"
+msgstr "缩放至最佳匹配"
+
+#: ..\src/ku.h:285
+msgid "Scale to Extend"
+msgstr "缩放至最适裁切"
+
+#: ..\src/ku.h:286
+msgid "Please select how to set wallpaper:"
+msgstr "请选择设置壁纸的形式:"
+
+#: ..\src/ku.h:287
+msgid "Do you want to disable wallpaper?"
+msgstr "停用图片并设为纯色壁纸吗?"
+
+#: ..\src/ku.h:289
+msgid ""
+"Please input a number between 0 and 255:\n"
+"(0 is fully transparent, and 255 is fully opaque)"
+msgstr ""
+"请输入介於0~255的数值:\n"
+"(0为全透明, 255为不透明)"
+
+#: ..\src/ku.h:290
+msgid "opaque value:"
+msgstr "透明度:"
+
+#: ..\src/ku.h:291
+msgid "Please input interval in second:"
+msgstr "请输入播放间隔: (in second)"
+
+#: ..\src/ku.h:293
+msgid "Please input the maximum number of concurrent tasks:"
+msgstr "请输入允许同时进行的工作数量上限:"
+
+#: ..\src/ku.h:294
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: ..\src/ku.h:295
+msgid "&Print..."
+msgstr "打印...(&P)"
+
+#: ..\src/ku.h:296
+msgid "&Align..."
+msgstr "对齐...(&A)"
+
+#: ..\src/ku.h:297
+msgid "&Scale..."
+msgstr "缩放...(&S)"
+
+#: ..\src/ku.h:298
+msgid "Please select the position button for alignment:"
+msgstr "请点选对齐方式:"
+
+#: ..\src/ku.h:300
+#: ..\src/ku.h:306
+msgid "Left"
+msgstr "靠左"
+
+#: ..\src/ku.h:301
+msgid "Right"
+msgstr "靠右"
+
+#: ..\src/ku.h:302
+#: ..\src/ku.h:307
+msgid "Top"
+msgstr "靠上"
+
+#: ..\src/ku.h:303
+msgid "Bottom"
+msgstr "靠下"
+
+#: ..\src/ku.h:304
+msgid "Please enter the scale ratio:"
+msgstr "请输入缩放比例:"
+
+#: ..\src/ku.h:305
+msgid ""
+"It is not a valid number!\n"
+"Please try again..."
+msgstr ""
+"不是有效的数字!\n"
+"请重新输入:"
+
+#: ..\src/ku.h:308
+msgid "Config file is generated successfully. It will be imported automatically on startup."
+msgstr "组态档已成功创建. 开启时将自动载入."
+
+#: ..\src/ku.h:309
+msgid "Failed to generate config file. Please check working directory: "
+msgstr "创建组态档失败. 请检查工作目录:"
+
+#: ..\src/ku.h:361
+msgid "Comments"
+msgstr "注解"
+
+#: ..\src/ku.h:362
+msgid "Main"
+msgstr "主要"
+
+#: ..\src/ku.h:363
+msgid "Exif"
+msgstr "延伸"
+
+#: ..\src/ku.h:364
+msgid "GPS"
+msgstr "GPS"
+
+#: ..\src/ku.h:365
+msgid "Maker Note"
+msgstr "Maker Note"
+
+#: ..\src/ku.h:366
+msgid "Interoperability"
+msgstr "Interoperability"
+
+#: ..\src/ku.h:367
+msgid "IPTC"
+msgstr "IPTC"
+
+#: ..\src/ku.h:368
+msgid "XMP"
+msgstr "XMP"
+
+#: ..\src/ku.h:369
+msgid "GeoTIFF"
+msgstr "GeoTIFF"
+
+#: ..\src/ku.h:370
+msgid "Animation"
+msgstr "Animation"
+
+#: ..\src/ku.h:371
+msgid "Tag"
+msgstr "标签"
+
+#: ..\src/ku.h:372
+msgid "Value"
+msgstr "值"
+
+#: ..\src/ku.h:373
+msgid "Description"
+msgstr "描述"
+
+#: ..\src/ku.h:397
+msgid "Source"
+msgstr "来源"
+
+#: ..\src/ku.h:398
+msgid "Destination"
+msgstr "目的地"
+
+#: ..\src/ku.h:399
+msgid "Size"
+msgstr "尺寸"
+
+#: ..\src/ku.h:400
+msgid "Format"
+msgstr "格式"
+
+#: ..\src/ku.h:401
+msgid "Filter"
+msgstr "滤镜"
+
+#: ..\src/ku.h:402
+msgid "Progress"
+msgstr "进度"
+
+#: ..\src/ku.h:403
+msgid "Status"
+msgstr "状态"
+
+#: ..\src/ku.h:404
+msgid "When Filename Exists"
+msgstr "当档名已存在"
+
+#: ..\src/ku.h:405
+msgid "Auto Rename"
+msgstr "自动更名"
+
+#: ..\src/ku.h:406
+msgid "Overwrite"
+msgstr "覆写"
+
+#: ..\src/ku.h:407
+msgid "Skip"
+msgstr "略过"
+
+#: ..\src/ku.h:408
+msgid "Custom..."
+msgstr "自订..."
+
+#: ..\src/ku.h:409
+msgid "Running"
+msgstr "进行中"
+
+#: ..\src/ku.h:410
+msgid "Queuing"
+msgstr "伫列中"
+
+#: ..\src/ku.h:411
+msgid "Paused"
+msgstr "暂停"
+
+#: ..\src/ku.h:412
+msgid "Cancelled"
+msgstr "已取消"
+
+#: ..\src/ku.h:413
+msgid "Failed"
+msgstr "失败"
+
+#: ..\src/ku.h:414
+msgid "Incomplete"
+msgstr "不完整"
+
+#: ..\src/ku.h:415
+msgid "Completed"
+msgstr "完成"
+
+#: ..\src/ku.h:416
+msgid "Not enough space on destination."
+msgstr "目的地空间不足."
+
+#: ..\src/ku.h:417
+msgid "Destination is not writable."
+msgstr "目的地无法写入."
+
+#: ..\src/ku.h:418
+msgid "Some files cannot be read."
+msgstr "部分文件无法读取."
+
+#: ..\src/ku.h:419
+msgid "Some files cannot be rescaled."
+msgstr "部分文件无法转档."
+
+#: ..\src/ku.h:420
+msgid "Failed to write on destination."
+msgstr "目的地写入失败."
+
+#: ..\src/ku.h:421
+msgid "&New Task"
+msgstr "新增工作(&N)"
+
+#: ..\src/ku.h:422
+msgid "&Pause Task"
+msgstr "暂停工作(&P)"
+
+#: ..\src/ku.h:423
+msgid "&Resume Task"
+msgstr "继续工作(&R)"
+
+#: ..\src/ku.h:424
+msgid "&Cancel Task"
+msgstr "取消工作(&C)"
+
+#: ..\src/ku.h:425
+msgid "&Remove Task"
+msgstr "移除工作(&R)"
+
+#: ..\src/ku.h:426
+msgid "&All"
+msgstr "全选(&A)"
+
+#: ..\src/ku.h:427
+msgid "&None"
+msgstr "清除(&N)"
+
+#: ..\src/ku.h:428
+msgid "&Inverse"
+msgstr "反相(&I)"
+
+#: ..\src/ku.h:442
+msgid "Picture and Fax Viewer"
+msgstr "图片和传真查看器"
+
+#: ..\src/ku.h:444
+msgid "Default Viewer"
+msgstr "默认查看器"
+
+#~ msgid "JPEG file"
+#~ msgstr "JPEG文件"
+
+#, fuzzy
+#~ msgid "&OK"
+#~ msgstr "确定"
+#~ msgid "Please select a valid file to set as wallpaper!"
+#~ msgstr "请选择"
+

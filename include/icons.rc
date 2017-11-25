@@ -1,0 +1,49 @@
+// Copyright (C) 2012  Augustino (augustino@users.sourceforge.net)
+//
+// This program is free software; you can redistribute it and/or
+// modify it under the terms of the GNU General Public License
+// as published by the Free Software Foundation; either version 2
+// of the License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program; if not, write to the Free Software
+// Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+ICON_APP           ICON icons/ico/kujawiak_t.ico
+ICON_ORG           ICON icons/ico/yung_t.ico
+ICON_SAVE          ICON icons/ico/filesave.ico
+ICON_INTERRUPT     ICON icons/ico/messagebox_critical.ico
+ICON_RELOAD        ICON icons/ico/reload_page.ico
+ICON_FILE_CUT      ICON icons/ico/editcut.ico
+ICON_FILE_COPY     ICON icons/ico/editcopy.ico
+ICON_FILE_PASTE    ICON icons/ico/editpaste.ico
+ICON_FILE_DELETE   ICON icons/ico/trashcan.ico
+ICON_GOHOME        ICON icons/ico/gohome.ico
+ICON_GOFAVORITE    ICON icons/ico/folder_favorite.ico
+ICON_PREV          ICON icons/ico/1uparrow.ico
+ICON_NEXT          ICON icons/ico/1downarrow.ico
+ICON_HOME          ICON icons/ico/2uparrow.ico
+ICON_END           ICON icons/ico/2downarrow.ico
+ICON_UP            ICON icons/ico/up.ico
+ICON_DOWN          ICON icons/ico/down.ico
+ICON_LEFT          ICON icons/ico/back.ico
+ICON_RIGHT         ICON icons/ico/forward.ico
+ICON_ZOOM_IN       ICON icons/ico/viewmagp.ico
+ICON_ZOOM_OUT      ICON icons/ico/viewmagm.ico
+ICON_ZOOM_100      ICON icons/ico/viewmag1.ico
+ICON_ZOOM_FIT      ICON icons/ico/viewmagfit.ico
+ICON_ROTATE_CCW    ICON icons/ico/reload1.ico
+ICON_ROTATE_CW     ICON icons/ico/reload2.ico
+ICON_FULLSCREEN    ICON icons/ico/window_fullscreen.ico
+ICON_FILESYSTEM    ICON icons/ico/view_sidetree.ico
+ICON_ARCHIVE       ICON icons/ico/ark_adddir.ico
+ICON_THUMBNAIL     ICON icons/ico/folder_pictures.ico
+ICON_MINIMIZE      ICON icons/ico/key_enter.ico
+ICON_EXIT          ICON icons/ico/exit.ico
+CURSOR_BLANK     CURSOR icons/ico/blank.cur
+CURSOR_MAGNIFIER CURSOR icons/ico/magnif1.cur

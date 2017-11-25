@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="kuView" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc8" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\kuview" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="msvc8" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="/MTd" />
+					<Add option="/Zi /D_DEBUG" />
+					<Add option="/Zi" />
+					<Add option="/D_DEBUG" />
+					<Add option="/D__WXDEBUG__" />
+					<Add directory="$(#wx)\lib\vc_lib\mswud" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(#wx)\lib\vc_lib\mswud" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="/DEBUG" />
+					<Add library="wxmsw28ud_core.lib" />
+					<Add library="wxmsw28ud_adv.lib" />
+					<Add library="wxbase28ud.lib" />
+					<Add library="wxbase28ud_xml.lib" />
+					<Add library="wxexpatd.lib" />
+					<Add library="FreeImaged.lib" />
+					<Add library="libcurld.lib" />
+					<Add directory="$(#wx)\lib\vc_lib" />
+					<Add directory="$(#CURL)\lib\LIB-Debug" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='mt.exe /nologo /manifest &quot;bin\Debug\kuview.exe.manifest&quot; /outputresource:&quot;bin\Debug\kuview.exe&quot;;1' />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\kuview" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="msvc8" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="/MT" />
+					<Add option="/O2" />
+					<Add option="/Ox" />
+					<Add option="/Ob1" />
+					<Add option="/DNDEBUG" />
+					<Add directory="$(#wx)\lib\vc_lib\mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(#wx)\lib\vc_lib\mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="wxmsw28u_core.lib" />
+					<Add library="wxmsw28u_adv.lib" />
+					<Add library="wxbase28u.lib" />
+					<Add library="wxbase28u_xml.lib" />
+					<Add library="wxexpat.lib" />
+					<Add library="FreeImage.lib" />
+					<Add library="libcurl.lib" />
+					<Add directory="$(#wx)\lib\vc_lib" />
+					<Add directory="$(#CURL)\lib\LIB-Release" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='mt.exe /nologo /manifest &quot;bin\Release\kuview.exe.manifest&quot; /outputresource:&quot;bin\Release\kuview.exe&quot;;1' />
+					<Add after="upx bin\Release\kuview.exe" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="/TP" />
+			<Add option="/Gd" />
+			<Add option="/GF" />
+			<Add option="/W3" />
+			<Add option="/Zc:wchar_t" />
+			<Add option="/EHsc" />
+			<Add option="/DWIN32" />
+			<Add option="/D__WIN32__" />
+			<Add option="/D__WXMSW__" />
+			<Add option="/DwxUSE_UNICODE" />
+			<Add option="/D_WINDOWS" />
+			<Add option="/D_CRT_SECURE_DEPRECATE" />
+			<Add option="/D_CRT_NONSTDC_NO_DEPRECATE" />
+			<Add option="/D_VC80_UPGRADE=0x0600" />
+			<Add option="/DFREEIMAGE_LIB" />
+			<Add option="/DCURL_STATICLIB" />
+			<Add option="/DENABLE_PICASAWEBMGR" />
+			<Add directory="$(#wx)\include" />
+			<Add directory="$(#wx)\contrib\include" />
+			<Add directory="$(#fi)\Dist" />
+			<Add directory="$(#curl)\include" />
+			<Add directory="..\..\include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="$(#wx)\include" />
+			<Add directory="..\..\" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="/INCREMENTAL:NO" />
+			<Add option="/SUBSYSTEM:WINDOWS" />
+			<Add library="winmm.lib" />
+			<Add library="rpcrt4.lib" />
+			<Add library="kernel32.lib" />
+			<Add library="user32.lib" />
+			<Add library="gdi32.lib" />
+			<Add library="winspool.lib" />
+			<Add library="comdlg32.lib" />
+			<Add library="advapi32.lib" />
+			<Add library="shell32.lib" />
+			<Add library="ole32.lib" />
+			<Add library="oleaut32.lib" />
+			<Add library="uuid.lib" />
+			<Add library="comctl32.lib" />
+			<Add library="wsock32.lib" />
+			<Add library="odbc32.lib" />
+			<Add library="libeay32.lib" />
+			<Add library="ssleay32.lib" />
+			<Add directory="$(#fi)\Dist" />
+			<Add directory="$(#ssl)\lib" />
+		</Linker>
+		<Unit filename="..\..\include\icons.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="..\..\include\ku.h" />
+		<Unit filename="..\..\src\kuApp.cpp" />
+		<Unit filename="..\..\src\kuCheckListDialog.cpp" />
+		<Unit filename="..\..\src\kuDirSetDialog.cpp" />
+		<Unit filename="..\..\src\kuEntryEditorDialog.cpp" />
+		<Unit filename="..\..\src\kuFiWrapper.cpp" />
+		<Unit filename="..\..\src\kuFrame.cpp" />
+		<Unit filename="..\..\src\kuGenericDirCtrl.cpp" />
+		<Unit filename="..\..\src\kuLoadThread.cpp" />
+		<Unit filename="..\..\src\kuManagerDialog.cpp" />
+		<Unit filename="..\..\src\kuMetaSheetDialog.cpp" />
+		<Unit filename="..\..\src\kuMultipleScrolled.cpp" />
+		<Unit filename="..\..\src\kuPicasaWebMgrDialog.cpp" />
+		<Unit filename="..\..\src\kuPicasaWebThread.cpp" />
+		<Unit filename="..\..\src\kuPositionDialog.cpp" />
+		<Unit filename="..\..\src\kuPrintout.cpp" />
+		<Unit filename="..\..\src\kuPwWrapper.cpp" />
+		<Unit filename="..\..\src\kuRescaleMgrDialog.cpp" />
+		<Unit filename="..\..\src\kuRescaleThread.cpp" />
+		<Unit filename="..\..\src\kuScrollHandler.cpp" />
+		<Unit filename="..\..\src\kuSingleScrolled.cpp" />
+		<Unit filename="..\..\src\kuThumbButton.cpp" />
+		<Unit filename="..\..\src\kuVirtualDirCtrl.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

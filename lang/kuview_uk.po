@@ -1,0 +1,955 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kujawiak Viewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-14 20:07+0200\n"
+"PO-Revision-Date: 2010-11-12 11:46+0800\n"
+"Last-Translator: Augustino Zhuang <augustino@users.sourceforge.net>\n"
+"Language-Team: Kujawiak Team <augustino@users.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\\include\n"
+
+#: ..\src/ku.h:104
+msgid "Enumerating items in Archive Panel..."
+msgstr "Перенумерація пунктів Панелі Архівів ... "
+
+#: ..\src/ku.h:105
+msgid "Deleting all items in Archive Panel..."
+msgstr "Видалити всі пункти Панелі Архіву"
+
+#: ..\src/ku.h:106
+msgid "Loading thumbs in selected directory..."
+msgstr "Завантажити превью вибраного каталогу ... "
+
+#: ..\src/ku.h:107
+msgid "File has been saved: "
+msgstr "Файл збережено: "
+
+#: ..\src/ku.h:108
+msgid "Operation has been canceled."
+msgstr "Операція відмінена."
+
+#: ..\src/ku.h:109
+msgid "Cut: "
+msgstr "Вирізати: "
+
+#: ..\src/ku.h:110
+msgid "Copy: "
+msgstr "Копіювати: "
+
+#: ..\src/ku.h:111
+msgid "Copying: "
+msgstr "Копіювання: "
+
+#: ..\src/ku.h:112
+msgid "Moving: "
+msgstr "Переміщення: "
+
+#: ..\src/ku.h:113
+msgid "Deleting: "
+msgstr "Видалення: "
+
+#: ..\src/ku.h:114
+msgid "File has been renamed: "
+msgstr "Файл переіеновано: "
+
+#: ..\src/ku.h:115
+msgid "File has been copied: "
+msgstr "Файл скопійовано: "
+
+#: ..\src/ku.h:116
+msgid "File has been moved: "
+msgstr "Файл переміщено: "
+
+#: ..\src/ku.h:117
+msgid "File has been deleted: "
+msgstr "Файл видалено: "
+
+#: ..\src/ku.h:118
+msgid "File doesn't contain any metadata..."
+msgstr "Файл не містить метадані..."
+
+#: ..\src/ku.h:119
+msgid "This is the first in history."
+msgstr "Перший в історії."
+
+#: ..\src/ku.h:120
+msgid "This is the last in history."
+msgstr "Останній в історії."
+
+#: ..\src/ku.h:121
+msgid "No branch before this in history."
+msgstr "Немає вітки до цього в історії. ."
+
+#: ..\src/ku.h:123
+msgid "Interrupted by user."
+msgstr "Перервано користувачем. "
+
+#: ..\src/ku.h:124
+msgid "Please select a picture."
+msgstr "Будь ласка, виберіть зображення:"
+
+#: ..\src/ku.h:125
+msgid "Please select a directory which contains pictures."
+msgstr "Будь ласка, виберіть каталог, який містить зображення. "
+
+#: ..\src/ku.h:127
+msgid "Please wait or interrupt current operation!"
+msgstr "Будь ласка, зачекайта або завершіть операцію!"
+
+#: ..\src/ku.h:128
+msgid "Cannot save: "
+msgstr "Не вдалося зберегти: "
+
+#: ..\src/ku.h:129
+msgid "Cannot rename: "
+msgstr "Не вдалося перейменувати: "
+
+#: ..\src/ku.h:130
+msgid "Cannot copy: "
+msgstr "Не вдалося зкопіювати: "
+
+#: ..\src/ku.h:131
+msgid "Cannot move: "
+msgstr "Не вдалося перемістити: "
+
+#: ..\src/ku.h:132
+msgid "Cannot delete: "
+msgstr "Не вдалося видалити: "
+
+#: ..\src/ku.h:133
+msgid "Cannot mkdir: "
+msgstr "Не вдалося створити каталог: "
+
+#: ..\src/ku.h:134
+msgid "Cannot rmdir: "
+msgstr "Не вдалося перейменувати каталог: "
+
+#: ..\src/ku.h:135
+msgid "Already exists: "
+msgstr "Такий вже є: "
+
+#: ..\src/ku.h:136
+msgid "Doesn't exist: "
+msgstr "Немає такого: "
+
+#: ..\src/ku.h:137
+msgid "Destination is source!\n"
+msgstr "Результат співпадае з початковим!\n"
+
+#: ..\src/ku.h:138
+msgid "Destination is in source!\n"
+msgstr "Результат є в початковому!\n"
+
+#: ..\src/ku.h:139
+msgid "Destination is invalid!\n"
+msgstr "Помилковий результат!\n"
+
+#: ..\src/ku.h:140
+msgid "Setting a picture in archive as wallpaper is not supported!"
+msgstr "Встановлення з архіву як фонового зорбаження не підтримується!"
+
+#: ..\src/ku.h:141
+msgid "Cannot preview! Please check printer setting..."
+msgstr "Не можливо виконати попередній перегляд! Перевірьте настройки прінтера..."
+
+#: ..\src/ku.h:142
+msgid ""
+"There was an error during printing!\n"
+"Please check printer and try again..."
+msgstr ""
+"Помика руку!\n"
+"Перевірьте прінтер і спробуйте ще..."
+
+#: ..\src/ku.h:146
+msgid "&File"
+msgstr "Файл"
+
+#: ..\src/ku.h:147
+msgid "&Save\tCtrl+S"
+msgstr "Зберегти\tCtrl+S"
+
+#: ..\src/ku.h:148
+msgid "Save &As..."
+msgstr "Зберегти як..."
+
+#: ..\src/ku.h:149
+msgid "Pa&ge Setup"
+msgstr "Налаштування сторінки"
+
+#: ..\src/ku.h:150
+msgid "Print Pre&view...\tShift+P"
+msgstr "Попередній перегляд\tShift+P"
+
+#: ..\src/ku.h:151
+msgid "&Print\tCtrl+P"
+msgstr "Друк\tCtrl+P"
+
+#: ..\src/ku.h:152
+msgid "Explore"
+msgstr "Провідник"
+
+#: ..\src/ku.h:154
+msgid "External Editor"
+msgstr "Зовнішній редактор"
+
+#: ..\src/ku.h:156
+msgid "Open with %TOOL%"
+msgstr "Відкрити в %TOOL%"
+
+#: ..\src/ku.h:158
+msgid "Prope&rties\t["
+msgstr "Властивості\t["
+
+#: ..\src/ku.h:160
+msgid "M&etadata\t]"
+msgstr "Метадані\t]"
+
+#: ..\src/ku.h:161
+msgid "S&ummary\t`"
+msgstr "Інфо\t`"
+
+#: ..\src/ku.h:162
+msgid "Status &Bar\tCtrl+B"
+msgstr "Строка стану\tCtrl+B"
+
+#: ..\src/ku.h:163
+msgid "&Interrupt\tCtrl+I"
+msgstr "Зупинити\tCtrl+I"
+
+#: ..\src/ku.h:164
+msgid "&Reload\tF5"
+msgstr "Перечитати\tF5"
+
+#: ..\src/ku.h:165
+msgid "Minimi&ze\tCtrl+Z"
+msgstr "Мінімізувати\tCtrl+Z"
+
+#: ..\src/ku.h:166
+msgid "&Restore"
+msgstr "Відмінити"
+
+#: ..\src/ku.h:167
+msgid "&Quit\tCtrl+Q"
+msgstr "Вихід\tCtrl+Q"
+
+#: ..\src/ku.h:169
+msgid "&Edit"
+msgstr "Редагування"
+
+#: ..\src/ku.h:170
+msgid "Rotate -90\tAlt+LEFT"
+msgstr "Поворот на -90 граусів\tAlt+LEFT"
+
+#: ..\src/ku.h:171
+msgid "Rotate +90\tAlt+RIGHT"
+msgstr "Поворот на +90 граусів\tAlt+RIGHT"
+
+#: ..\src/ku.h:172
+msgid "&Scale"
+msgstr "Масштаб"
+
+#: ..\src/ku.h:174
+#: ..\src/ku.h:227
+msgid "&Traverse"
+msgstr "Навігація"
+
+#: ..\src/ku.h:175
+msgid "Go &Home\tAlt+HOME"
+msgstr "На початок\tAlt+HOME"
+
+#: ..\src/ku.h:176
+msgid "Fa&vorite\tAlt+END"
+msgstr "Улюблене\tAlt+END"
+
+#: ..\src/ku.h:177
+msgid "&Previous in Directory"
+msgstr "Попередній в каталозі"
+
+#: ..\src/ku.h:178
+msgid "&Next in Directory"
+msgstr "наступний в каталозі"
+
+#: ..\src/ku.h:179
+msgid "&First in Directory"
+msgstr "Перший в каталозі"
+
+#: ..\src/ku.h:180
+msgid "La&st in Directory"
+msgstr "Останній в каталозі"
+
+#: ..\src/ku.h:181
+msgid "Move &Up in Tree"
+msgstr "Вверх по дереву"
+
+#: ..\src/ku.h:182
+msgid "Move &Down in Tree"
+msgstr "Вниз по дереву"
+
+#: ..\src/ku.h:183
+msgid "Move &Left in Tree"
+msgstr "Вліво по дереву"
+
+#: ..\src/ku.h:184
+msgid "Move &Right in Tree"
+msgstr "Вправо по дереву"
+
+#: ..\src/ku.h:185
+msgid "Back in History\tCtrl+UP"
+msgstr "Назад в історії\tCtrl+UP"
+
+#: ..\src/ku.h:186
+msgid "Forward in History\tCtrl+DOWN"
+msgstr "Перший в історії\tCtrl+DOWN"
+
+#: ..\src/ku.h:187
+msgid "Jump to Branch in History\tCtrl+BACK"
+msgstr "Перейти в іншу віку в історії\tCtrl+BACK"
+
+#: ..\src/ku.h:189
+#: ..\src/ku.h:229
+msgid "&View"
+msgstr "Перегляд"
+
+#: ..\src/ku.h:190
+msgid "F&ull Screen\tENTER"
+msgstr "На весь екран\tENTER"
+
+#: ..\src/ku.h:191
+msgid "Zoom &In\t+"
+msgstr "Збільшити\t+"
+
+#: ..\src/ku.h:192
+msgid "Zoom &Out\t-"
+msgstr "Зменшити\t-"
+
+#: ..\src/ku.h:193
+msgid "Zoom &100%\t*"
+msgstr "100%\t*"
+
+#: ..\src/ku.h:194
+msgid "Zoom &Fit\t/"
+msgstr "На всю висоту\t/"
+
+#: ..\src/ku.h:195
+msgid "Zoom &Extend\t\\"
+msgstr "На всю ширину\t\\"
+
+#: ..\src/ku.h:196
+msgid "Opa&que"
+msgstr "Непрозорість"
+
+#: ..\src/ku.h:197
+msgid "&Slide Show\tSPACE"
+msgstr "Слайд шоу\tSPACE"
+
+#: ..\src/ku.h:198
+msgid "Pause &Slide Show\tSPACE"
+msgstr "Пауза слайд шоу\tSPACE"
+
+#: ..\src/ku.h:199
+msgid "Continue &Slide Show\tSPACE"
+msgstr "Продовжити слайд шоу\tSPACE"
+
+#: ..\src/ku.h:201
+msgid "&Panel"
+msgstr "Панелі"
+
+#: ..\src/ku.h:202
+msgid "&Filesystem\tF10"
+msgstr "Файлова система\tF10"
+
+#: ..\src/ku.h:203
+msgid "&Archive\tF11"
+msgstr "Архіви\tF11"
+
+#: ..\src/ku.h:204
+msgid "&Thumbnail\tF12"
+msgstr "Зменшені зображення\tF12"
+
+#: ..\src/ku.h:206
+msgid "&Manage"
+msgstr "Управління"
+
+#: ..\src/ku.h:207
+msgid "&New Directory"
+msgstr "Новій каталог"
+
+#: ..\src/ku.h:208
+msgid "&Rename File\tF2"
+msgstr "Перейменувати файл\tF2"
+
+#: ..\src/ku.h:209
+msgid "Cu&t File\tCtrl+X"
+msgstr "Вирізати файл\tCtrl+X"
+
+#: ..\src/ku.h:210
+msgid "&Copy File\tCtrl+C"
+msgstr "Копіювати файл\tCtrl+C"
+
+#: ..\src/ku.h:211
+msgid "&Paste File\tCtrl+V"
+msgstr "Вставити файл\tCtrl+V"
+
+#: ..\src/ku.h:212
+msgid "&Delete File\tDEL"
+msgstr "Видалити файл\tDEL"
+
+#: ..\src/ku.h:213
+msgid "&Move File To..."
+msgstr "Перемістити файл в..."
+
+#: ..\src/ku.h:214
+msgid "Copy File &To..."
+msgstr "Скопіювати файл в..."
+
+#: ..\src/ku.h:216
+msgid "Tool&s"
+msgstr "Інструменти"
+
+#: ..\src/ku.h:217
+#: ..\src/ku.h:249
+msgid "&Rescale Manager"
+msgstr "Зміна розміру"
+
+#: ..\src/ku.h:219
+msgid "&Option"
+msgstr "Настроювання"
+
+#: ..\src/ku.h:220
+msgid "&Shell Integration"
+msgstr "Інтеграція в оболочку"
+
+#: ..\src/ku.h:221
+msgid "File &Association"
+msgstr "Файлові ассоціації"
+
+#: ..\src/ku.h:222
+msgid "&Desktop"
+msgstr "Робочий стіл"
+
+#: ..\src/ku.h:223
+msgid "Set as &Wallpaper"
+msgstr "Встановити фоновим зображенням"
+
+#: ..\src/ku.h:224
+msgid "&None Wallpaper"
+msgstr "Відмінити фонове зображення"
+
+#: ..\src/ku.h:225
+msgid "&Background Color"
+msgstr "Колір робочого столу"
+
+#: ..\src/ku.h:226
+msgid "&Language"
+msgstr "Мова"
+
+#: ..\src/ku.h:228
+msgid "&Favorite"
+msgstr "Улюблене"
+
+#: ..\src/ku.h:230
+msgid "Fixed &Scale"
+msgstr "Незмінний маштаб"
+
+#: ..\src/ku.h:231
+msgid "Fixed &Rotation"
+msgstr "Незмінний поворот"
+
+#: ..\src/ku.h:232
+msgid "Fixed &LeftTop"
+msgstr "Фіксоване положення"
+
+#: ..\src/ku.h:233
+msgid "Load &Completely"
+msgstr "Повне зчитування"
+
+#: ..\src/ku.h:234
+msgid "&Prefetch"
+msgstr "Попередні установки"
+
+#: ..\src/ku.h:235
+msgid "Scale &Filter"
+msgstr "Фільтр масштабу"
+
+#: ..\src/ku.h:236
+msgid "Bo&x"
+msgstr "Bo&x"
+
+#: ..\src/ku.h:237
+msgid "&Bicubic"
+msgstr "&Bicubic"
+
+#: ..\src/ku.h:238
+msgid "Bi&linear"
+msgstr "Bi&linear"
+
+#: ..\src/ku.h:239
+msgid "B-&Spline"
+msgstr "B-&Spline"
+
+#: ..\src/ku.h:240
+msgid "&Catmull-Rom"
+msgstr "&Catmull-Rom"
+
+#: ..\src/ku.h:241
+msgid "&Lanczos"
+msgstr "&Lanczos"
+
+#: ..\src/ku.h:242
+msgid "Slide Sho&w"
+msgstr "Слайд шоу"
+
+#: ..\src/ku.h:243
+msgid "Repeat"
+msgstr "Повторення"
+
+#: ..\src/ku.h:244
+#: ..\src/ku.h:292
+msgid "Interval"
+msgstr "Інтервал"
+
+#: ..\src/ku.h:245
+msgid "S&ummary"
+msgstr "Інформація"
+
+#: ..\src/ku.h:246
+msgid "&Position"
+msgstr "Позиція"
+
+#: ..\src/ku.h:247
+msgid "&Color"
+msgstr "Колір"
+
+#: ..\src/ku.h:248
+msgid "&External Tools"
+msgstr "Зовнішні інструменти"
+
+#: ..\src/ku.h:250
+msgid "&Max Concurrent"
+msgstr "Максимальна кількість за один раз"
+
+#: ..\src/ku.h:251
+msgid "&Generate Config File"
+msgstr "Генерація файлу конфігурації"
+
+#: ..\src/ku.h:253
+msgid "&Help"
+msgstr "Допомога"
+
+#: ..\src/ku.h:254
+msgid "&About"
+msgstr "Про програму"
+
+#: ..\src/ku.h:256
+msgid "&Remove It"
+msgstr "Видалити"
+
+#: ..\src/ku.h:257
+msgid "&Clear All"
+msgstr "Очистити все"
+
+#: ..\src/ku.h:262
+msgid "Please select language:"
+msgstr "Будь ласка, виберіть мову:"
+
+#: ..\src/ku.h:264
+msgid "Do you want to continue?"
+msgstr "Ви бажаєте продовжити?"
+
+#: ..\src/ku.h:265
+msgid ""
+"\n"
+"Do you want to skip it and continue?"
+msgstr ""
+"\n"
+"Пропустити і продовжити?"
+
+#: ..\src/ku.h:266
+msgid "Confirm"
+msgstr "Результат"
+
+#: ..\src/ku.h:267
+msgid "Rotate/Clone original file losslessly?"
+msgstr "Поворот/клонування без втрати якості?"
+
+#: ..\src/ku.h:268
+msgid ""
+"This function is NOT complete!\n"
+"File quality and information may be STRIPPED!!\n"
+msgstr ""
+"Ця функція не допрацьована!\n"
+"Якість файлі і інформація можуть бути втрачені!\n"
+
+#: ..\src/ku.h:269
+msgid ""
+"Current file has been modified,\n"
+"reload original file now?"
+msgstr ""
+"Поточний файл змінено\n"
+"Перевантажити орігінальний файл?"
+
+#: ..\src/ku.h:270
+msgid "Please input directory name:"
+msgstr "Будь ласка, введінь назву каталогу:"
+
+#: ..\src/ku.h:271
+msgid "Please input new name:"
+msgstr "Будь ласка, введіть нове ім'я:"
+
+#: ..\src/ku.h:272
+msgid "The file will be deleted!\n"
+msgstr "Файл видалено!\n"
+
+#: ..\src/ku.h:273
+msgid ""
+"Favorite is default location on startup, and can be found quickly by clicking Favorite button/menu.\n"
+"Current: "
+msgstr ""
+"Відкривати Улюблене при старті і швидко знайти через меню Улюблене.\n"
+"Поточний: "
+
+#: ..\src/ku.h:275
+msgid "Drive"
+msgstr "Диск"
+
+#: ..\src/ku.h:276
+msgid "Directory"
+msgstr "Каталог"
+
+#: ..\src/ku.h:277
+msgid "File"
+msgstr "Файл"
+
+#: ..\src/ku.h:278
+msgid ""
+"Please select where to add\n"
+"\"Browse with kuView\" entry:\n"
+"(ContextMenu on right click)"
+msgstr ""
+"Будь ласка, виберіть додати\n"
+"\"Перегляд в kuView\" в контекстне меню:"
+
+#: ..\src/ku.h:279
+msgid "Browse with kuView"
+msgstr "Переглят в kuView"
+
+#: ..\src/ku.h:280
+msgid "Please select file extension:"
+msgstr "Будь ласка, виберіть розширення файлу:"
+
+#: ..\src/ku.h:281
+#: ..\src/ku.h:299
+msgid "Center"
+msgstr "Центр"
+
+#: ..\src/ku.h:282
+msgid "Tile"
+msgstr "Заголовок"
+
+#: ..\src/ku.h:283
+msgid "Stretch"
+msgstr "Розтягнути"
+
+#: ..\src/ku.h:284
+msgid "Scale to Fit"
+msgstr "Масштабувати по висоті"
+
+#: ..\src/ku.h:285
+msgid "Scale to Extend"
+msgstr "Масштабувати но ширині"
+
+#: ..\src/ku.h:286
+msgid "Please select how to set wallpaper:"
+msgstr "Вибір файлу для фонового зображення:"
+
+#: ..\src/ku.h:287
+msgid "Do you want to disable wallpaper?"
+msgstr "Ви бажаєте прибрати фонове зображення?"
+
+#: ..\src/ku.h:289
+msgid ""
+"Please input a number between 0 and 255:\n"
+"(0 is fully transparent, and 255 is fully opaque)"
+msgstr ""
+"Введіть значення від 0 до 255:\n"
+"(0 повна прозорість, 255 повна непрозорість)"
+
+#: ..\src/ku.h:290
+msgid "opaque value:"
+msgstr "Значення прозорості:"
+
+#: ..\src/ku.h:291
+msgid "Please input interval in second:"
+msgstr "Введіть інтервал в секундах"
+
+#: ..\src/ku.h:293
+msgid "Please input the maximum number of concurrent tasks:"
+msgstr "Введіть максимальне значення одночасно виконуваниз задач:"
+
+#: ..\src/ku.h:294
+msgid "&Close"
+msgstr "Закрити"
+
+#: ..\src/ku.h:295
+msgid "&Print..."
+msgstr "Друкувати"
+
+#: ..\src/ku.h:296
+msgid "&Align..."
+msgstr "Положення"
+
+#: ..\src/ku.h:297
+msgid "&Scale..."
+msgstr "Масштаб"
+
+#: ..\src/ku.h:298
+msgid "Please select the position button for alignment:"
+msgstr "Виберіть положення:"
+
+#: ..\src/ku.h:300
+#: ..\src/ku.h:306
+msgid "Left"
+msgstr "Ліво"
+
+#: ..\src/ku.h:301
+msgid "Right"
+msgstr "Право"
+
+#: ..\src/ku.h:302
+#: ..\src/ku.h:307
+msgid "Top"
+msgstr "Верх"
+
+#: ..\src/ku.h:303
+msgid "Bottom"
+msgstr "Низ"
+
+#: ..\src/ku.h:304
+msgid "Please enter the scale ratio:"
+msgstr "Значення масштабування:"
+
+#: ..\src/ku.h:305
+msgid ""
+"It is not a valid number!\n"
+"Please try again..."
+msgstr ""
+"Не вірне значення!\n"
+"Повторіть спробу:"
+
+#: ..\src/ku.h:308
+msgid "Config file is generated successfully. It will be imported automatically on startup."
+msgstr "Фай конфігурації сформовано. він автоматично підключиться при старті."
+
+#: ..\src/ku.h:309
+msgid "Failed to generate config file. Please check working directory: "
+msgstr "Помилка при генерації файлу конфігурації. Змініть робочий каталог:"
+
+#: ..\src/ku.h:361
+msgid "Comments"
+msgstr "Коментар"
+
+#: ..\src/ku.h:362
+msgid "Main"
+msgstr "Основна"
+
+#: ..\src/ku.h:363
+msgid "Exif"
+msgstr "Exif"
+
+#: ..\src/ku.h:364
+msgid "GPS"
+msgstr "GPS"
+
+#: ..\src/ku.h:365
+msgid "Maker Note"
+msgstr "Примітки"
+
+#: ..\src/ku.h:366
+msgid "Interoperability"
+msgstr "Сумісність"
+
+#: ..\src/ku.h:367
+msgid "IPTC"
+msgstr "IPTC"
+
+#: ..\src/ku.h:368
+msgid "XMP"
+msgstr "XMP"
+
+#: ..\src/ku.h:369
+msgid "GeoTIFF"
+msgstr "GeoTIFF"
+
+#: ..\src/ku.h:370
+msgid "Animation"
+msgstr "Анімація"
+
+#: ..\src/ku.h:371
+msgid "Tag"
+msgstr "Параметр"
+
+#: ..\src/ku.h:372
+msgid "Value"
+msgstr "Значення"
+
+#: ..\src/ku.h:373
+msgid "Description"
+msgstr "Опис"
+
+#: ..\src/ku.h:397
+msgid "Source"
+msgstr "Початкове"
+
+#: ..\src/ku.h:398
+msgid "Destination"
+msgstr "Результат"
+
+#: ..\src/ku.h:399
+msgid "Size"
+msgstr "Розмір"
+
+#: ..\src/ku.h:400
+msgid "Format"
+msgstr "Формат"
+
+#: ..\src/ku.h:401
+msgid "Filter"
+msgstr "Фільтр"
+
+#: ..\src/ku.h:402
+msgid "Progress"
+msgstr "Хід виконання"
+
+#: ..\src/ku.h:403
+msgid "Status"
+msgstr "Статус"
+
+#: ..\src/ku.h:404
+msgid "When Filename Exists"
+msgstr "Якщо файл існує "
+
+#: ..\src/ku.h:405
+msgid "Auto Rename"
+msgstr "Авто переіменування"
+
+#: ..\src/ku.h:406
+msgid "Overwrite"
+msgstr "Перечитати"
+
+#: ..\src/ku.h:407
+msgid "Skip"
+msgstr "Пропустити"
+
+#: ..\src/ku.h:408
+msgid "Custom..."
+msgstr "Поточний..."
+
+#: ..\src/ku.h:409
+msgid "Running"
+msgstr "Виконання"
+
+#: ..\src/ku.h:410
+msgid "Queuing"
+msgstr "Черга"
+
+#: ..\src/ku.h:411
+msgid "Paused"
+msgstr "Пауза"
+
+#: ..\src/ku.h:412
+msgid "Cancelled"
+msgstr "Відмінено"
+
+#: ..\src/ku.h:413
+msgid "Failed"
+msgstr "Помилка"
+
+#: ..\src/ku.h:414
+msgid "Incomplete"
+msgstr "Не виконано"
+
+#: ..\src/ku.h:415
+msgid "Completed"
+msgstr "Виконано"
+
+#: ..\src/ku.h:416
+msgid "Not enough space on destination."
+msgstr "Не має вільного місця для результату."
+
+#: ..\src/ku.h:417
+msgid "Destination is not writable."
+msgstr "Результат не може бути записаний."
+
+#: ..\src/ku.h:418
+msgid "Some files cannot be read."
+msgstr "Деякі файли не можливо прочитати."
+
+#: ..\src/ku.h:419
+msgid "Some files cannot be rescaled."
+msgstr "Не можливо змінити розмір деяких файлів."
+
+#: ..\src/ku.h:420
+msgid "Failed to write on destination."
+msgstr "Помилка запису результату."
+
+#: ..\src/ku.h:421
+msgid "&New Task"
+msgstr "Нове завдання"
+
+#: ..\src/ku.h:422
+msgid "&Pause Task"
+msgstr "Пауза"
+
+#: ..\src/ku.h:423
+msgid "&Resume Task"
+msgstr "Резюме завдання"
+
+#: ..\src/ku.h:424
+msgid "&Cancel Task"
+msgstr "Відмінити завдання"
+
+#: ..\src/ku.h:425
+msgid "&Remove Task"
+msgstr "Вилучити завдання"
+
+#: ..\src/ku.h:426
+msgid "&All"
+msgstr "Все"
+
+#: ..\src/ku.h:427
+msgid "&None"
+msgstr "Нічого"
+
+#: ..\src/ku.h:428
+msgid "&Inverse"
+msgstr "Інвертувати вибір"
+
+#: ..\src/ku.h:442
+msgid "Picture and Fax Viewer"
+msgstr "Перегляд зображень і факсів"
+
+#: ..\src/ku.h:444
+msgid "Default Viewer"
+msgstr "Перегляд за замовчуванням "
+
+#~ msgid "JPEG file"
+#~ msgstr "JPEG檔案"
+
+#, fuzzy
+#~ msgid "&OK"
+#~ msgstr "確定"
+#~ msgid "Please select a valid file to set as wallpaper!"
+#~ msgstr "請選擇"
+

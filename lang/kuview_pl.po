@@ -1,0 +1,527 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Slavo <kontakt@supercd.pl>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kujawiak Viewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-09 20:26+0800\n"
+"PO-Revision-Date: 2010-11-12 11:46+0800\n"
+"Last-Translator: Augustino Zhuang <augustino@users.sourceforge.net>\n"
+"Language-Team: SuperCD Team <kontakt@supercd.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polski\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\\include\n"
+
+#: ..\src/ku.h:65
+msgid "Please select language:"
+msgstr "Proszę wybrać język:"
+
+#: ..\src/ku.h:67
+msgid "Enumerating items in Archive Panel..."
+msgstr ""
+
+#: ..\src/ku.h:68
+msgid "Deleting all items in Archive Panel..."
+msgstr ""
+
+#: ..\src/ku.h:69
+msgid "Loading thumbs in selected directory..."
+msgstr ""
+
+#: ..\src/ku.h:70
+msgid "File has been saved: "
+msgstr ""
+
+#: ..\src/ku.h:71
+msgid "Operation has been canceled."
+msgstr ""
+
+#: ..\src/ku.h:72
+msgid "Cut: "
+msgstr ""
+
+#: ..\src/ku.h:73
+msgid "Copy: "
+msgstr ""
+
+#: ..\src/ku.h:74
+msgid "Copying: "
+msgstr ""
+
+#: ..\src/ku.h:75
+msgid "Moving: "
+msgstr ""
+
+#: ..\src/ku.h:76
+msgid "Deleting: "
+msgstr ""
+
+#: ..\src/ku.h:77
+msgid "File has been renamed: "
+msgstr ""
+
+#: ..\src/ku.h:78
+msgid "File has been copied: "
+msgstr ""
+
+#: ..\src/ku.h:79
+msgid "File has been moved: "
+msgstr ""
+
+#: ..\src/ku.h:80
+msgid "File has been deleted: "
+msgstr ""
+
+#: ..\src/ku.h:81
+msgid "Interrupted by user."
+msgstr ""
+
+#: ..\src/ku.h:82
+#, fuzzy
+msgid "Please select a picture."
+msgstr "Proszę wybrać język:"
+
+#: ..\src/ku.h:83
+msgid "Please select a directory which contains pictures."
+msgstr ""
+
+#: ..\src/ku.h:84
+msgid "Please wait or interrupt current operation!"
+msgstr ""
+
+#: ..\src/ku.h:85
+msgid "Cannot save: "
+msgstr ""
+
+#: ..\src/ku.h:86
+msgid "Cannot rename: "
+msgstr ""
+
+#: ..\src/ku.h:87
+msgid "Cannot copy: "
+msgstr ""
+
+#: ..\src/ku.h:88
+msgid "Cannot move: "
+msgstr ""
+
+#: ..\src/ku.h:89
+msgid "Cannot delete: "
+msgstr ""
+
+#: ..\src/ku.h:90
+msgid "Cannot mkdir: "
+msgstr ""
+
+#: ..\src/ku.h:91
+msgid "Cannot rmdir: "
+msgstr ""
+
+#: ..\src/ku.h:92
+msgid "Already exists: "
+msgstr ""
+
+#: ..\src/ku.h:93
+msgid "Doesn't exist: "
+msgstr ""
+
+#: ..\src/ku.h:94
+msgid "Destination is source!\n"
+msgstr ""
+
+#: ..\src/ku.h:95
+msgid "Destination is in source!\n"
+msgstr ""
+
+#: ..\src/ku.h:97
+msgid "&File"
+msgstr "&Plik"
+
+#: ..\src/ku.h:98
+msgid "&Save\tCtrl+S"
+msgstr ""
+
+#: ..\src/ku.h:99
+msgid "Save &As..."
+msgstr ""
+
+#: ..\src/ku.h:101
+msgid "Prope&rties"
+msgstr ""
+
+#: ..\src/ku.h:103
+#, fuzzy
+msgid "&Interrupt\tCtrl+I"
+msgstr "&Wyjście\tCtrl+Q"
+
+#: ..\src/ku.h:104
+#, fuzzy
+msgid "&Reload\tF5"
+msgstr ""
+"Odśwież\n"
+"F5"
+
+#: ..\src/ku.h:105
+#, fuzzy
+msgid "Minimi&ze\tCtrl+Z"
+msgstr "&Minimalizuj do paska narzędzi\tCtrl+Z"
+
+#: ..\src/ku.h:106
+msgid "&Restore"
+msgstr "&Przywróć"
+
+#: ..\src/ku.h:107
+msgid "&Quit\tCtrl+Q"
+msgstr "&Wyjście\tCtrl+Q"
+
+#: ..\src/ku.h:109
+msgid "&Edit"
+msgstr ""
+
+#: ..\src/ku.h:110
+#, fuzzy
+msgid "Rotate -90\tAlt+LEFT"
+msgstr ""
+"Obróć w lewo\n"
+"Alt+Left"
+
+#: ..\src/ku.h:111
+#, fuzzy
+msgid "Rotate +90\tAlt+RIGHT"
+msgstr ""
+"Obróć w prawo\n"
+"Alt+Right"
+
+#: ..\src/ku.h:113
+msgid "&Scale"
+msgstr ""
+
+#: ..\src/ku.h:116
+msgid "&Traverse"
+msgstr ""
+
+#: ..\src/ku.h:117
+msgid "Go &Home\tAlt+HOME"
+msgstr ""
+
+#: ..\src/ku.h:118
+#, fuzzy
+msgid "&Previous in Directory"
+msgstr ""
+"Poprzedni obrazek\n"
+"PageUp"
+
+#: ..\src/ku.h:119
+#, fuzzy
+msgid "&Next in Directory"
+msgstr ""
+"Następny obrazek\n"
+"PageDown"
+
+#: ..\src/ku.h:120
+#, fuzzy
+msgid "&First in Directory"
+msgstr ""
+"Pierwszy w folderze\n"
+"Home"
+
+#: ..\src/ku.h:121
+#, fuzzy
+msgid "La&st in Directory"
+msgstr ""
+"Ostatni w folderze\n"
+"End"
+
+#: ..\src/ku.h:122
+#, fuzzy
+msgid "Move &Up in Tree"
+msgstr ""
+"Do góry\n"
+"Up"
+
+#: ..\src/ku.h:123
+#, fuzzy
+msgid "Move &Down in Tree"
+msgstr ""
+"Na dół\n"
+"Down"
+
+#: ..\src/ku.h:124
+#, fuzzy
+msgid "Move &Left in Tree"
+msgstr ""
+"W lewo\n"
+"Left"
+
+#: ..\src/ku.h:125
+#, fuzzy
+msgid "Move &Right in Tree"
+msgstr ""
+"W prawo\n"
+"Right"
+
+#: ..\src/ku.h:127
+#: ..\src/ku.h:154
+msgid "&View"
+msgstr "&Widok"
+
+#: ..\src/ku.h:128
+#, fuzzy
+msgid "F&ull Screen\tENTER"
+msgstr ""
+"Pełen ekran\n"
+"Enter"
+
+#: ..\src/ku.h:129
+#, fuzzy
+msgid "Zoom &In\t+"
+msgstr ""
+"Powiększ\n"
+"+"
+
+#: ..\src/ku.h:130
+#, fuzzy
+msgid "Zoom &Out\t-"
+msgstr ""
+"Pomniejsz\n"
+"-"
+
+#: ..\src/ku.h:131
+#, fuzzy
+msgid "Zoom &100%\t*"
+msgstr ""
+"Wielkość 100%\n"
+"*"
+
+#: ..\src/ku.h:132
+#, fuzzy
+msgid "Zoom &Fit\t/"
+msgstr ""
+"Dopasuj do okna\n"
+"/"
+
+#: ..\src/ku.h:133
+msgid "&Slide Show"
+msgstr ""
+
+#: ..\src/ku.h:135
+msgid "&Panel"
+msgstr ""
+
+#: ..\src/ku.h:136
+#, fuzzy
+msgid "&Filesystem\tF10"
+msgstr "&System plików\tF2"
+
+#: ..\src/ku.h:137
+#, fuzzy
+msgid "&Archive\tF11"
+msgstr "&Archiwum\tF3"
+
+#: ..\src/ku.h:138
+#, fuzzy
+msgid "&Thumbnail\tF12"
+msgstr "&Miniatury\tF4"
+
+#: ..\src/ku.h:140
+#, fuzzy
+msgid "&Manage"
+msgstr "&Język"
+
+#: ..\src/ku.h:141
+#, fuzzy
+msgid "&New Directory"
+msgstr "Folder początkowy"
+
+#: ..\src/ku.h:142
+msgid "&Rename File\tF2"
+msgstr ""
+
+#: ..\src/ku.h:143
+msgid "Cu&t File\tCtrl+X"
+msgstr ""
+
+#: ..\src/ku.h:144
+msgid "&Copy File\tCtrl+C"
+msgstr ""
+
+#: ..\src/ku.h:145
+msgid "&Paste File\tCtrl+V"
+msgstr ""
+
+#: ..\src/ku.h:146
+msgid "&Delete File\tDEL"
+msgstr ""
+
+#: ..\src/ku.h:147
+msgid "&Move File To..."
+msgstr ""
+
+#: ..\src/ku.h:148
+msgid "Copy File &To..."
+msgstr ""
+
+#: ..\src/ku.h:150
+msgid "&Option"
+msgstr "&Opcje"
+
+#: ..\src/ku.h:151
+msgid "&Shell Integration"
+msgstr "&Integracja z systemem"
+
+#: ..\src/ku.h:152
+msgid "File &Association"
+msgstr "&Skojarzenia plików"
+
+#: ..\src/ku.h:153
+msgid "&Language"
+msgstr "&Język"
+
+#: ..\src/ku.h:155
+msgid "Fixed &Scale"
+msgstr ""
+
+#: ..\src/ku.h:156
+#, fuzzy
+msgid "Fixed &Rotation"
+msgstr "&Skojarzenia plików"
+
+#: ..\src/ku.h:157
+msgid "Fixed &LeftTop"
+msgstr ""
+
+#: ..\src/ku.h:158
+msgid "Load &Completely"
+msgstr ""
+
+#: ..\src/ku.h:159
+msgid "Scale &Filter"
+msgstr ""
+
+#: ..\src/ku.h:160
+msgid "Bo&x"
+msgstr ""
+
+#: ..\src/ku.h:161
+msgid "Bi&linear"
+msgstr ""
+
+#: ..\src/ku.h:162
+msgid "B-&Spline"
+msgstr ""
+
+#: ..\src/ku.h:163
+msgid "&Bicubic"
+msgstr ""
+
+#: ..\src/ku.h:164
+msgid "&Catmull-Rom"
+msgstr ""
+
+#: ..\src/ku.h:165
+msgid "&Lanczos"
+msgstr ""
+
+#: ..\src/ku.h:167
+msgid "&Help"
+msgstr "&Pomoc"
+
+#: ..\src/ku.h:168
+msgid "&About"
+msgstr "&O programie..."
+
+#: ..\src/ku.h:170
+msgid ""
+"\n"
+"Do you want to skip it and continue?"
+msgstr ""
+
+#: ..\src/ku.h:171
+msgid "Confirm"
+msgstr ""
+
+#: ..\src/ku.h:172
+msgid ""
+"This function is NOT complete!\n"
+"File quality and information may be STRIPPED!!\n"
+"Do you want to continue?"
+msgstr ""
+
+#: ..\src/ku.h:173
+#, fuzzy
+msgid "Please input directory name:"
+msgstr ""
+"Ostatni w folderze\n"
+"End"
+
+#: ..\src/ku.h:174
+msgid "Please input new name:"
+msgstr ""
+
+#: ..\src/ku.h:175
+msgid "The file will be deleted!\n"
+msgstr ""
+
+#: ..\src/ku.h:176
+msgid "Drive"
+msgstr "Dysk"
+
+#: ..\src/ku.h:177
+msgid "Directory"
+msgstr "Folder"
+
+#: ..\src/ku.h:178
+msgid "File"
+msgstr "Plik"
+
+#: ..\src/ku.h:179
+msgid ""
+"Please select where to add\n"
+"\"Browse with kuView\" entry:\n"
+"(ContextMenu on right click)"
+msgstr ""
+"Proszę wybrać gdzie dodać wpis\n"
+"\"Przeglądaj z kuView\":\n"
+"(menu po kliknięciu prawym kl. myszy)"
+
+#: ..\src/ku.h:180
+msgid "Browse with kuView"
+msgstr "Przeglądaj z kuView"
+
+#: ..\src/ku.h:181
+msgid ""
+"Please select file extension:\n"
+"(WITHOUT restore function!)"
+msgstr ""
+"Proszę wybrać rozszerzenia:\n"
+"(BRAK funkcji przywracania!)"
+
+#: ..\src/ku.h:182
+#, fuzzy
+msgid "Please input interval in millisecond:"
+msgstr ""
+"Ostatni w folderze\n"
+"End"
+
+#: ..\src/ku.h:183
+msgid "Interval"
+msgstr ""
+
+#: ..\src/ku.h:185
+msgid "Please enter the scale ratio:"
+msgstr ""
+
+#: ..\src/ku.h:186
+msgid ""
+"It is not a valid number!\n"
+"Please try again..."
+msgstr ""
+

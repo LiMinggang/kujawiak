@@ -1,0 +1,955 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kujawiak Viewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-14 20:15+0200\n"
+"PO-Revision-Date: 2010-11-12 11:46+0800\n"
+"Last-Translator: Augustino Zhuang <augustino@users.sourceforge.net>\n"
+"Language-Team: Kujawiak Team <augustino@users.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\\include\n"
+
+#: ..\src/ku.h:104
+msgid "Enumerating items in Archive Panel..."
+msgstr "Перечисление пунктов в панели Архива..."
+
+#: ..\src/ku.h:105
+msgid "Deleting all items in Archive Panel..."
+msgstr "Удаление всех пунктов в панели Архива..."
+
+#: ..\src/ku.h:106
+msgid "Loading thumbs in selected directory..."
+msgstr "Загрузка превью в выбранный каталог ..."
+
+#: ..\src/ku.h:107
+msgid "File has been saved: "
+msgstr "Файл сохранен:"
+
+#: ..\src/ku.h:108
+msgid "Operation has been canceled."
+msgstr "Операция была отменена."
+
+#: ..\src/ku.h:109
+msgid "Cut: "
+msgstr "Вырезать: "
+
+#: ..\src/ku.h:110
+msgid "Copy: "
+msgstr "Копировать: "
+
+#: ..\src/ku.h:111
+msgid "Copying: "
+msgstr "Копирование: "
+
+#: ..\src/ku.h:112
+msgid "Moving: "
+msgstr "Перемещение: "
+
+#: ..\src/ku.h:113
+msgid "Deleting: "
+msgstr "Удаление: "
+
+#: ..\src/ku.h:114
+msgid "File has been renamed: "
+msgstr "Файл переименован: "
+
+#: ..\src/ku.h:115
+msgid "File has been copied: "
+msgstr "Файл скопирован: "
+
+#: ..\src/ku.h:116
+msgid "File has been moved: "
+msgstr "Файл перемещен: "
+
+#: ..\src/ku.h:117
+msgid "File has been deleted: "
+msgstr "Файл удален: "
+
+#: ..\src/ku.h:118
+msgid "File doesn't contain any metadata..."
+msgstr "Файл не содержать метаданных ..."
+
+#: ..\src/ku.h:119
+msgid "This is the first in history."
+msgstr "Первый в истории."
+
+#: ..\src/ku.h:120
+msgid "This is the last in history."
+msgstr "Последний в истории."
+
+#: ..\src/ku.h:121
+msgid "No branch before this in history."
+msgstr "Перед этим нет в истории."
+
+#: ..\src/ku.h:123
+msgid "Interrupted by user."
+msgstr "Прервано пользователем."
+
+#: ..\src/ku.h:124
+msgid "Please select a picture."
+msgstr "Пожалуйста, выберите изображение."
+
+#: ..\src/ku.h:125
+msgid "Please select a directory which contains pictures."
+msgstr "Пожалуйста, выберите каталог с изображениями."
+
+#: ..\src/ku.h:127
+msgid "Please wait or interrupt current operation!"
+msgstr "Пожалуйста, подождите или завершите текущую операцию!"
+
+#: ..\src/ku.h:128
+msgid "Cannot save: "
+msgstr "Не возможно сохранить: "
+
+#: ..\src/ku.h:129
+msgid "Cannot rename: "
+msgstr "Не возможно переименовать: "
+
+#: ..\src/ku.h:130
+msgid "Cannot copy: "
+msgstr "Не возможно скопировать: "
+
+#: ..\src/ku.h:131
+msgid "Cannot move: "
+msgstr "Не возможно переместить: "
+
+#: ..\src/ku.h:132
+msgid "Cannot delete: "
+msgstr "Не возможно удалить: "
+
+#: ..\src/ku.h:133
+msgid "Cannot mkdir: "
+msgstr "Не возможно создать папку: "
+
+#: ..\src/ku.h:134
+msgid "Cannot rmdir: "
+msgstr "Не возможно переименовать папку:"
+
+#: ..\src/ku.h:135
+msgid "Already exists: "
+msgstr "Уже существует: "
+
+#: ..\src/ku.h:136
+msgid "Doesn't exist: "
+msgstr "Не существует:"
+
+#: ..\src/ku.h:137
+msgid "Destination is source!\n"
+msgstr "Результат является источником!\n"
+
+#: ..\src/ku.h:138
+msgid "Destination is in source!\n"
+msgstr "Результат есть в исходном!\n"
+
+#: ..\src/ku.h:139
+msgid "Destination is invalid!\n"
+msgstr "Ошибка в результате!\n"
+
+#: ..\src/ku.h:140
+msgid "Setting a picture in archive as wallpaper is not supported!"
+msgstr "Установка изображения из архива в качестве фонового рисунка не поддерживается!"
+
+#: ..\src/ku.h:141
+msgid "Cannot preview! Please check printer setting..."
+msgstr "Невозможно выполнить предварительный просмотр! Проверьте настройки принтера ..."
+
+#: ..\src/ku.h:142
+msgid ""
+"There was an error during printing!\n"
+"Please check printer and try again..."
+msgstr ""
+"Ошибка при печати!\n"
+"Проверьте принтер и повторите попытку ..."
+
+#: ..\src/ku.h:146
+msgid "&File"
+msgstr "Файл"
+
+#: ..\src/ku.h:147
+msgid "&Save\tCtrl+S"
+msgstr "Сохранить\tCtrl+S"
+
+#: ..\src/ku.h:148
+msgid "Save &As..."
+msgstr "Сохранить как..."
+
+#: ..\src/ku.h:149
+msgid "Pa&ge Setup"
+msgstr "Параметры страницы"
+
+#: ..\src/ku.h:150
+msgid "Print Pre&view...\tShift+P"
+msgstr "Предварительный просмотр...\tShift+P"
+
+#: ..\src/ku.h:151
+msgid "&Print\tCtrl+P"
+msgstr "Печать\tCtrl+P"
+
+#: ..\src/ku.h:152
+msgid "Explore"
+msgstr "Проводник"
+
+#: ..\src/ku.h:154
+msgid "External Editor"
+msgstr "Внешний редактор"
+
+#: ..\src/ku.h:156
+msgid "Open with %TOOL%"
+msgstr "Открыть с помощью%TOOL%"
+
+#: ..\src/ku.h:158
+msgid "Prope&rties\t["
+msgstr "Свойства\t["
+
+#: ..\src/ku.h:160
+msgid "M&etadata\t]"
+msgstr "Метаданные\t]"
+
+#: ..\src/ku.h:161
+msgid "S&ummary\t`"
+msgstr "Инфо\t`"
+
+#: ..\src/ku.h:162
+msgid "Status &Bar\tCtrl+B"
+msgstr "Строка состояния\tCtrl+B"
+
+#: ..\src/ku.h:163
+msgid "&Interrupt\tCtrl+I"
+msgstr "Прервать\tCtrl+I"
+
+#: ..\src/ku.h:164
+msgid "&Reload\tF5"
+msgstr "Перечитать\tF5"
+
+#: ..\src/ku.h:165
+msgid "Minimi&ze\tCtrl+Z"
+msgstr "Свернуть\tCtrl+Z"
+
+#: ..\src/ku.h:166
+msgid "&Restore"
+msgstr "Восстановить"
+
+#: ..\src/ku.h:167
+msgid "&Quit\tCtrl+Q"
+msgstr "Закрыть\tCtrl+Q"
+
+#: ..\src/ku.h:169
+msgid "&Edit"
+msgstr "Редактировать"
+
+#: ..\src/ku.h:170
+msgid "Rotate -90\tAlt+LEFT"
+msgstr "Повернуть на -90 град\tAlt+LEFT"
+
+#: ..\src/ku.h:171
+msgid "Rotate +90\tAlt+RIGHT"
+msgstr "Повернуть на +90 град\tAlt+RIGHT"
+
+#: ..\src/ku.h:172
+msgid "&Scale"
+msgstr "Масштаб"
+
+#: ..\src/ku.h:174
+#: ..\src/ku.h:227
+msgid "&Traverse"
+msgstr "Навигация"
+
+#: ..\src/ku.h:175
+msgid "Go &Home\tAlt+HOME"
+msgstr "Перейти в начало\tAlt+HOME"
+
+#: ..\src/ku.h:176
+msgid "Fa&vorite\tAlt+END"
+msgstr "Избранное\tAlt+END"
+
+#: ..\src/ku.h:177
+msgid "&Previous in Directory"
+msgstr "Предыдущий в каталоге"
+
+#: ..\src/ku.h:178
+msgid "&Next in Directory"
+msgstr "Следующий в каталоге"
+
+#: ..\src/ku.h:179
+msgid "&First in Directory"
+msgstr "Первый в каталоге"
+
+#: ..\src/ku.h:180
+msgid "La&st in Directory"
+msgstr "Последний в каталоге"
+
+#: ..\src/ku.h:181
+msgid "Move &Up in Tree"
+msgstr "Вверх по дереву каталогов"
+
+#: ..\src/ku.h:182
+msgid "Move &Down in Tree"
+msgstr "Вниз по дереву каталогов"
+
+#: ..\src/ku.h:183
+msgid "Move &Left in Tree"
+msgstr "Влево по дереву каталогов"
+
+#: ..\src/ku.h:184
+msgid "Move &Right in Tree"
+msgstr "Вправо по дереву каталогов"
+
+#: ..\src/ku.h:185
+msgid "Back in History\tCtrl+UP"
+msgstr "Назад в истории\tCtrl+UP"
+
+#: ..\src/ku.h:186
+msgid "Forward in History\tCtrl+DOWN"
+msgstr "Первый в истории\tCtrl+DOWN"
+
+#: ..\src/ku.h:187
+msgid "Jump to Branch in History\tCtrl+BACK"
+msgstr "Перейти на ветвь в истории\tCtrl+BACK"
+
+#: ..\src/ku.h:189
+#: ..\src/ku.h:229
+msgid "&View"
+msgstr "Просмотр"
+
+#: ..\src/ku.h:190
+msgid "F&ull Screen\tENTER"
+msgstr "Во весь экран\tENTER"
+
+#: ..\src/ku.h:191
+msgid "Zoom &In\t+"
+msgstr "Увеличит\t+"
+
+#: ..\src/ku.h:192
+msgid "Zoom &Out\t-"
+msgstr "Уменьшить\t-"
+
+#: ..\src/ku.h:193
+msgid "Zoom &100%\t*"
+msgstr "Исходный размер 100%\t*"
+
+#: ..\src/ku.h:194
+msgid "Zoom &Fit\t/"
+msgstr "По высоте\t/"
+
+#: ..\src/ku.h:195
+msgid "Zoom &Extend\t\\"
+msgstr "По ширине\t\\"
+
+#: ..\src/ku.h:196
+msgid "Opa&que"
+msgstr "Непрозрачный(&Q)"
+
+#: ..\src/ku.h:197
+msgid "&Slide Show\tSPACE"
+msgstr "Слайд шоу\tSPACE"
+
+#: ..\src/ku.h:198
+msgid "Pause &Slide Show\tSPACE"
+msgstr "Пауза слайд шоу\tSPACE"
+
+#: ..\src/ku.h:199
+msgid "Continue &Slide Show\tSPACE"
+msgstr "Продолжить слайд шоу\tSPACE"
+
+#: ..\src/ku.h:201
+msgid "&Panel"
+msgstr "Панель"
+
+#: ..\src/ku.h:202
+msgid "&Filesystem\tF10"
+msgstr "Файловая система\tF10"
+
+#: ..\src/ku.h:203
+msgid "&Archive\tF11"
+msgstr "Архивы\tF11"
+
+#: ..\src/ku.h:204
+msgid "&Thumbnail\tF12"
+msgstr "Миниатюры\tF12"
+
+#: ..\src/ku.h:206
+msgid "&Manage"
+msgstr "Управление"
+
+#: ..\src/ku.h:207
+msgid "&New Directory"
+msgstr "Новый каталог"
+
+#: ..\src/ku.h:208
+msgid "&Rename File\tF2"
+msgstr "Переименовать файл\tF2"
+
+#: ..\src/ku.h:209
+msgid "Cu&t File\tCtrl+X"
+msgstr "Вырезать файл\tCtrl+X"
+
+#: ..\src/ku.h:210
+msgid "&Copy File\tCtrl+C"
+msgstr "Копировать файл\tCtrl+C"
+
+#: ..\src/ku.h:211
+msgid "&Paste File\tCtrl+V"
+msgstr "Вставить файл\tCtrl+V"
+
+#: ..\src/ku.h:212
+msgid "&Delete File\tDEL"
+msgstr "Удалить файл\tDEL"
+
+#: ..\src/ku.h:213
+msgid "&Move File To..."
+msgstr "Переместить файл в..."
+
+#: ..\src/ku.h:214
+msgid "Copy File &To..."
+msgstr "Копировать файл в..."
+
+#: ..\src/ku.h:216
+msgid "Tool&s"
+msgstr "Инструменты"
+
+#: ..\src/ku.h:217
+#: ..\src/ku.h:249
+msgid "&Rescale Manager"
+msgstr "Групповое преобразование"
+
+#: ..\src/ku.h:219
+msgid "&Option"
+msgstr "Настройки"
+
+#: ..\src/ku.h:220
+msgid "&Shell Integration"
+msgstr "Интеграция в оболочку"
+
+#: ..\src/ku.h:221
+msgid "File &Association"
+msgstr "Файловые ассоциации"
+
+#: ..\src/ku.h:222
+msgid "&Desktop"
+msgstr "Рабочий стол"
+
+#: ..\src/ku.h:223
+msgid "Set as &Wallpaper"
+msgstr "Установить как обои на рабочий стол"
+
+#: ..\src/ku.h:224
+msgid "&None Wallpaper"
+msgstr "Убрать обои с рабочего стола"
+
+#: ..\src/ku.h:225
+msgid "&Background Color"
+msgstr "Цвет фона"
+
+#: ..\src/ku.h:226
+msgid "&Language"
+msgstr "Язык"
+
+#: ..\src/ku.h:228
+msgid "&Favorite"
+msgstr "Избранное"
+
+#: ..\src/ku.h:230
+msgid "Fixed &Scale"
+msgstr "Зафиксировать масштаб"
+
+#: ..\src/ku.h:231
+msgid "Fixed &Rotation"
+msgstr "Зафиксировать поворот"
+
+#: ..\src/ku.h:232
+msgid "Fixed &LeftTop"
+msgstr "Фиксировать слева вверху"
+
+#: ..\src/ku.h:233
+msgid "Load &Completely"
+msgstr "Загрузить полностью"
+
+#: ..\src/ku.h:234
+msgid "&Prefetch"
+msgstr "Предварительный результат"
+
+#: ..\src/ku.h:235
+msgid "Scale &Filter"
+msgstr "Фильтры масштабирования"
+
+#: ..\src/ku.h:236
+msgid "Bo&x"
+msgstr "Ящик"
+
+#: ..\src/ku.h:237
+msgid "&Bicubic"
+msgstr "Бикубизм"
+
+#: ..\src/ku.h:238
+msgid "Bi&linear"
+msgstr "Билинейность"
+
+#: ..\src/ku.h:239
+msgid "B-&Spline"
+msgstr "B-сплайн"
+
+#: ..\src/ku.h:240
+msgid "&Catmull-Rom"
+msgstr "&Catmull-Rom"
+
+#: ..\src/ku.h:241
+msgid "&Lanczos"
+msgstr "&Lanczos"
+
+#: ..\src/ku.h:242
+msgid "Slide Sho&w"
+msgstr "Слайд шоу"
+
+#: ..\src/ku.h:243
+msgid "Repeat"
+msgstr "Повтор"
+
+#: ..\src/ku.h:244
+#: ..\src/ku.h:292
+msgid "Interval"
+msgstr "Интервал"
+
+#: ..\src/ku.h:245
+msgid "S&ummary"
+msgstr "Информация"
+
+#: ..\src/ku.h:246
+msgid "&Position"
+msgstr "Позиция"
+
+#: ..\src/ku.h:247
+msgid "&Color"
+msgstr "Цвет"
+
+#: ..\src/ku.h:248
+msgid "&External Tools"
+msgstr "Внешние инструменты"
+
+#: ..\src/ku.h:250
+msgid "&Max Concurrent"
+msgstr "Максимальное количество одновременных"
+
+#: ..\src/ku.h:251
+msgid "&Generate Config File"
+msgstr "Сгенерировать конфигурационный файл"
+
+#: ..\src/ku.h:253
+msgid "&Help"
+msgstr "Помощь"
+
+#: ..\src/ku.h:254
+msgid "&About"
+msgstr "О программе"
+
+#: ..\src/ku.h:256
+msgid "&Remove It"
+msgstr "Удалить"
+
+#: ..\src/ku.h:257
+msgid "&Clear All"
+msgstr "Очистить всё"
+
+#: ..\src/ku.h:262
+msgid "Please select language:"
+msgstr "Пожалуйста выберите язык:"
+
+#: ..\src/ku.h:264
+msgid "Do you want to continue?"
+msgstr "Вы хотите продолжить?"
+
+#: ..\src/ku.h:265
+msgid ""
+"\n"
+"Do you want to skip it and continue?"
+msgstr ""
+"\n"
+"Вы хотите пропустить его и продолжить?"
+
+#: ..\src/ku.h:266
+msgid "Confirm"
+msgstr "Подтвердите"
+
+#: ..\src/ku.h:267
+msgid "Rotate/Clone original file losslessly?"
+msgstr "Повернуть/Клонировать оригинальный файл без потерь?"
+
+#: ..\src/ku.h:268
+msgid ""
+"This function is NOT complete!\n"
+"File quality and information may be STRIPPED!!\n"
+msgstr ""
+"Эта функция не полная!\n"
+"Качество файлов и информация можги быть ПОТЕРЯНЫ!!\n"
+
+#: ..\src/ku.h:269
+msgid ""
+"Current file has been modified,\n"
+"reload original file now?"
+msgstr ""
+"Текущий файл был изменен,\n"
+"перечитать оригинальный файл сейчас?"
+
+#: ..\src/ku.h:270
+msgid "Please input directory name:"
+msgstr "Пожалуйста, введите имя каталога:"
+
+#: ..\src/ku.h:271
+msgid "Please input new name:"
+msgstr "Пожалуйста, введите новое имя:"
+
+#: ..\src/ku.h:272
+msgid "The file will be deleted!\n"
+msgstr "Файл будет удален!\n"
+
+#: ..\src/ku.h:273
+msgid ""
+"Favorite is default location on startup, and can be found quickly by clicking Favorite button/menu.\n"
+"Current: "
+msgstr ""
+"Избранное по умолчанию при старте, и может быть быстро найдено, при нажатии кнопкой Избранное/Меню.\n"
+"Текущий:"
+
+#: ..\src/ku.h:275
+msgid "Drive"
+msgstr "Диск"
+
+#: ..\src/ku.h:276
+msgid "Directory"
+msgstr "Каталог"
+
+#: ..\src/ku.h:277
+msgid "File"
+msgstr "Файл"
+
+#: ..\src/ku.h:278
+msgid ""
+"Please select where to add\n"
+"\"Browse with kuView\" entry:\n"
+"(ContextMenu on right click)"
+msgstr ""
+"Добавить в контекстное меню\n"
+"\"Обзор в kuView\" Ввод:(Клик правой кнопкой мыши в контекстном меню)"
+
+#: ..\src/ku.h:279
+msgid "Browse with kuView"
+msgstr "Обзор в kuView"
+
+#: ..\src/ku.h:280
+msgid "Please select file extension:"
+msgstr "Пожалуйста, выберите расширение файла:"
+
+#: ..\src/ku.h:281
+#: ..\src/ku.h:299
+msgid "Center"
+msgstr "Центр"
+
+#: ..\src/ku.h:282
+msgid "Tile"
+msgstr "Заголовок"
+
+#: ..\src/ku.h:283
+msgid "Stretch"
+msgstr "Растягивание"
+
+#: ..\src/ku.h:284
+msgid "Scale to Fit"
+msgstr "Масштабировать по высоте"
+
+#: ..\src/ku.h:285
+msgid "Scale to Extend"
+msgstr "Масштабировать по ширине"
+
+#: ..\src/ku.h:286
+msgid "Please select how to set wallpaper:"
+msgstr "Пожалуйста, выберите что установить обоями:"
+
+#: ..\src/ku.h:287
+msgid "Do you want to disable wallpaper?"
+msgstr "Вы хотите убрать обои?"
+
+#: ..\src/ku.h:289
+msgid ""
+"Please input a number between 0 and 255:\n"
+"(0 is fully transparent, and 255 is fully opaque)"
+msgstr ""
+"Пожалуйста, введите число от 0 до 255:\n"
+"(0 полная прозрачность, а 255 полная непрозрачность)"
+
+#: ..\src/ku.h:290
+msgid "opaque value:"
+msgstr "Значение прозрачности:"
+
+#: ..\src/ku.h:291
+msgid "Please input interval in second:"
+msgstr "Пожалуйста укажите интервал в секундах:"
+
+#: ..\src/ku.h:293
+msgid "Please input the maximum number of concurrent tasks:"
+msgstr "Пожалуйста, введите максимальное число одновременных задач:"
+
+#: ..\src/ku.h:294
+msgid "&Close"
+msgstr "Закрыть"
+
+#: ..\src/ku.h:295
+msgid "&Print..."
+msgstr "Печать..."
+
+#: ..\src/ku.h:296
+msgid "&Align..."
+msgstr "Положение"
+
+#: ..\src/ku.h:297
+msgid "&Scale..."
+msgstr "Масштаб..."
+
+#: ..\src/ku.h:298
+msgid "Please select the position button for alignment:"
+msgstr "Пожалуйста, выберите расположение на странице"
+
+#: ..\src/ku.h:300
+#: ..\src/ku.h:306
+msgid "Left"
+msgstr "Лево"
+
+#: ..\src/ku.h:301
+msgid "Right"
+msgstr "Право"
+
+#: ..\src/ku.h:302
+#: ..\src/ku.h:307
+msgid "Top"
+msgstr "Вверх"
+
+#: ..\src/ku.h:303
+msgid "Bottom"
+msgstr "Вниз"
+
+#: ..\src/ku.h:304
+msgid "Please enter the scale ratio:"
+msgstr "Пожалуйста, введите масштаб для печати:"
+
+#: ..\src/ku.h:305
+msgid ""
+"It is not a valid number!\n"
+"Please try again..."
+msgstr ""
+"Не правильное значение!\n"
+"Пожалуйста, повторите попытку:"
+
+#: ..\src/ku.h:308
+msgid "Config file is generated successfully. It will be imported automatically on startup."
+msgstr "Конфигурационный файл создан успешно. Он будет автоматически импортирован при запуске."
+
+#: ..\src/ku.h:309
+msgid "Failed to generate config file. Please check working directory: "
+msgstr "Не удалось создать файл конфигурации. Пожалуйста, проверьте рабочую директорию:"
+
+#: ..\src/ku.h:361
+msgid "Comments"
+msgstr "Коментарий"
+
+#: ..\src/ku.h:362
+msgid "Main"
+msgstr "Основные"
+
+#: ..\src/ku.h:363
+msgid "Exif"
+msgstr "Exif"
+
+#: ..\src/ku.h:364
+msgid "GPS"
+msgstr "GPS"
+
+#: ..\src/ku.h:365
+msgid "Maker Note"
+msgstr "Примечание"
+
+#: ..\src/ku.h:366
+msgid "Interoperability"
+msgstr "Совместимость"
+
+#: ..\src/ku.h:367
+msgid "IPTC"
+msgstr "IPTC"
+
+#: ..\src/ku.h:368
+msgid "XMP"
+msgstr "XMP"
+
+#: ..\src/ku.h:369
+msgid "GeoTIFF"
+msgstr "GeoTIFF"
+
+#: ..\src/ku.h:370
+msgid "Animation"
+msgstr "Анимация"
+
+#: ..\src/ku.h:371
+msgid "Tag"
+msgstr "Параметр"
+
+#: ..\src/ku.h:372
+msgid "Value"
+msgstr "Значение"
+
+#: ..\src/ku.h:373
+msgid "Description"
+msgstr "Описание"
+
+#: ..\src/ku.h:397
+msgid "Source"
+msgstr "Исходный"
+
+#: ..\src/ku.h:398
+msgid "Destination"
+msgstr "Результат"
+
+#: ..\src/ku.h:399
+msgid "Size"
+msgstr "Размер"
+
+#: ..\src/ku.h:400
+msgid "Format"
+msgstr "Формат"
+
+#: ..\src/ku.h:401
+msgid "Filter"
+msgstr "Фильтр"
+
+#: ..\src/ku.h:402
+msgid "Progress"
+msgstr "Выполнение"
+
+#: ..\src/ku.h:403
+msgid "Status"
+msgstr "Статус"
+
+#: ..\src/ku.h:404
+msgid "When Filename Exists"
+msgstr "Если файл существует"
+
+#: ..\src/ku.h:405
+msgid "Auto Rename"
+msgstr "Авто переименование"
+
+#: ..\src/ku.h:406
+msgid "Overwrite"
+msgstr "Переписать"
+
+#: ..\src/ku.h:407
+msgid "Skip"
+msgstr "Пропустить"
+
+#: ..\src/ku.h:408
+msgid "Custom..."
+msgstr "Обычный..."
+
+#: ..\src/ku.h:409
+msgid "Running"
+msgstr "Выполнение"
+
+#: ..\src/ku.h:410
+msgid "Queuing"
+msgstr "Очередь"
+
+#: ..\src/ku.h:411
+msgid "Paused"
+msgstr "Пауза"
+
+#: ..\src/ku.h:412
+msgid "Cancelled"
+msgstr "Отмена"
+
+#: ..\src/ku.h:413
+msgid "Failed"
+msgstr "Ошибка"
+
+#: ..\src/ku.h:414
+msgid "Incomplete"
+msgstr "Незавершено"
+
+#: ..\src/ku.h:415
+msgid "Completed"
+msgstr "Завершено"
+
+#: ..\src/ku.h:416
+msgid "Not enough space on destination."
+msgstr "Нет свободного места"
+
+#: ..\src/ku.h:417
+msgid "Destination is not writable."
+msgstr "В указанное место не возможно записать"
+
+#: ..\src/ku.h:418
+msgid "Some files cannot be read."
+msgstr "Некоторые файлы не могут быть прочитаны."
+
+#: ..\src/ku.h:419
+msgid "Some files cannot be rescaled."
+msgstr "Некоторые файлы не могут быть масштабированы."
+
+#: ..\src/ku.h:420
+msgid "Failed to write on destination."
+msgstr "Не удалось записать в указанное место"
+
+#: ..\src/ku.h:421
+msgid "&New Task"
+msgstr "Новая задача"
+
+#: ..\src/ku.h:422
+msgid "&Pause Task"
+msgstr "Пауза задачи"
+
+#: ..\src/ku.h:423
+msgid "&Resume Task"
+msgstr "Результат задачи"
+
+#: ..\src/ku.h:424
+msgid "&Cancel Task"
+msgstr "Отменить задачу"
+
+#: ..\src/ku.h:425
+msgid "&Remove Task"
+msgstr "Удалить задачу"
+
+#: ..\src/ku.h:426
+msgid "&All"
+msgstr "Выделить все"
+
+#: ..\src/ku.h:427
+msgid "&None"
+msgstr "Отменить выделение"
+
+#: ..\src/ku.h:428
+msgid "&Inverse"
+msgstr "Инвертировать выделение"
+
+#: ..\src/ku.h:442
+msgid "Picture and Fax Viewer"
+msgstr "Просмотрщик изображений и факсов"
+
+#: ..\src/ku.h:444
+msgid "Default Viewer"
+msgstr "Просмотрщик по умолчанию"
+
+#~ msgid "JPEG file"
+#~ msgstr "JPEG檔案"
+
+#, fuzzy
+#~ msgid "&OK"
+#~ msgstr "確定"
+#~ msgid "Please select a valid file to set as wallpaper!"
+#~ msgstr "請選擇"
+

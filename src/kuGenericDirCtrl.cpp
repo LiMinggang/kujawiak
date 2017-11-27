@@ -87,12 +87,12 @@ void kuGenericDirCtrl::OnTreeSelChanged(wxTreeEvent& event) {
        || (GetFilterIndex()==INDEX_FILTER_ALLFILES&&!mFrame->mIsArchive)) {
         if(GetFilePath()==wxEmptyString) {
             wxGetApp().SetSaveAs(false);
-            /*
+            
             if(mFrame->mIsThumbnail) {
                 if(wxGetApp().GetBusy())   mFrame->SetStatusText(STRING_ERROR_BUSY);
                 else   mFrame->mMultiple->ReloadThumbs(GetPath(),false);
             }
-            */
+            
         }
         else {
             if(!wxGetApp().mIsExploring)    mFrame->mSingle->ReloadImage(GetFilePath(),false);

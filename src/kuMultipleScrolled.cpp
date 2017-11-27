@@ -71,6 +71,7 @@ void kuMultipleScrolled::ReloadThumbs(wxString dirname, bool isurl) {
     int cols=GetSize().x/(THUMBNAIL_WIDTH+10);
     ((wxFlexGridSizer*)GetSizer())->SetCols(cols);
     if(cols) ((wxFlexGridSizer*)GetSizer())->SetRows(0);
+    else ((wxFlexGridSizer*)GetSizer())->SetRows(1);
     wxString dir;
     if(isurl)    dir = mFrame->mVirtual->GetFilePath(true,false)+wxFileName::GetPathSeparator();
     else {
@@ -108,6 +109,7 @@ void kuMultipleScrolled::AddThumbs(wxArrayString& files) {
     int cols=GetSize().x/(THUMBNAIL_WIDTH+10);
     ((wxFlexGridSizer*)GetSizer())->SetCols(cols);
     if(cols) ((wxFlexGridSizer*)GetSizer())->SetRows(0);
+    else ((wxFlexGridSizer*)GetSizer())->SetRows(1);
     wxGetApp().SetBusy(true);
     mFrame->SetStatusText(STRING_INFO_THUMBS);
     mFrame->mStatusBar->SetGaugeRange(files.GetCount());
@@ -209,6 +211,7 @@ void kuMultipleScrolled::OnSize(wxSizeEvent& event) {
     int cols=GetSize().x/(THUMBNAIL_WIDTH+10);
     ((wxFlexGridSizer*)GetSizer())->SetCols(cols);
     if(cols) ((wxFlexGridSizer*)GetSizer())->SetRows(0);
+    else ((wxFlexGridSizer*)GetSizer())->SetRows(1);
     FitInside();
     SetScrollRate(0,SCROLL_RATE_MULTIPLE);
 }

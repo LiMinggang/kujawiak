@@ -28,16 +28,19 @@ END_EVENT_TABLE()
 
 // -------- kuThumbButton --------
 kuThumbButton::kuThumbButton(wxWindow* parent, wxString filename, wxString url)
-    :wxBitmapButton(parent,wxID_ANY,wxNullImage,
+    /*:wxBitmapButton(parent,wxID_ANY,wxNullImage,
                     wxDefaultPosition,wxSize(0,0),
-                    wxBU_AUTODRAW,wxDefaultValidator,filename) {
+                    wxBU_AUTODRAW,wxDefaultValidator,filename)*/ {
     //wxMessageBox(filename);
     mIsDragging = false;
     mIsUrl = url==wxEmptyString ? false : true;
 
     wxImage* image = kuFiWrapper::GetWxImage(filename, mIsUrl, wxSize(THUMBNAIL_WIDTH,THUMBNAIL_WIDTH));
+	Create(parent, wxID_ANY, *image,
+		wxDefaultPosition, image->GetSize(),
+		wxBU_AUTODRAW, wxDefaultValidator, filename);
     SetBitmapLabel(*image);
-    delete image;
+	delete image;
 
     SetupPopupMenu();
     SetSizeHints(GetBestSize());

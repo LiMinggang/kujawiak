@@ -157,7 +157,7 @@ void kuLoadThread::EraseBmpHash(wxString filename) {
     if(bmp) {
         if(mBmpCache.Index(filename) == wxNOT_FOUND)    wxLogDebug(wxT("%s EraseBmpHash: not in cache?!"), self.c_str());
         FreeImage_Unload(bmp);
-        wxLogDebug(wxT("%s EraseBmpHash: erased! #hash=%d, #cache=%d"), self.c_str(), mBmpHash.size(), mBmpCache.GetCount());
+        wxLogDebug(wxT("%s EraseBmpHash: erased! #hash=%d, #cache=%d"), self.c_str(), int(mBmpHash.size()), int(mBmpCache.GetCount()));
     } else {
         wxLogDebug(wxT("%s EraseBmpHash: is null?!"), self.c_str());
     }

@@ -707,6 +707,11 @@ void kuFrame::OnClose(wxCloseEvent& event) {
     mPicasaWebMgrDlg->Destroy();
     #endif
     delete mTaskBarIcon;
+
+    mGeneric->GetTreeCtrl()->PopEventHandler(true);
+    mVirtual->PopEventHandler(true);
+    mSingle->PopEventHandler(true);
+    mMultiple->PopEventHandler(true);
     event.Skip();
 }
 

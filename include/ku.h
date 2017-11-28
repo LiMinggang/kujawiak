@@ -18,6 +18,7 @@
 #include <wx/artprov.h>
 #include <wx/bookctrl.h>
 #include <wx/clipbrd.h>
+#include <wx/cmdline.h>
 #include <wx/colordlg.h>
 #include <wx/config.h>
 #include <wx/dir.h>
@@ -30,6 +31,7 @@
 #include <wx/fs_arc.h>
 #include <wx/grid.h>
 #include <wx/image.h>
+#include <wx/ipc.h>
 #include <wx/mimetype.h>
 #include <wx/numdlg.h>
 #include <wx/print.h>
@@ -39,6 +41,7 @@
 #include <wx/splash.h>
 #include <wx/splitter.h>
 #include <wx/sstream.h>
+#include <wx/stackwalk.h>
 #include <wx/statline.h>
 #include <wx/stdpaths.h>
 #include <wx/tarstrm.h>
@@ -1606,6 +1609,18 @@ public:
 };
 #endif
 
+#if (wxUSE_ON_FATAL_EXCEPTION == 1) && (wxUSE_STACKWALKER == 1)
+class kuStackWalker : public wxStackWalker
+{
+	wxFile * m_DumpFile;
+public:
+	kuStackWalker() :m_DumpFile(nullptr) {}
+	void SetDumpFile(wxFile * file) { m_DumpFile = file; }
+protected:
+	inline void OnStackFrame(const wxStackFrame & frame);
+};
+#endif
+
 // kuApp
 class kuApp: public wxApp {
 private:
@@ -1644,8 +1659,16 @@ public:
     wxArrayString mIdleTasks;
     bool          mIsDoingIdleTask;
     bool          mIsExploring;
+#if (wxUSE_ON_FATAL_EXCEPTION == 1) && (wxUSE_STACKWALKER == 1)
+	kuStackWalker m_StackWalker;
+#endif
     virtual bool OnInit();
     virtual int  OnExit();
+	virtual void OnInitCmdLine(wxCmdLineParser& cmdParser);
+	virtual bool OnCmdLineParsed(wxCmdLineParser& cmdParser);
+#if (wxUSE_ON_FATAL_EXCEPTION == 1) && (wxUSE_STACKWALKER == 1)
+	void OnFatalException();
+#endif
     void PrintCmdHelp();
     bool ParseArguments(int argc, wxChar** argv);
     bool DoInitCmd(wxChar* cmd);

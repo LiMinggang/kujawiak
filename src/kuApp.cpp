@@ -27,6 +27,12 @@ static const wxCmdLineEntryDesc g_cmdLineDesc[] =
 		wxCMD_LINE_SWITCH, "h", "help", "Displays help on the command line parameters",
 		wxCMD_LINE_VAL_NONE, wxCMD_LINE_OPTION_HELP
 	},
+	{ wxCMD_LINE_OPTION, "v", "state", "Start with show | hide | full | icon, normally, hide, fullscreen, iconize" },
+	{ wxCMD_LINE_OPTION, "l", "locate", "" },
+	{ wxCMD_LINE_OPTION, "s", "slideshow", "" },
+	{ wxCMD_LINE_OPTION, "r", "reg", "" },
+	{ wxCMD_LINE_OPTION, "u", "unreg", "" },
+	{ wxCMD_LINE_OPTION, "c", "rescale", "" },
 	{ wxCMD_LINE_PARAM, nullptr, nullptr, "File(s) to be opened", wxCMD_LINE_VAL_STRING,  wxCMD_LINE_PARAM_OPTIONAL | wxCMD_LINE_PARAM_MULTIPLE },
 
 	{ wxCMD_LINE_NONE }
@@ -79,6 +85,86 @@ wxString & GetExecutablePath()
 	}
 
 	return path;
+}
+
+void kuApp::OnInitCmdLine( wxCmdLineParser& cmdParser )
+{
+	cmdParser.SetDesc( g_cmdLineDesc );
+	// must refuse '/' as parameter starter or cannot use "/path" style paths
+	cmdParser.SetSwitchChars( wxT( "-" ) );
+}
+
+bool kuApp::OnCmdLineParsed( wxCmdLineParser& cmdParser )
+{
+#if 0
+	m_SilentMode = cmdParser.Found( wxT( "s" ) );
+	m_Exit = cmdParser.Found( wxT( "x" ) );
+	m_ForceEdit  = cmdParser.Found( wxT( "f" ) );
+	cmdParser.Found( wxT( "m" ), &m_MadPythonScript );
+	cmdParser.Found( wxT( "d" ), &m_Delimiter );
+	wxASSERT(m_Delimiter.Length() > 0);
+	g_Delimiter = m_Delimiter[0];
+
+	/*if( !m_MadPythonScript.IsEmpty() )
+	{
+		filename = m_MadPythonScript;
+
+		if( ( filename.GetPath() ).IsEmpty() )
+			m_MadPythonScript = g_MadEditHomeDir + wxT( "scripts" ) + wxFILE_SEP_PATH +  m_MadPythonScript;
+	}*/
+
+	// parse commandline to filenames, every file is with a trailing char g_MadConfigSeparator, ex: filename1|filename2|
+	m_FileNames.Empty();
+	// to get at your unnamed parameters use GetParam
+	int flags = wxDIR_FILES | wxDIR_HIDDEN;
+	wxString fname;
+#ifdef __WXMSW__
+	wxString escape(wxT("\\\\")), tfname, backslash(wxT("\\"));
+#endif
+
+	for( size_t i = 0; i < cmdParser.GetParamCount(); i++ )
+	{
+		fname = cmdParser.GetParam( i );
+#ifdef __WXMSW__
+		if( fname.StartsWith(escape, &tfname) )
+		{
+			tfname.Replace(escape, backslash);
+			fname = escape + tfname;
+		}
+		else
+		{
+			fname.Replace(escape, backslash);
+		}
+#endif
+		wxFileName filename(fname);
+
+		filename.MakeAbsolute();
+		fname = filename.GetFullName();
+
+		if( cmdParser.Found( wxT( "w" ) ) )
+		{
+			//WildCard
+			if( cmdParser.Found( wxT( "r" ) ) ) flags |= wxDIR_DIRS;
+
+			wxArrayString files;
+			size_t nums = wxDir::GetAllFiles( filename.GetPath(), &files, fname, flags );
+
+			for( size_t j = 0; j < nums; ++j )
+			{
+				m_FileNames.Add( files[j] );
+			}
+		}
+		else
+		{
+			// Support for name*linenum
+			m_FileNames.Add( filename.GetFullPath() );
+		}
+	}
+
+	// and other command line parameters
+	// then do what you need with them.
+#endif
+	return true;
 }
 
 // -------- kuApp --------
@@ -185,6 +271,71 @@ int kuApp::OnExit() {
     kuFiWrapper::Finalize();
     return wxApp::OnExit();
 }
+
+#if (wxUSE_ON_FATAL_EXCEPTION == 1) && (wxUSE_STACKWALKER == 1)
+#include <wx/longlong.h>
+void kuStackWalker::OnStackFrame(const wxStackFrame & frame)
+{
+	if (m_DumpFile)
+	{
+		wxULongLong address((size_t)frame.GetAddress());
+#if defined(__x86_64__) || defined(__LP64__) || defined(_WIN64)
+		wxString fmt(wxT("[%02u]:[%08X%08X] %s(%i)\t%s%s\n"));
+#else
+		wxString fmt(wxT("[%02u]:[%08X] %s(%i)\t%s%s\n"));
+#endif
+		wxString paramInfo(wxT("("));
+#if defined(_WIN32)
+		wxString type, name, value;
+		size_t count = frame.GetParamCount(), i = 0;
+
+		while (i < count)
+		{
+			frame.GetParam(i, &type, &name, &value);
+			paramInfo += type + wxT(" ") + name + wxT(" = ") + value;
+
+			if (++i < count) paramInfo += wxT(", ");
+		}
+
+#endif
+		paramInfo += wxT(")");
+		m_DumpFile->Write(wxString::Format(fmt,
+			(unsigned)frame.GetLevel(),
+#if defined(__x86_64__) || defined(__LP64__) || defined(_WIN64)
+			address.GetHi(),
+#endif
+			address.GetLo(),
+			frame.GetFileName().c_str(),
+			(unsigned)frame.GetLine(),
+			frame.GetName().c_str(),
+			paramInfo.c_str())
+		);
+	}
+}
+
+void kuApp::OnFatalException()
+{
+	wxString name = GetExecutablePath() + wxString::Format(
+		wxT("%s_%s_%lu.dmp"),
+		wxTheApp ? (const wxChar*)wxTheApp->GetAppDisplayName().c_str()
+		: wxT("wxwindows"),
+		wxDateTime::Now().Format(wxT("%Y%m%dT%H%M%S")).c_str(),
+#if defined(__WXMSW__)
+		::GetCurrentProcessId()
+#else
+		(unsigned)getpid()
+#endif
+	);
+	wxFile dmpFile(name.c_str(), wxFile::write);
+
+	if (dmpFile.IsOpened())
+	{
+		m_StackWalker.SetDumpFile(&dmpFile);
+		m_StackWalker.WalkFromException();
+		dmpFile.Close();
+	}
+}
+#endif
 
 void kuApp::PrintCmdHelp() {
     wxString sep = wxT("\n");

@@ -2,7 +2,7 @@ PROJ = kuview.bin
 CXX = /usr/bin/g++
 BUILD = debug
 
-WXCFG = ../../../wxGTK-2.8.11/build_u$(BUILD)/wx-config
+WXCFG = ../../../wxGTK-3.1.1/build_u$(BUILD)/wx-config
 FIINC = ../../../FreeImage/Dist
 FILIB = ../../../FreeImage/Dist
 

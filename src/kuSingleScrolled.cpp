@@ -362,7 +362,7 @@ void kuSingleScrolled::Rotate90(bool cw) {
         lossless = FreeImage_JPEGTransform(mFilename.mb_str(wxConvFile), mFilename.mb_str(wxConvFile), cw?FIJPEG_OP_ROTATE_90:FIJPEG_OP_ROTATE_270, TRUE);
         #endif
     }
-    FIBITMAP* dst = FreeImage_RotateClassic(mOrigBmp,cw?90:-90);
+    FIBITMAP* dst = FreeImage_Rotate(mOrigBmp,cw?90:-90);
     if(dst) {
         if(mOrigBmp)    FreeImage_Unload(mOrigBmp);
         mOrigBmp = dst;

@@ -1,8 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FreeImage", "FreeImage.2017.vcxproj", "{B39ED2B3-D53A-4077-B957-930979A3577D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E219DF2-315D-478E-8A07-8960C377CE1E} = {9E219DF2-315D-478E-8A07-8960C377CE1E}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FreeImageLib", "Source\FreeImageLib\FreeImageLib.2017.vcxproj", "{9E219DF2-315D-478E-8A07-8960C377CE1E}"
 EndProject
@@ -19,6 +22,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibOpenJPEG", "Source\LibOpenJPEG\LibOpenJPEG.2017.vcxproj", "{E3536C28-A7F1-4B53-8E52-7D2232F9E098}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibRaw", "Source\LibRawLite\LibRawLite.2017.vcxproj", "{07F662C1-1323-42AB-B6AF-FBFD34A7437A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{33134F61-C1AD-4B6F-9CEA-503A9F140C52} = {33134F61-C1AD-4B6F-9CEA-503A9F140C52}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibTIFF4", "Source\LibTIFF4\LibTIFF4.2017.vcxproj", "{EC085CBD-E9C3-477F-9A97-CB9D5DA30E27}"
 EndProject
@@ -37,11 +43,9 @@ Global
 		{B39ED2B3-D53A-4077-B957-930979A3577D}.Debug|Win32.ActiveCfg = Debug|Win32
 		{B39ED2B3-D53A-4077-B957-930979A3577D}.Debug|Win32.Build.0 = Debug|Win32
 		{B39ED2B3-D53A-4077-B957-930979A3577D}.Debug|x64.ActiveCfg = Debug|x64
-		{B39ED2B3-D53A-4077-B957-930979A3577D}.Debug|x64.Build.0 = Debug|x64
 		{B39ED2B3-D53A-4077-B957-930979A3577D}.Release|Win32.ActiveCfg = Release|Win32
 		{B39ED2B3-D53A-4077-B957-930979A3577D}.Release|Win32.Build.0 = Release|Win32
 		{B39ED2B3-D53A-4077-B957-930979A3577D}.Release|x64.ActiveCfg = Release|x64
-		{B39ED2B3-D53A-4077-B957-930979A3577D}.Release|x64.Build.0 = Release|x64
 		{9E219DF2-315D-478E-8A07-8960C377CE1E}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9E219DF2-315D-478E-8A07-8960C377CE1E}.Debug|x64.ActiveCfg = Debug|x64
 		{9E219DF2-315D-478E-8A07-8960C377CE1E}.Debug|x64.Build.0 = Debug|x64
@@ -133,6 +137,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {66A7078F-BD6E-4886-BE78-B3E2E49CBA21}
+		SolutionGuid = {BCC9C737-62C8-4735-8540-C4BF4118FB01}
 	EndGlobalSection
 EndGlobal

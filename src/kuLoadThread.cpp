@@ -362,13 +362,13 @@ FIBITMAP* kuLoadThread::Rotate(FIBITMAP* bmp, int rotate) {
     if(rotate<0)    rotate += 4;
     switch (rotate) {
         case 1:
-            tmp = FreeImage_RotateClassic(bmp,90);
+            tmp = FreeImage_Rotate(bmp,90);
             break;
         case 2:
-            tmp = FreeImage_RotateClassic(bmp,180);
+            tmp = FreeImage_Rotate(bmp,180);
             break;
         case 3:
-            tmp = FreeImage_RotateClassic(bmp,270);
+            tmp = FreeImage_Rotate(bmp,270);
             break;
         case 0:
         default:

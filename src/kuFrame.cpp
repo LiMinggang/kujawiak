@@ -637,7 +637,7 @@ void kuFrame::OnAbout(wxCommandEvent& event) {
     about.SetIcon(wxIcon(wxICON(ICON_APP)));
     wxStaticBoxSizer* topSizer = new wxStaticBoxSizer(wxVERTICAL,&about);
     wxFlexGridSizer* mainSizer = new wxFlexGridSizer(2,2, 0, 0);
-    topSizer->Add(mainSizer,1,wxALL|wxEXPAND|wxALIGN_CENTER);
+    topSizer->Add(mainSizer,1,wxALL|wxALIGN_CENTER);
     // version
     topSizer->Add(new wxStaticText(&about,wxID_ANY,STRING_VERSION),0,wxALL|wxALIGN_CENTER,5);
     // library

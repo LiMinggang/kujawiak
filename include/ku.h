@@ -106,10 +106,10 @@
 
 
 // -------- about string --------
-#define STRING_REV  wxT("$Rev: 190 $")
+#define STRING_REV  wxT("$Rev: 200 $")
 
 #define STRING_APPNAME wxT("kuView")
-#define STRING_VERSION wxT("Version: 1.7pre [") + wxString(STRING_REV).AfterFirst(' ').BeforeLast(' ') + wxT("]")
+#define STRING_VERSION wxT("Version: 1.8 [") + wxString(STRING_REV).AfterFirst(' ').BeforeLast(' ') + wxT("]")
 //#define STRING_VERSION wxT("Version: 1.6")
 #define STRING_PROJECT wxT("Project: http://kujawiak.sourceforge.net/")
 #define STRING_AUTHOR  wxT("Author: augustino@users.sourceforge.net")

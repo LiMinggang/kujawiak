@@ -48,13 +48,13 @@ using namespace std;
 // Plugin search list
 // =====================================================================
 
-const wchar_t *
+const char *
 s_search_list[] = {
-	L"",
-	L"plugins\\",
+	"",
+	"plugins\\",
 };
 
-static int s_search_list_size = sizeof(s_search_list) / sizeof(wchar_t *);
+static int s_search_list_size = sizeof(s_search_list) / sizeof(char *);
 static PluginList *s_plugins = NULL;
 static int s_plugin_reference_count = 0;
 
@@ -281,7 +281,7 @@ FreeImage_Initialise(BOOL load_local_plugins_only) {
 #ifdef _WIN32
 			if (!load_local_plugins_only) {
 				int count = 0;
-				wchar_t buffer[MAX_PATH + 200];
+				char buffer[MAX_PATH + 200];
 				wchar_t current_dir[2 * _MAX_PATH], module[2 * _MAX_PATH];
 				BOOL bOk = FALSE;
 
@@ -302,18 +302,18 @@ FreeImage_Initialise(BOOL load_local_plugins_only) {
 				// search for plugins
 
 				while (count < s_search_list_size) {
-					_wfinddata_t find_data;
+					_finddata_t find_data;
 					long find_handle;
 
-					wcscpy(buffer, s_search_list[count]);
-					wcscat(buffer, L"*.fip");
+					strcpy(buffer, s_search_list[count]);
+					strcat(buffer, "*.fip");
 
-					if ((find_handle = (long)_wfindfirst(buffer, &find_data)) != -1L) {
+					if ((find_handle = (long)_findfirst(buffer, &find_data)) != -1L) {
 						do {
-							wcscpy(buffer, s_search_list[count]);
-							wcsncat(buffer, find_data.name, MAX_PATH + 200);
+							strcpy(buffer, s_search_list[count]);
+							strncat(buffer, find_data.name, MAX_PATH + 200);
 
-							HINSTANCE instance = LoadLibrary(buffer);
+							HINSTANCE instance = LoadLibrary((LPCWSTR)buffer);
 
 							if (instance != NULL) {
 								FARPROC proc_address = GetProcAddress(instance, "_Init@8");
@@ -324,7 +324,7 @@ FreeImage_Initialise(BOOL load_local_plugins_only) {
 									FreeLibrary(instance);
 								}
 							}
-						} while (_wfindnext(find_handle, &find_data) != -1L);
+						} while (_findnext(find_handle, &find_data) != -1L);
 
 						_findclose(find_handle);
 					}
@@ -516,9 +516,9 @@ FreeImage_RegisterLocalPlugin(FI_InitProc proc_address, const char *format, cons
 
 #ifdef _WIN32
 FREE_IMAGE_FORMAT DLL_CALLCONV
-FreeImage_RegisterExternalPlugin(const wchar_t *path, const char *format, const char *description, const char *extension, const char *regexpr) {
+FreeImage_RegisterExternalPlugin(const char *path, const char *format, const char *description, const char *extension, const char *regexpr) {
 	if (path != NULL) {
-		HINSTANCE instance = LoadLibrary(path);
+		HINSTANCE instance = LoadLibrary((LPCWSTR)path);
 
 		if (instance != NULL) {
 			FARPROC proc_address = GetProcAddress(instance, "_Init@8");
@@ -801,7 +801,7 @@ FreeImage_GetFIFFromFilenameU(const wchar_t *filename) {
 }
 
 BOOL DLL_CALLCONV
-FreeImage_Validate(FREE_IMAGE_FORMAT fif, FreeImageIO *io, fi_handle handle) {
+FreeImage_ValidateFIF(FREE_IMAGE_FORMAT fif, FreeImageIO *io, fi_handle handle) {
 	if (s_plugins != NULL) {
 		BOOL validated = FALSE;
 

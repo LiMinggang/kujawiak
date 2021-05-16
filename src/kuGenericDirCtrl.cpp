@@ -35,6 +35,7 @@ kuGenericDirCtrl::kuGenericDirCtrl(wxWindow* parent, kuFrame* frame)
     mIsUNC = false;
     SetupPopupMenu();
 
+	GetTreeCtrl()->SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_BTNFACE));
     ShowHidden(true);
     // connect filter command
     GetFilterListCtrl()->Connect(wxEVT_COMMAND_CHOICE_SELECTED,

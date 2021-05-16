@@ -31,7 +31,7 @@ END_EVENT_TABLE()
 // -------- kuSingleScrolled --------
 kuSingleScrolled::kuSingleScrolled(wxWindow* parent, kuFrame* frame)
      :wxScrolledWindow(parent,wxID_ANY), mIdleTimer(this, kuID_TIMER_IDLE) {
-    SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_APPWORKSPACE));
+    SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_BTNFACE));
     mFrame = frame;
     mOrigBmp = NULL;
     SetupPopupMenu();
@@ -551,7 +551,7 @@ void kuSingleScrolled::SetFullScreen(bool full) {
         } else    mFrame->ShowFullScreen(false);
         if(mFrame->mIsFilesystem)   mFrame->mTopSplitter->SplitVertically(mFrame->mDirSplitter,mFrame->mViewSplitter,SPLITTER_TOP_WIDTH);
         if(mFrame->mIsThumbnail)   mFrame->mViewSplitter->SplitHorizontally(mFrame->mSingle,mFrame->mMultiple,-SPLITTER_VIEW_HEIGHT);
-        SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_APPWORKSPACE));
+        SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_BTNFACE));
     }
     HideCursor(full);
     if(mFrame->CanSetTransparent()) {

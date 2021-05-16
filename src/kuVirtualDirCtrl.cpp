@@ -26,6 +26,7 @@ kuVirtualDirCtrl::kuVirtualDirCtrl(wxWindow* parent, kuFrame* frame)
      :wxTreeCtrl(parent,wxID_ANY,wxDefaultPosition,wxDefaultSize,wxTR_HAS_BUTTONS|wxTR_HIDE_ROOT) {
     mFrame=frame;
     SetImageList(wxTheFileIconsTable->GetSmallImageList());
+    SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_BTNFACE));
 }
 
 void kuVirtualDirCtrl::OnTreeSelChanged(wxTreeEvent& event) {

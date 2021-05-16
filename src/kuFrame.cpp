@@ -674,9 +674,9 @@ void kuFrame::OnAbout(wxCommandEvent& event) {
     topSizer->Add(new wxButton(&about,wxID_OK,wxEmptyString,wxDefaultPosition,wxDefaultSize,wxNO_BORDER),0,wxALIGN_CENTER);
     about.SetSizer(topSizer);
     mainSizer->Add(new wxStaticBitmap(&about,wxID_ANY,wxIcon(wxICON(ICON_APP))),0,wxALL|wxALIGN_CENTER,10);
-    mainSizer->Add(new wxStaticText(&about,wxID_ANY,STRING_PROJECT),1,wxRIGHT|wxALIGN_CENTER,10);
+    mainSizer->Add(new wxStaticText(&about,wxID_ANY,STRING_PROJECT),1,wxRIGHT|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL ,10);
     mainSizer->Add(new wxStaticBitmap(&about,wxID_ANY,wxIcon(wxICON(ICON_ORG))),0,wxALL|wxALIGN_CENTER,10);
-    mainSizer->Add(new wxStaticText(&about,wxID_ANY,STRING_AUTHOR),1,wxRIGHT|wxALIGN_CENTER,10);
+    mainSizer->Add(new wxStaticText(&about,wxID_ANY,STRING_AUTHOR),1,wxRIGHT|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL ,10);
     about.Fit();
     about.ShowModal();
 }
@@ -1520,7 +1520,7 @@ bool kuFrame::Action(int action, wxString arg1, wxString arg2) {
             int elem = COLOR_DESKTOP;
             COLORREF ref = color.GetPixel();
             SetSysColors(1, &elem, &ref);
-            mSingle->SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_APPWORKSPACE));
+            mSingle->SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_BTNFACE));
             break;
         }
         #endif

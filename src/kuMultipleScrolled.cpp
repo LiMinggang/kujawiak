@@ -31,7 +31,7 @@ END_EVENT_TABLE()
 // -------- kuMultipleScrolled --------
 kuMultipleScrolled::kuMultipleScrolled(wxWindow* parent, kuFrame* frame)
      :wxScrolledWindow(parent,wxID_ANY,wxDefaultPosition,wxDefaultSize,wxVSCROLL|wxSUNKEN_BORDER) {
-    SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_APPWORKSPACE));
+    SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_BTNFACE));
     mFrame=frame;
     mFilenames.Clear();
     mSelections.Clear();

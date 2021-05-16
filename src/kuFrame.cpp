@@ -1520,7 +1520,7 @@ bool kuFrame::Action(int action, wxString arg1, wxString arg2) {
             int elem = COLOR_DESKTOP;
             COLORREF ref = color.GetPixel();
             SetSysColors(1, &elem, &ref);
-            mSingle->SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_BACKGROUND));
+            mSingle->SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_APPWORKSPACE));
             break;
         }
         #endif

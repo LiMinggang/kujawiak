@@ -15,6 +15,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 #include <wx/cmdline.h>
+#include <wx/longlong.h>
 #include "ku.h"
 
 // -------- implement --------
@@ -635,7 +636,7 @@ bool kuApp::SwitchLocale(wxString path) {
     if(mLocale!=NULL)   delete mLocale;
     mLocale = new wxLocale(mOptions.mLanguage);
     // load mo file
-    mLocale->AddCatalogLookupPathPrefix(path);
+    mLocale->AddCatalogLookupPathPrefix(path + wxFILE_SEP_PATH + wxT("lang"));
     bool success=true;   // default is english
     if(mOptions.mLanguage!=wxLANGUAGE_ENGLISH) {
         // search CanonicalName
@@ -1003,7 +1004,7 @@ bool kuOptions::Export() {
     cfg->SetPath(updir);
 
     for(size_t i=0; i<mExternalOpenNames.GetCount(); i++) {
-        cfg->SetPath(wxString::Format(CFG_GROUP_EXTERNAL,i));
+        cfg->SetPath(CFG_GROUP_EXTERNAL + wxLongLong(i).ToString());
         cfg->Write(CFG_EXTERNAL_NAME, mExternalOpenNames[i]);
         cfg->Write(CFG_EXTERNAL_EXEC, mExternalOpenExecs[i]);
         cfg->Write(CFG_EXTERNAL_ARGS, mExternalOpenArgss[i]);
@@ -1066,7 +1067,7 @@ bool kuOptions::Import() {
     mHotkeyDirs.Clear();
     size_t idx=0;
     while(true) {
-        wxString entry = wxString::Format(CFG_MANAGE_DIRSET, idx);
+        wxString entry = CFG_MANAGE_DIRSET + wxLongLong(idx).ToString();
         if(!cfg->HasEntry(entry))    break;
         wxString dir;
         cfg->Read(entry, &dir, wxEmptyString);
@@ -1080,7 +1081,7 @@ bool kuOptions::Import() {
     mExternalOpenArgss.Clear();
     idx=0;
     while(true) {
-        wxString grp = wxString::Format(CFG_GROUP_EXTERNAL,idx);
+        wxString grp = CFG_GROUP_EXTERNAL + wxLongLong(idx).ToString();
         if(!cfg->HasGroup(grp))    break;
         cfg->SetPath(grp);
         if(cfg->HasEntry(CFG_EXTERNAL_NAME) && cfg->HasEntry(CFG_EXTERNAL_EXEC)) {

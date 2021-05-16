@@ -50,6 +50,22 @@
     #include "../icons/xpm/ICON_EXIT.xpm"
 #endif
 
+class KuTranslationHelper : public wxDirTraverser
+{
+	wxArrayString m_LangCanonicalNames;
+public:
+	KuTranslationHelper() {}
+	~KuTranslationHelper() {};
+	wxArrayString & GetLangCanonicalNames() { return m_LangCanonicalNames; }
+	virtual wxDirTraverseResult OnFile( const wxString& WXUNUSED( filename ) ) {
+		return wxDIR_CONTINUE;
+	}
+	virtual wxDirTraverseResult OnDir( const wxString& dirName ) {
+        m_LangCanonicalNames.Add(dirName.AfterLast(wxFileName::GetPathSeparator()));
+		return wxDIR_CONTINUE;
+	}
+};
+
 // -------- implement --------
 
 DEFINE_EVENT_TYPE(wxEVT_LOADED_EVENT)
@@ -1510,17 +1526,18 @@ bool kuFrame::Action(int action, wxString arg1, wxString arg2) {
         #endif
         case kuID_LANGUAGE: {
             wxArrayString choices;
-            wxDir dir(wxGetApp().mPath);
+            wxDir dir(wxGetApp().mPath + wxFILE_SEP_PATH + wxT("lang"));
             wxString filename,locale;
+			KuTranslationHelper kutrans;
             // add default language
             choices.Add(wxT("English  (en)"));
             // search language files
-            bool cont=dir.GetFirst(&filename,wxT("kuview_*.mo"),wxDIR_FILES|wxDIR_HIDDEN);
-            while(cont) {
-                locale=filename.AfterFirst('_').BeforeLast('.');
+            dir.Traverse(kutrans);
+			wxArrayString &langCanonicalNames = kutrans.GetLangCanonicalNames();
+			for( size_t i = 0; i < langCanonicalNames.GetCount(); ++i ) {
+                locale=langCanonicalNames[i];
                 const wxLanguageInfo* info=wxLocale::FindLanguageInfo(locale);
                 if(info)   choices.Add(info->Description + wxT("  (") + info->CanonicalName + wxT(")"));
-                cont=dir.GetNext(&filename);
             }
             // set current language in select dialog
             wxSingleChoiceDialog dialog(this,STRING_LANGUAGE_MESSAGE,StripCodes(STRING_MENU_LANGUAGE),choices);

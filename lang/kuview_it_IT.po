@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kujawiak Viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-04 09:21+0100\n"
+"POT-Creation-Date: 2021-05-16 15:38+0800\n"
 "PO-Revision-Date: 2010-11-12 11:45+0800\n"
 "Last-Translator: Augustino Zhuang <augustino@users.sourceforge.net>\n"
 "Language-Team: Kujawiak Team <augustino@users.sourceforge.net>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,151 +21,170 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\\include\n"
 
-#: ..\src/ku.h:104
+#: ../include/ku.h:114
+msgid "Project: "
+msgstr ""
+
+#: ../include/ku.h:115
+msgid "Author: "
+msgstr ""
+
+#: ../include/ku.h:119
+msgid "Exploring the file in Filesystem Panel..."
+msgstr ""
+
+#: ../include/ku.h:120
 msgid "Enumerating items in Archive Panel..."
 msgstr "Numerazione elementi nel Pannello Archivio..."
 
-#: ..\src/ku.h:105
+#: ../include/ku.h:121
 msgid "Deleting all items in Archive Panel..."
 msgstr "Eliminazione elementi nel Pannello Archivio..."
 
-#: ..\src/ku.h:106
+#: ../include/ku.h:122
 msgid "Loading thumbs in selected directory..."
 msgstr "Caricamento icone nella cartella selezionata..."
 
-#: ..\src/ku.h:107
+#: ../include/ku.h:123
 msgid "File has been saved: "
 msgstr "Il file è stato salvato:"
 
-#: ..\src/ku.h:108
+#: ../include/ku.h:124
 msgid "Operation has been canceled."
 msgstr "L'operazione è stata annullata."
 
-#: ..\src/ku.h:109
+#: ../include/ku.h:125
 msgid "Cut: "
 msgstr "Taglia:"
 
-#: ..\src/ku.h:110
+#: ../include/ku.h:126
 msgid "Copy: "
 msgstr "Copia:"
 
-#: ..\src/ku.h:111
+#: ../include/ku.h:127
 msgid "Copying: "
 msgstr "Copia in corso di:"
 
-#: ..\src/ku.h:112
+#: ../include/ku.h:128
 msgid "Moving: "
 msgstr "Spostamento in corso di:"
 
-#: ..\src/ku.h:113
+#: ../include/ku.h:129
 msgid "Deleting: "
 msgstr "Eliminazione in corso di:"
 
-#: ..\src/ku.h:114
+#: ../include/ku.h:130
 msgid "File has been renamed: "
 msgstr "Il file è stato rinominato:"
 
-#: ..\src/ku.h:115
+#: ../include/ku.h:131
 msgid "File has been copied: "
 msgstr "Il file è stato copiato:"
 
-#: ..\src/ku.h:116
+#: ../include/ku.h:132
 msgid "File has been moved: "
 msgstr "Il file è stato spostato:"
 
-#: ..\src/ku.h:117
+#: ../include/ku.h:133
 msgid "File has been deleted: "
 msgstr "Il file è stato eliminato:"
 
-#: ..\src/ku.h:118
+#: ../include/ku.h:134
 msgid "File doesn't contain any metadata..."
 msgstr "Il file non contiene alcun metadato..."
 
-#: ..\src/ku.h:119
+#: ../include/ku.h:135
+#, fuzzy
+msgid "File doesn't contain latitude/longitude data..."
+msgstr "Il file non contiene alcun metadato..."
+
+#: ../include/ku.h:136
 msgid "This is the first in history."
 msgstr "Questo è il primo nella cronologia."
 
-#: ..\src/ku.h:120
+#: ../include/ku.h:137
 msgid "This is the last in history."
 msgstr "Questo è l'ultimo nella cronologia."
 
-#: ..\src/ku.h:121
+#: ../include/ku.h:138
 msgid "No branch before this in history."
 msgstr "Nessun ramo prima di questo nella cronologia."
 
-#: ..\src/ku.h:123
+#: ../include/ku.h:140
 msgid "Interrupted by user."
 msgstr "Interrotto dall'utente."
 
-#: ..\src/ku.h:124
+#: ../include/ku.h:141
 msgid "Please select a picture."
 msgstr "Selezionate un'immagine."
 
-#: ..\src/ku.h:125
+#: ../include/ku.h:142
 msgid "Please select a directory which contains pictures."
 msgstr "Selezionate una cartella che contiene immagini."
 
-#: ..\src/ku.h:127
+#: ../include/ku.h:144
 msgid "Please wait or interrupt current operation!"
 msgstr "Attendete o interrompete l'operazione in corso!"
 
-#: ..\src/ku.h:128
+#: ../include/ku.h:145
 msgid "Cannot save: "
 msgstr "Impossibile salvare:"
 
-#: ..\src/ku.h:129
+#: ../include/ku.h:146
 msgid "Cannot rename: "
 msgstr "Impossibile rinominare:"
 
-#: ..\src/ku.h:130
+#: ../include/ku.h:147
 msgid "Cannot copy: "
 msgstr "Impossibile copiare:"
 
-#: ..\src/ku.h:131
+#: ../include/ku.h:148
 msgid "Cannot move: "
 msgstr "Impossibile spostare:"
 
-#: ..\src/ku.h:132
+#: ../include/ku.h:149
 msgid "Cannot delete: "
 msgstr "Impossibile eliminare:"
 
-#: ..\src/ku.h:133
+#: ../include/ku.h:150
 msgid "Cannot mkdir: "
 msgstr "Impossibile creare la cartella:"
 
-#: ..\src/ku.h:134
+#: ../include/ku.h:151
 msgid "Cannot rmdir: "
 msgstr "Impossibile rimuovere la cartella:"
 
-#: ..\src/ku.h:135
+#: ../include/ku.h:152
 msgid "Already exists: "
 msgstr "Esiste già: "
 
-#: ..\src/ku.h:136
+#: ../include/ku.h:153
 msgid "Doesn't exist: "
 msgstr "Non esiste:"
 
-#: ..\src/ku.h:137
+#: ../include/ku.h:154
 msgid "Destination is source!\n"
 msgstr "La destinazione è il sorgente!\n"
 
-#: ..\src/ku.h:138
+#: ../include/ku.h:155
 msgid "Destination is in source!\n"
 msgstr "La destinazione è nel sorgente!\n"
 
-#: ..\src/ku.h:139
+#: ../include/ku.h:156
 msgid "Destination is invalid!\n"
 msgstr "La destinazione non è valida!\n"
 
-#: ..\src/ku.h:140
+#: ../include/ku.h:157
 msgid "Setting a picture in archive as wallpaper is not supported!"
 msgstr "La scelta di un'immagine in archivio come sfondo non è supportata!"
 
-#: ..\src/ku.h:141
+#: ../include/ku.h:158
 msgid "Cannot preview! Please check printer setting..."
-msgstr "Impossibile effettuare l'anteprima! Controllate le impostazioni della stampante..."
+msgstr ""
+"Impossibile effettuare l'anteprima! Controllate le impostazioni della "
+"stampante..."
 
-#: ..\src/ku.h:142
+#: ../include/ku.h:159
 msgid ""
 "There was an error during printing!\n"
 "Please check printer and try again..."
@@ -172,403 +192,451 @@ msgstr ""
 "Si è verificato un errore durante la stampa!\n"
 "Controllate la stampante e riprovate..."
 
-#: ..\src/ku.h:146
+#: ../include/ku.h:160
+msgid "Failed to login!"
+msgstr ""
+
+#: ../include/ku.h:161
+msgid "Failed to get albums!"
+msgstr ""
+
+#: ../include/ku.h:162
+msgid "Failed to create albums!"
+msgstr ""
+
+#: ../include/ku.h:163
+msgid "Failed to modify albums!"
+msgstr ""
+
+#: ../include/ku.h:164
+msgid "Failed to delete albums!"
+msgstr ""
+
+#: ../include/ku.h:165
+msgid "Failed to get photos!"
+msgstr ""
+
+#: ../include/ku.h:169
 msgid "&File"
 msgstr "&File"
 
-#: ..\src/ku.h:147
+#: ../include/ku.h:170
 msgid "&Save\tCtrl+S"
 msgstr "&Salva\tCtrl+S"
 
-#: ..\src/ku.h:148
+#: ../include/ku.h:171
 msgid "Save &As..."
 msgstr "Salva &con nome..."
 
-#: ..\src/ku.h:149
+#: ../include/ku.h:172
 msgid "Pa&ge Setup"
 msgstr "Impo&sta pagina"
 
-#: ..\src/ku.h:150
+#: ../include/ku.h:173
 msgid "Print Pre&view...\tShift+P"
 msgstr "Anteprima di sta&mpa...\tShift+P"
 
-#: ..\src/ku.h:151
+#: ../include/ku.h:174
 msgid "&Print\tCtrl+P"
 msgstr "&Stampa\tCtrl+P"
 
-#: ..\src/ku.h:152
+#: ../include/ku.h:175
 msgid "Explore"
 msgstr "Esplora"
 
-#: ..\src/ku.h:154
+#: ../include/ku.h:177
 msgid "External Editor"
 msgstr "Editor esterno"
 
-#: ..\src/ku.h:156
+#: ../include/ku.h:179
 msgid "Open with %TOOL%"
 msgstr "Apri con %TOOL%"
 
-#: ..\src/ku.h:158
+#: ../include/ku.h:181
 msgid "Prope&rties\t["
 msgstr "Proprie&tà\t["
 
-#: ..\src/ku.h:160
+#: ../include/ku.h:183
 msgid "M&etadata\t]"
 msgstr "M&etadati\t]"
 
-#: ..\src/ku.h:161
+#: ../include/ku.h:184
 msgid "S&ummary\t`"
 msgstr "R&esoconto\t`"
 
-#: ..\src/ku.h:162
+#: ../include/ku.h:185
 msgid "Status &Bar\tCtrl+B"
 msgstr "Barra di &stato\tCtrl+B"
 
-#: ..\src/ku.h:163
+#: ../include/ku.h:186
 msgid "&Interrupt\tCtrl+I"
 msgstr "&Interrompi\tCtrl+I"
 
-#: ..\src/ku.h:164
+#: ../include/ku.h:187
 msgid "&Reload\tF5"
 msgstr "&Ricarica\tF5"
 
-#: ..\src/ku.h:165
+#: ../include/ku.h:188
 msgid "Minimi&ze\tCtrl+Z"
 msgstr "Riduci a i&cona\tCtrl+Z"
 
-#: ..\src/ku.h:166
+#: ../include/ku.h:189
 msgid "&Restore"
 msgstr "&Ripristina"
 
-#: ..\src/ku.h:167
+#: ../include/ku.h:190
 msgid "&Quit\tCtrl+Q"
 msgstr "&Esci\tCtrl+Q"
 
-#: ..\src/ku.h:169
+#: ../include/ku.h:192
 msgid "&Edit"
 msgstr "&Modifica"
 
-#: ..\src/ku.h:170
+#: ../include/ku.h:193
 msgid "Rotate -90\tAlt+LEFT"
 msgstr "Rotazione di 90 gradi a sinistra\tAlt+LEFT"
 
-#: ..\src/ku.h:171
+#: ../include/ku.h:194
 msgid "Rotate +90\tAlt+RIGHT"
 msgstr "Rotazione di 90 gradi a destra\tAlt+RIGHT"
 
-#: ..\src/ku.h:172
+#: ../include/ku.h:195
 msgid "&Scale"
 msgstr "&Ingrandimento"
 
-#: ..\src/ku.h:174
-#: ..\src/ku.h:227
+#: ../include/ku.h:197 ../include/ku.h:251
 msgid "&Traverse"
 msgstr "&Scorrimento"
 
-#: ..\src/ku.h:175
+#: ../include/ku.h:198
 msgid "Go &Home\tAlt+HOME"
 msgstr "Vai alla &Home\tAlt+HOME"
 
-#: ..\src/ku.h:176
+#: ../include/ku.h:199
 msgid "Fa&vorite\tAlt+END"
 msgstr "Pre&feriti\tAlt+Fine"
 
-#: ..\src/ku.h:177
+#: ../include/ku.h:200
 msgid "&Previous in Directory"
 msgstr "&Precedente nella cartella"
 
-#: ..\src/ku.h:178
+#: ../include/ku.h:201
 msgid "&Next in Directory"
 msgstr "&Successivo nella cartella"
 
-#: ..\src/ku.h:179
+#: ../include/ku.h:202
 msgid "&First in Directory"
 msgstr "&Primo nella cartella"
 
-#: ..\src/ku.h:180
+#: ../include/ku.h:203
 msgid "La&st in Directory"
 msgstr "Ul&timo nella cartella"
 
-#: ..\src/ku.h:181
+#: ../include/ku.h:204
 msgid "Move &Up in Tree"
 msgstr "Sposta su &nell'albero"
 
-#: ..\src/ku.h:182
+#: ../include/ku.h:205
 msgid "Move &Down in Tree"
 msgstr "Sposta giu &nell'albero"
 
-#: ..\src/ku.h:183
+#: ../include/ku.h:206
 msgid "Move &Left in Tree"
 msgstr "Sposta a sinistra &nell'albero"
 
-#: ..\src/ku.h:184
+#: ../include/ku.h:207
 msgid "Move &Right in Tree"
 msgstr "Sposta a &destra nell'albero"
 
-#: ..\src/ku.h:185
+#: ../include/ku.h:208
 msgid "Back in History\tCtrl+UP"
 msgstr "Indietro nella cronologia\tCtrl+Freccia su"
 
-#: ..\src/ku.h:186
+#: ../include/ku.h:209
 msgid "Forward in History\tCtrl+DOWN"
 msgstr "Avanti nella cronologia\tCtrl+Freccia giu"
 
-#: ..\src/ku.h:187
+#: ../include/ku.h:210
 msgid "Jump to Branch in History\tCtrl+BACK"
 msgstr "Vai al ramo nella cronologia\tCtrl+BACK"
 
-#: ..\src/ku.h:189
-#: ..\src/ku.h:229
+#: ../include/ku.h:212 ../include/ku.h:253
 msgid "&View"
 msgstr "&Visualizza"
 
-#: ..\src/ku.h:190
+#: ../include/ku.h:213
 msgid "F&ull Screen\tENTER"
 msgstr "Sc&hermo intero\tENTER"
 
-#: ..\src/ku.h:191
+#: ../include/ku.h:214
 msgid "Zoom &In\t+"
 msgstr "Ingrandisci&\t+"
 
-#: ..\src/ku.h:192
+#: ../include/ku.h:215
 msgid "Zoom &Out\t-"
 msgstr "Riduci&\t-"
 
-#: ..\src/ku.h:193
+#: ../include/ku.h:216
 msgid "Zoom &100%\t*"
 msgstr "Dimensioni &originali\t*"
 
-#: ..\src/ku.h:194
+#: ../include/ku.h:217
 msgid "Zoom &Fit\t/"
 msgstr "Ada&tta\t/"
 
-#: ..\src/ku.h:195
+#: ../include/ku.h:218
 msgid "Zoom &Extend\t\\"
 msgstr "Zoom &Esteso\t\\"
 
-#: ..\src/ku.h:196
+#: ../include/ku.h:219
 msgid "Opa&que"
 msgstr "Opa&cità"
 
-#: ..\src/ku.h:197
+#: ../include/ku.h:220
 msgid "&Slide Show\tSPACE"
 msgstr "&Presentazione\tSPACE"
 
-#: ..\src/ku.h:198
+#: ../include/ku.h:221
 msgid "Pause &Slide Show\tSPACE"
 msgstr "Metti in pausa la &presentazione\tSPACE"
 
-#: ..\src/ku.h:199
+#: ../include/ku.h:222
 msgid "Continue &Slide Show\tSPACE"
 msgstr "Continua la &presentazione\tSPACE"
 
-#: ..\src/ku.h:201
+#: ../include/ku.h:224
 msgid "&Panel"
 msgstr "&Pannello"
 
-#: ..\src/ku.h:202
+#: ../include/ku.h:225
 msgid "&Filesystem\tF10"
 msgstr "&Filesystem\tF10"
 
-#: ..\src/ku.h:203
+#: ../include/ku.h:226
 msgid "&Archive\tF11"
 msgstr "&Archivio\tF11"
 
-#: ..\src/ku.h:204
+#: ../include/ku.h:227
 msgid "&Thumbnail\tF12"
 msgstr "&Anteprima\tF12"
 
-#: ..\src/ku.h:206
+#: ../include/ku.h:229 ../include/ku.h:276
 msgid "&Manage"
 msgstr "&Gestisci"
 
-#: ..\src/ku.h:207
+#: ../include/ku.h:230
 msgid "&New Directory"
 msgstr "&Nuova cartella"
 
-#: ..\src/ku.h:208
+#: ../include/ku.h:231
 msgid "&Rename File\tF2"
 msgstr "&Rinomina file\tF2"
 
-#: ..\src/ku.h:209
+#: ../include/ku.h:232
 msgid "Cu&t File\tCtrl+X"
 msgstr "Ta&glia file\tCtrl+X"
 
-#: ..\src/ku.h:210
+#: ../include/ku.h:233
 msgid "&Copy File\tCtrl+C"
 msgstr "&Copia file\tCtrl+C"
 
-#: ..\src/ku.h:211
+#: ../include/ku.h:234
 msgid "&Paste File\tCtrl+V"
 msgstr "&Incolla file\tCtrl+V"
 
-#: ..\src/ku.h:212
+#: ../include/ku.h:235
 msgid "&Delete File\tDEL"
 msgstr "&Elimina file\tDEL"
 
-#: ..\src/ku.h:213
+#: ../include/ku.h:236
 msgid "&Move File To..."
 msgstr "&Sposta file in..."
 
-#: ..\src/ku.h:214
+#: ../include/ku.h:237
 msgid "Copy File &To..."
 msgstr "Copia file &in..."
 
-#: ..\src/ku.h:216
+#: ../include/ku.h:239
 msgid "Tool&s"
 msgstr "Strument&i"
 
-#: ..\src/ku.h:217
-#: ..\src/ku.h:249
+#: ../include/ku.h:240 ../include/ku.h:279
 msgid "&Rescale Manager"
 msgstr "&Gestione ridimensionamento"
 
-#: ..\src/ku.h:219
+#: ../include/ku.h:241 ../include/ku.h:280
+#, fuzzy
+msgid "&PicasaWeb Manager"
+msgstr "&Gestione ridimensionamento"
+
+#: ../include/ku.h:243
 msgid "&Option"
 msgstr "&Opzioni"
 
-#: ..\src/ku.h:220
+#: ../include/ku.h:244
 msgid "&Shell Integration"
 msgstr "&Integrazione nella shell"
 
-#: ..\src/ku.h:221
+#: ../include/ku.h:245
 msgid "File &Association"
 msgstr "Associazione dei &file"
 
-#: ..\src/ku.h:222
+#: ../include/ku.h:246
 msgid "&Desktop"
 msgstr "&Desktop"
 
-#: ..\src/ku.h:223
+#: ../include/ku.h:247
 msgid "Set as &Wallpaper"
 msgstr "Imposta come &sfondo"
 
-#: ..\src/ku.h:224
+#: ../include/ku.h:248
 msgid "&None Wallpaper"
 msgstr "&Nessuno sfondo"
 
-#: ..\src/ku.h:225
+#: ../include/ku.h:249
 msgid "&Background Color"
 msgstr "&Colore di sfondo"
 
-#: ..\src/ku.h:226
+#: ../include/ku.h:250
 msgid "&Language"
 msgstr "&Lingua"
 
-#: ..\src/ku.h:228
+#: ../include/ku.h:252
 msgid "&Favorite"
 msgstr "&Preferiti"
 
-#: ..\src/ku.h:230
+#: ../include/ku.h:254
+#, fuzzy
+msgid "Fixed &Style"
+msgstr "Ingrandimento &fisso"
+
+#: ../include/ku.h:255
+msgid "&Auto Fit"
+msgstr ""
+
+#: ../include/ku.h:256
+#, fuzzy
+msgid "Zoom &Fit"
+msgstr "Ada&tta\t/"
+
+#: ../include/ku.h:257
+#, fuzzy
+msgid "Zoom &Extend"
+msgstr "Zoom &Esteso\t\\"
+
+#: ../include/ku.h:258
 msgid "Fixed &Scale"
 msgstr "Ingrandimento &fisso"
 
-#: ..\src/ku.h:231
+#: ../include/ku.h:259
 msgid "Fixed &Rotation"
 msgstr "Rotazione &fissa"
 
-#: ..\src/ku.h:232
+#: ../include/ku.h:260
 msgid "Fixed &LeftTop"
 msgstr "In alto a sinistra &fisso"
 
-#: ..\src/ku.h:233
+#: ../include/ku.h:261
 msgid "Load &Completely"
 msgstr "Carica &completamente"
 
-#: ..\src/ku.h:234
+#: ../include/ku.h:262
 msgid "&Prefetch"
 msgstr "&Precaricamento"
 
-#: ..\src/ku.h:235
+#: ../include/ku.h:263
 msgid "Scale &Filter"
 msgstr "Filtro &ingrandimento"
 
-#: ..\src/ku.h:236
+#: ../include/ku.h:264
 msgid "Bo&x"
 msgstr "Bo&x"
 
-#: ..\src/ku.h:237
+#: ../include/ku.h:265
 msgid "&Bicubic"
 msgstr "&Bicubico"
 
-#: ..\src/ku.h:238
+#: ../include/ku.h:266
 msgid "Bi&linear"
 msgstr "Bi&lineare"
 
-#: ..\src/ku.h:239
+#: ../include/ku.h:267
 msgid "B-&Spline"
 msgstr "B-&Spline"
 
-#: ..\src/ku.h:240
+#: ../include/ku.h:268
 msgid "&Catmull-Rom"
 msgstr "&Catmull-Rom"
 
-#: ..\src/ku.h:241
+#: ../include/ku.h:269
 msgid "&Lanczos"
 msgstr "&Lanczos"
 
-#: ..\src/ku.h:242
+#: ../include/ku.h:270
 msgid "Slide Sho&w"
 msgstr "Presentazion&e"
 
-#: ..\src/ku.h:243
+#: ../include/ku.h:271
 msgid "Repeat"
 msgstr "Ripeti"
 
-#: ..\src/ku.h:244
-#: ..\src/ku.h:292
+#: ../include/ku.h:272 ../include/ku.h:324
 msgid "Interval"
 msgstr "Intervallo"
 
-#: ..\src/ku.h:245
+#: ../include/ku.h:273
 msgid "S&ummary"
 msgstr "R&esoconto"
 
-#: ..\src/ku.h:246
+#: ../include/ku.h:274
 msgid "&Position"
 msgstr "&Posizione"
 
-#: ..\src/ku.h:247
+#: ../include/ku.h:275
 msgid "&Color"
 msgstr "&Colori"
 
-#: ..\src/ku.h:248
+#: ../include/ku.h:277
+msgid "Set &Directories for Hotkey"
+msgstr ""
+
+#: ../include/ku.h:278
 msgid "&External Tools"
 msgstr "&Strumenti esterni"
 
-#: ..\src/ku.h:250
+#: ../include/ku.h:281
 msgid "&Max Concurrent"
 msgstr "&Max Consecutivi"
 
-#: ..\src/ku.h:251
+#: ../include/ku.h:282
 msgid "&Generate Config File"
 msgstr "&Genera file di configurazione"
 
-#: ..\src/ku.h:253
+#: ../include/ku.h:284
 msgid "&Help"
 msgstr "&Guida"
 
-#: ..\src/ku.h:254
+#: ../include/ku.h:285
 msgid "&About"
 msgstr "&Info"
 
-#: ..\src/ku.h:256
+#: ../include/ku.h:287
 msgid "&Remove It"
 msgstr "&Rimuovi"
 
-#: ..\src/ku.h:257
+#: ../include/ku.h:288
 msgid "&Clear All"
 msgstr "&Pulisci tutto"
 
-#: ..\src/ku.h:262
+#: ../include/ku.h:293
 msgid "Please select language:"
 msgstr "Selezionate la lingua:"
 
-#: ..\src/ku.h:264
+#: ../include/ku.h:295
 msgid "Do you want to continue?"
 msgstr "Volete continuare?"
 
-#: ..\src/ku.h:265
+#: ../include/ku.h:296
 msgid ""
 "\n"
 "Do you want to skip it and continue?"
@@ -576,15 +644,15 @@ msgstr ""
 "\n"
 "Volete tralasciare e continuare?"
 
-#: ..\src/ku.h:266
+#: ../include/ku.h:297
 msgid "Confirm"
 msgstr "OK"
 
-#: ..\src/ku.h:267
+#: ../include/ku.h:298
 msgid "Rotate/Clone original file losslessly?"
 msgstr "Ruotare/Clonare il file originale senza perdite?"
 
-#: ..\src/ku.h:268
+#: ../include/ku.h:299
 msgid ""
 "This function is NOT complete!\n"
 "File quality and information may be STRIPPED!!\n"
@@ -592,7 +660,12 @@ msgstr ""
 "Questa funzione NON è completa!\n"
 "La qualità del file e le informazioni potrebbero essere ALTERATE!!\n"
 
-#: ..\src/ku.h:269
+#: ../include/ku.h:300
+#, fuzzy
+msgid "The original file will be overwritten!!\n"
+msgstr "Il file verrà eliminato!\n"
+
+#: ../include/ku.h:301
 msgid ""
 "Current file has been modified,\n"
 "reload original file now?"
@@ -600,39 +673,41 @@ msgstr ""
 "Il file attuale è stato modificato,\n"
 "volete ricaricare il file originale?"
 
-#: ..\src/ku.h:270
+#: ../include/ku.h:302
 msgid "Please input directory name:"
 msgstr "Inserite il nome della cartella:"
 
-#: ..\src/ku.h:271
+#: ../include/ku.h:303
 msgid "Please input new name:"
 msgstr "Inserite il nuovo nome:"
 
-#: ..\src/ku.h:272
+#: ../include/ku.h:304
 msgid "The file will be deleted!\n"
 msgstr "Il file verrà eliminato!\n"
 
-#: ..\src/ku.h:273
+#: ../include/ku.h:305
 msgid ""
-"Favorite is default location on startup, and can be found quickly by clicking Favorite button/menu.\n"
+"Favorite is default location on startup, and can be found quickly by "
+"clicking Favorite button/menu.\n"
 "Current: "
 msgstr ""
-"Preferiti è il percorso predefinito all'avvio, e può essere trovato rapidamente cliccando il pulsante/menu Preferiti.\n"
+"Preferiti è il percorso predefinito all'avvio, e può essere trovato "
+"rapidamente cliccando il pulsante/menu Preferiti.\n"
 "Attuale: "
 
-#: ..\src/ku.h:275
+#: ../include/ku.h:307
 msgid "Drive"
 msgstr "Unità"
 
-#: ..\src/ku.h:276
+#: ../include/ku.h:308
 msgid "Directory"
 msgstr "Cartella"
 
-#: ..\src/ku.h:277
+#: ../include/ku.h:309
 msgid "File"
 msgstr "File"
 
-#: ..\src/ku.h:278
+#: ../include/ku.h:310
 msgid ""
 "Please select where to add\n"
 "\"Browse with kuView\" entry:\n"
@@ -642,44 +717,43 @@ msgstr ""
 "comando \"Sfoglia con kuView\":\n"
 "(Menu contestuale con clic del tasto destro del mouse)"
 
-#: ..\src/ku.h:279
+#: ../include/ku.h:311
 msgid "Browse with kuView"
 msgstr "Sfoglia con kuView"
 
-#: ..\src/ku.h:280
+#: ../include/ku.h:312
 msgid "Please select file extension:"
 msgstr "Please sSelezionate l'estensione del file:"
 
-#: ..\src/ku.h:281
-#: ..\src/ku.h:299
+#: ../include/ku.h:313 ../include/ku.h:331
 msgid "Center"
 msgstr "Al centro"
 
-#: ..\src/ku.h:282
+#: ../include/ku.h:314
 msgid "Tile"
 msgstr "Allinea"
 
-#: ..\src/ku.h:283
+#: ../include/ku.h:315
 msgid "Stretch"
 msgstr "Allunga"
 
-#: ..\src/ku.h:284
+#: ../include/ku.h:316
 msgid "Scale to Fit"
 msgstr "Adatta allo schermo"
 
-#: ..\src/ku.h:285
+#: ../include/ku.h:317
 msgid "Scale to Extend"
 msgstr "Adatta all'estensione"
 
-#: ..\src/ku.h:286
+#: ../include/ku.h:318
 msgid "Please select how to set wallpaper:"
 msgstr "Selezionate come impostare lo sfondo:"
 
-#: ..\src/ku.h:287
+#: ../include/ku.h:319
 msgid "Do you want to disable wallpaper?"
 msgstr "Volete disabilitare lo sfondo?"
 
-#: ..\src/ku.h:289
+#: ../include/ku.h:321
 msgid ""
 "Please input a number between 0 and 255:\n"
 "(0 is fully transparent, and 255 is fully opaque)"
@@ -687,61 +761,59 @@ msgstr ""
 "Inserite un numero tra 0 e 255:\n"
 "(0 è totalmente trasparente, e 255 è totalmente opaco)"
 
-#: ..\src/ku.h:290
+#: ../include/ku.h:322
 msgid "opaque value:"
 msgstr "valore opacità:"
 
-#: ..\src/ku.h:291
+#: ../include/ku.h:323
 msgid "Please input interval in second:"
 msgstr "Inserite l'intervallo in secondi:"
 
-#: ..\src/ku.h:293
+#: ../include/ku.h:325
 msgid "Please input the maximum number of concurrent tasks:"
 msgstr "Inserite il numero massimo di processi consecutivi: "
 
-#: ..\src/ku.h:294
+#: ../include/ku.h:326
 msgid "&Close"
 msgstr "&Chiudi"
 
-#: ..\src/ku.h:295
+#: ../include/ku.h:327
 msgid "&Print..."
 msgstr "&Stampa..."
 
-#: ..\src/ku.h:296
+#: ../include/ku.h:328
 msgid "&Align..."
 msgstr "&Allineamento..."
 
-#: ..\src/ku.h:297
+#: ../include/ku.h:329
 msgid "&Scale..."
 msgstr "&Ingrandimento..."
 
-#: ..\src/ku.h:298
+#: ../include/ku.h:330
 msgid "Please select the position button for alignment:"
 msgstr "Selezionate la posizione del pulsante per l'allineamento:"
 
-#: ..\src/ku.h:300
-#: ..\src/ku.h:306
+#: ../include/ku.h:332 ../include/ku.h:338
 msgid "Left"
 msgstr "Sinistra"
 
-#: ..\src/ku.h:301
+#: ../include/ku.h:333
 msgid "Right"
 msgstr "Destra"
 
-#: ..\src/ku.h:302
-#: ..\src/ku.h:307
+#: ../include/ku.h:334 ../include/ku.h:339
 msgid "Top"
 msgstr "Alto"
 
-#: ..\src/ku.h:303
+#: ../include/ku.h:335
 msgid "Bottom"
 msgstr "Basso"
 
-#: ..\src/ku.h:304
+#: ../include/ku.h:336
 msgid "Please enter the scale ratio:"
 msgstr "Inserite la percentuale di ingrandimento:"
 
-#: ..\src/ku.h:305
+#: ../include/ku.h:337
 msgid ""
 "It is not a valid number!\n"
 "Please try again..."
@@ -749,205 +821,334 @@ msgstr ""
 "Non è un numero valido!\n"
 "Riprovate...:"
 
-#: ..\src/ku.h:308
-msgid "Config file is generated successfully. It will be imported automatically on startup."
-msgstr "Il file di configurazione è stato generato correttamente. Verrà importato automaticamente all'avvio."
+#: ../include/ku.h:340
+msgid ""
+"Current file can be copied or moved to specified directories by hotkey:\n"
+"    Ctrl + NUM\tcopy to directory NUM\n"
+"    Alt + NUM\tmove to directory NUM\n"
+"Please add favorite directories into the list: (the maximum is 9)"
+msgstr ""
 
-#: ..\src/ku.h:309
+#: ../include/ku.h:341
+msgid ""
+"Config file is generated successfully. It will be imported automatically on "
+"startup."
+msgstr ""
+"Il file di configurazione è stato generato correttamente. Verrà importato "
+"automaticamente all'avvio."
+
+#: ../include/ku.h:342
 msgid "Failed to generate config file. Please check working directory: "
-msgstr "Impossibile generare il file di configurazione. Controllate la cartella di lavoro:"
+msgstr ""
+"Impossibile generare il file di configurazione. Controllate la cartella di "
+"lavoro:"
 
-#: ..\src/ku.h:361
+#: ../include/ku.h:343
+#, fuzzy
+msgid "The album will be deleted!\n"
+msgstr "Il file verrà eliminato!\n"
+
+#: ../include/ku.h:347
+msgid "Add"
+msgstr ""
+
+#: ../include/ku.h:348
+#, fuzzy
+msgid "&Delete"
+msgstr "&Elimina file\tDEL"
+
+#: ../include/ku.h:349
+msgid "Rep&lace"
+msgstr ""
+
+#: ../include/ku.h:350
+#, fuzzy
+msgid "&OK"
+msgstr "確定"
+
+#: ../include/ku.h:351
+#, fuzzy
+msgid "&Cancel"
+msgstr "Annullato"
+
+#: ../include/ku.h:413
 msgid "Comments"
 msgstr "Commenti"
 
-#: ..\src/ku.h:362
+#: ../include/ku.h:414
 msgid "Main"
 msgstr "Principale"
 
-#: ..\src/ku.h:363
+#: ../include/ku.h:415
 msgid "Exif"
 msgstr "Exif"
 
-#: ..\src/ku.h:364
+#: ../include/ku.h:416
 msgid "GPS"
 msgstr "GPS"
 
-#: ..\src/ku.h:365
+#: ../include/ku.h:417
 msgid "Maker Note"
 msgstr "Crea appunto"
 
-#: ..\src/ku.h:366
+#: ../include/ku.h:418
 msgid "Interoperability"
 msgstr "Interoperabilità"
 
-#: ..\src/ku.h:367
+#: ../include/ku.h:419
 msgid "IPTC"
 msgstr "IPTC"
 
-#: ..\src/ku.h:368
+#: ../include/ku.h:420
 msgid "XMP"
 msgstr "XMP"
 
-#: ..\src/ku.h:369
+#: ../include/ku.h:421
 msgid "GeoTIFF"
 msgstr "GeoTIFF"
 
-#: ..\src/ku.h:370
+#: ../include/ku.h:422
 msgid "Animation"
 msgstr "Animazione"
 
-#: ..\src/ku.h:371
+#: ../include/ku.h:423
 msgid "Tag"
 msgstr "Tag"
 
-#: ..\src/ku.h:372
+#: ../include/ku.h:424
 msgid "Value"
 msgstr "Valore"
 
-#: ..\src/ku.h:373
+#: ../include/ku.h:425
 msgid "Description"
 msgstr "Descrizione"
 
-#: ..\src/ku.h:397
+#: ../include/ku.h:453
 msgid "Source"
 msgstr "Sorgente"
 
-#: ..\src/ku.h:398
+#: ../include/ku.h:454
 msgid "Destination"
 msgstr "Destinazione"
 
-#: ..\src/ku.h:399
-msgid "Size"
-msgstr "Dimensioni"
-
-#: ..\src/ku.h:400
-msgid "Format"
-msgstr "Formato"
-
-#: ..\src/ku.h:401
-msgid "Filter"
-msgstr "Filtro"
-
-#: ..\src/ku.h:402
+#: ../include/ku.h:455
 msgid "Progress"
 msgstr "Avanzamento"
 
-#: ..\src/ku.h:403
+#: ../include/ku.h:456
 msgid "Status"
 msgstr "Stato"
 
-#: ..\src/ku.h:404
+#: ../include/ku.h:457
+msgid "Size"
+msgstr "Dimensioni"
+
+#: ../include/ku.h:458
+msgid "Format"
+msgstr "Formato"
+
+#: ../include/ku.h:459
+msgid "Filter"
+msgstr "Filtro"
+
+#: ../include/ku.h:460
 msgid "When Filename Exists"
 msgstr "Quando il nome del file esiste"
 
-#: ..\src/ku.h:405
+#: ../include/ku.h:461
 msgid "Auto Rename"
 msgstr "Rinomina in automatico"
 
-#: ..\src/ku.h:406
+#: ../include/ku.h:462
 msgid "Overwrite"
 msgstr "Sovrascrivi"
 
-#: ..\src/ku.h:407
+#: ../include/ku.h:463
 msgid "Skip"
 msgstr "Tralascia"
 
-#: ..\src/ku.h:408
+#: ../include/ku.h:464
 msgid "Custom..."
 msgstr "Personalizzato..."
 
-#: ..\src/ku.h:409
+#: ../include/ku.h:465
+#, fuzzy
+msgid "Action"
+msgstr "Animazione"
+
+#: ../include/ku.h:466
+msgid "Upload"
+msgstr ""
+
+#: ../include/ku.h:467
+msgid "Download"
+msgstr ""
+
+#: ../include/ku.h:468
+#, fuzzy
+msgid "Delete"
+msgstr "Eliminazione in corso di:"
+
+#: ../include/ku.h:469
+msgid "Account"
+msgstr ""
+
+#: ../include/ku.h:470
+msgid "Password"
+msgstr ""
+
+#: ../include/ku.h:471
+msgid "Local"
+msgstr ""
+
+#: ../include/ku.h:472
+#, fuzzy
+msgid "Remote"
+msgstr "&Rimuovi"
+
+#: ../include/ku.h:473
+msgid "Login"
+msgstr ""
+
+#: ../include/ku.h:474
+msgid "Anonymous"
+msgstr ""
+
+#: ../include/ku.h:475
+msgid "Owner"
+msgstr ""
+
+#: ../include/ku.h:476
+msgid "Album"
+msgstr ""
+
+#: ../include/ku.h:477
+msgid "Query"
+msgstr ""
+
+#: ../include/ku.h:478
+msgid "New"
+msgstr ""
+
+#: ../include/ku.h:479
+msgid "Create a subdirectory for the album"
+msgstr ""
+
+#: ../include/ku.h:480
+msgid "Title"
+msgstr ""
+
+#: ../include/ku.h:481
+msgid "Location"
+msgstr ""
+
+#: ../include/ku.h:482
+msgid "Access"
+msgstr ""
+
+#: ../include/ku.h:483
+msgid "Public"
+msgstr ""
+
+#: ../include/ku.h:484
+msgid "Private"
+msgstr ""
+
+#: ../include/ku.h:485
+msgid "Protected"
+msgstr ""
+
+#: ../include/ku.h:487
 msgid "Running"
 msgstr "In esecuzione"
 
-#: ..\src/ku.h:410
+#: ../include/ku.h:488
 msgid "Queuing"
 msgstr "In coda"
 
-#: ..\src/ku.h:411
+#: ../include/ku.h:489
 msgid "Paused"
 msgstr "In pausa"
 
-#: ..\src/ku.h:412
+#: ../include/ku.h:490
 msgid "Cancelled"
 msgstr "Annullato"
 
-#: ..\src/ku.h:413
+#: ../include/ku.h:491
 msgid "Failed"
 msgstr "Fallito"
 
-#: ..\src/ku.h:414
+#: ../include/ku.h:492
 msgid "Incomplete"
 msgstr "Incompleto"
 
-#: ..\src/ku.h:415
+#: ../include/ku.h:493
 msgid "Completed"
 msgstr "Completato"
 
-#: ..\src/ku.h:416
+#: ../include/ku.h:494
 msgid "Not enough space on destination."
 msgstr "Spazio insufficiente sulla destinazione."
 
-#: ..\src/ku.h:417
+#: ../include/ku.h:495
 msgid "Destination is not writable."
 msgstr "La destinazione non è scrivibile."
 
-#: ..\src/ku.h:418
+#: ../include/ku.h:496
 msgid "Some files cannot be read."
 msgstr "Alcuni file non possono essere letti."
 
-#: ..\src/ku.h:419
+#: ../include/ku.h:497
 msgid "Some files cannot be rescaled."
 msgstr "Alcuni file non possono essere ridimensionati."
 
-#: ..\src/ku.h:420
+#: ../include/ku.h:498
 msgid "Failed to write on destination."
 msgstr "Impossibile scrivere sulla destinazione."
 
-#: ..\src/ku.h:421
+#: ../include/ku.h:499
 msgid "&New Task"
 msgstr "&Nuovo processo "
 
-#: ..\src/ku.h:422
+#: ../include/ku.h:500
 msgid "&Pause Task"
 msgstr "&Metti in pausa il processo"
 
-#: ..\src/ku.h:423
+#: ../include/ku.h:501
 msgid "&Resume Task"
 msgstr "&Ripristina il processo"
 
-#: ..\src/ku.h:424
+#: ../include/ku.h:502
 msgid "&Cancel Task"
 msgstr "&Annulla processo"
 
-#: ..\src/ku.h:425
+#: ../include/ku.h:503
 msgid "&Remove Task"
 msgstr "&Rimuovi il processo"
 
-#: ..\src/ku.h:426
+#: ../include/ku.h:504
 msgid "&All"
 msgstr "&Tutti"
 
-#: ..\src/ku.h:427
+#: ../include/ku.h:505
 msgid "&None"
 msgstr "&Nessuno"
 
-#: ..\src/ku.h:428
+#: ../include/ku.h:506
 msgid "&Inverse"
 msgstr "&Inverso"
 
-#: ..\src/ku.h:442
+#: ../include/ku.h:523
 msgid "Picture and Fax Viewer"
 msgstr "Visualizzatore immagini e fax"
 
-#: ..\src/ku.h:444
+#: ../include/ku.h:525
 msgid "Default Viewer"
 msgstr "Visualizzzatore predefinito"
 
-#, fuzzy
-#~ msgid "&OK"
-#~ msgstr "確定"
+#: ../include/ku.h:527
+msgid "Google Maps"
+msgstr ""
+
 #~ msgid "Please select a valid file to set as wallpaper!"
 #~ msgstr "請選擇"
-

@@ -1,4 +1,16 @@
-﻿Kujawiak Viewer 1.7pre
+﻿Kujawiak Viewer 1.8
+
+- feature:
+ ` 64bits build
+ ` Update FreeImage to 3.18
+ ` Update wxWidgets to 3.1.5
+
+- bugfix:
+ ` fix bug: locale does not work with wxWidgets 3.1.5
+ ` fix bug: Assertion in wxString::Format
+ ` fix bug: Assertion in wxSizer in About dialog
+
+Kujawiak Viewer 1.7pre
 
 - feature:
  ` let thumbnail panel have multiple selections

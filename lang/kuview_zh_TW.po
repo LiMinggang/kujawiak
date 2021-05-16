@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kujawiak Viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-03 23:05+0800\n"
+"POT-Creation-Date: 2021-05-16 15:38+0800\n"
 "PO-Revision-Date: 2012-01-03 23:06+0800\n"
 "Last-Translator: Augustino Zhuang <augustino@users.sourceforge.net>\n"
 "Language-Team: Kujawiak Team <augustino@users.sourceforge.net>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,159 +21,167 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\\include\n"
 
-#: ..\include/ku.h:116
+#: ../include/ku.h:114
+msgid "Project: "
+msgstr ""
+
+#: ../include/ku.h:115
+msgid "Author: "
+msgstr ""
+
+#: ../include/ku.h:119
 msgid "Exploring the file in Filesystem Panel..."
 msgstr "正在資料夾窗格中檢索檔案..."
 
-#: ..\include/ku.h:117
+#: ../include/ku.h:120
 msgid "Enumerating items in Archive Panel..."
 msgstr "正在列舉項目至壓縮檔窗格..."
 
-#: ..\include/ku.h:118
+#: ../include/ku.h:121
 msgid "Deleting all items in Archive Panel..."
 msgstr "正在清除壓縮檔窗格裡的項目..."
 
-#: ..\include/ku.h:119
+#: ../include/ku.h:122
 msgid "Loading thumbs in selected directory..."
 msgstr "正在載入此目錄中的縮圖..."
 
-#: ..\include/ku.h:120
+#: ../include/ku.h:123
 msgid "File has been saved: "
 msgstr "檔案已儲存: "
 
-#: ..\include/ku.h:121
+#: ../include/ku.h:124
 msgid "Operation has been canceled."
 msgstr "動作已取消."
 
-#: ..\include/ku.h:122
+#: ../include/ku.h:125
 msgid "Cut: "
 msgstr "剪下: "
 
-#: ..\include/ku.h:123
+#: ../include/ku.h:126
 msgid "Copy: "
 msgstr "複製: "
 
-#: ..\include/ku.h:124
+#: ../include/ku.h:127
 msgid "Copying: "
 msgstr "正在複製: "
 
-#: ..\include/ku.h:125
+#: ../include/ku.h:128
 msgid "Moving: "
 msgstr "正在搬移: "
 
-#: ..\include/ku.h:126
+#: ../include/ku.h:129
 msgid "Deleting: "
 msgstr "正在刪除: "
 
-#: ..\include/ku.h:127
+#: ../include/ku.h:130
 msgid "File has been renamed: "
 msgstr "檔案已重新命名: "
 
-#: ..\include/ku.h:128
+#: ../include/ku.h:131
 msgid "File has been copied: "
 msgstr "檔案已複製: "
 
-#: ..\include/ku.h:129
+#: ../include/ku.h:132
 msgid "File has been moved: "
 msgstr "檔案已搬移: "
 
-#: ..\include/ku.h:130
+#: ../include/ku.h:133
 msgid "File has been deleted: "
 msgstr "檔案已刪除: "
 
-#: ..\include/ku.h:131
+#: ../include/ku.h:134
 msgid "File doesn't contain any metadata..."
 msgstr "此檔案不存在任何圖片資訊..."
 
-#: ..\include/ku.h:132
+#: ../include/ku.h:135
 msgid "File doesn't contain latitude/longitude data..."
 msgstr "此檔案不存在經緯度資訊..."
 
-#: ..\include/ku.h:133
+#: ../include/ku.h:136
 msgid "This is the first in history."
 msgstr "這是紀錄中的最前一個."
 
-#: ..\include/ku.h:134
+#: ../include/ku.h:137
 msgid "This is the last in history."
 msgstr "這是紀錄中的最後一個."
 
-#: ..\include/ku.h:135
+#: ../include/ku.h:138
 msgid "No branch before this in history."
 msgstr "紀錄中在此之前沒有分支."
 
-#: ..\include/ku.h:137
+#: ../include/ku.h:140
 msgid "Interrupted by user."
 msgstr "動作已中止."
 
-#: ..\include/ku.h:138
+#: ../include/ku.h:141
 msgid "Please select a picture."
 msgstr "請選擇圖片檔."
 
-#: ..\include/ku.h:139
+#: ../include/ku.h:142
 msgid "Please select a directory which contains pictures."
 msgstr "請選擇存有圖片檔的目錄."
 
-#: ..\include/ku.h:141
+#: ../include/ku.h:144
 msgid "Please wait or interrupt current operation!"
 msgstr "請稍候或中止目前的工作!"
 
-#: ..\include/ku.h:142
+#: ../include/ku.h:145
 msgid "Cannot save: "
 msgstr "無法儲存: "
 
-#: ..\include/ku.h:143
+#: ../include/ku.h:146
 msgid "Cannot rename: "
 msgstr "無法重新命名: "
 
-#: ..\include/ku.h:144
+#: ../include/ku.h:147
 msgid "Cannot copy: "
 msgstr "無法複製: "
 
-#: ..\include/ku.h:145
+#: ../include/ku.h:148
 msgid "Cannot move: "
 msgstr "無法搬移: "
 
-#: ..\include/ku.h:146
+#: ../include/ku.h:149
 msgid "Cannot delete: "
 msgstr "無法刪除: "
 
-#: ..\include/ku.h:147
+#: ../include/ku.h:150
 msgid "Cannot mkdir: "
 msgstr "無法建立目錄: "
 
-#: ..\include/ku.h:148
+#: ../include/ku.h:151
 msgid "Cannot rmdir: "
 msgstr "無法刪除目錄: "
 
-#: ..\include/ku.h:149
+#: ../include/ku.h:152
 msgid "Already exists: "
 msgstr "檔案已存在: "
 
-#: ..\include/ku.h:150
+#: ../include/ku.h:153
 msgid "Doesn't exist: "
 msgstr "檔案不存在: "
 
-#: ..\include/ku.h:151
+#: ../include/ku.h:154
 msgid "Destination is source!\n"
 msgstr "目的與來源為同一檔案!\n"
 
-#: ..\include/ku.h:152
+#: ../include/ku.h:155
 msgid "Destination is in source!\n"
 msgstr "目的地在來源目錄之中!\n"
 
-#: ..\include/ku.h:153
+#: ../include/ku.h:156
 msgid "Destination is invalid!\n"
 msgstr "無效的目的地!\n"
 
-#: ..\include/ku.h:154
+#: ../include/ku.h:157
 msgid "Setting a picture in archive as wallpaper is not supported!"
 msgstr "不支援將壓縮檔中的圖片設為桌布!"
 
-#: ..\include/ku.h:155
+#: ../include/ku.h:158
 msgid "Cannot preview! Please check printer setting..."
 msgstr "無法預覽! 請確認印表機設定..."
 
-#: ..\include/ku.h:156
+#: ../include/ku.h:159
 msgid ""
 "There was an error during printing!\n"
 "Please check printer and try again..."
@@ -180,453 +189,447 @@ msgstr ""
 "列印過程發生錯誤!\n"
 "請檢查印表機並重試..."
 
-#: ..\include/ku.h:157
+#: ../include/ku.h:160
 msgid "Failed to login!"
 msgstr "登入失敗!"
 
-#: ..\include/ku.h:158
+#: ../include/ku.h:161
 msgid "Failed to get albums!"
 msgstr "取得相簿失敗!"
 
-#: ..\include/ku.h:159
+#: ../include/ku.h:162
 msgid "Failed to create albums!"
 msgstr "新增相簿失敗!"
 
-#: ..\include/ku.h:160
+#: ../include/ku.h:163
 msgid "Failed to modify albums!"
 msgstr "修改相簿失敗"
 
-#: ..\include/ku.h:161
+#: ../include/ku.h:164
 msgid "Failed to delete albums!"
 msgstr "刪除相簿失敗!"
 
-#: ..\include/ku.h:162
+#: ../include/ku.h:165
 msgid "Failed to get photos!"
 msgstr "取得相片失敗!"
 
-#: ..\include/ku.h:166
+#: ../include/ku.h:169
 msgid "&File"
 msgstr "檔案(&F)"
 
-#: ..\include/ku.h:167
+#: ../include/ku.h:170
 msgid "&Save\tCtrl+S"
 msgstr "儲存檔案(&S)\tCtrl+S"
 
-#: ..\include/ku.h:168
+#: ../include/ku.h:171
 msgid "Save &As..."
 msgstr "另存新檔(&A)..."
 
-#: ..\include/ku.h:169
+#: ../include/ku.h:172
 msgid "Pa&ge Setup"
 msgstr "頁面設定(&G)"
 
-#: ..\include/ku.h:170
+#: ../include/ku.h:173
 msgid "Print Pre&view...\tShift+P"
 msgstr "列印預覽...(&V)\tShift+P"
 
-#: ..\include/ku.h:171
+#: ../include/ku.h:174
 msgid "&Print\tCtrl+P"
 msgstr "列印(&P)\tCtrl+P"
 
-#: ..\include/ku.h:172
+#: ../include/ku.h:175
 msgid "Explore"
 msgstr "檔案總管"
 
-#: ..\include/ku.h:174
+#: ../include/ku.h:177
 msgid "External Editor"
 msgstr "外部編輯器"
 
-#: ..\include/ku.h:176
+#: ../include/ku.h:179
 msgid "Open with %TOOL%"
 msgstr "開啟%TOOL%"
 
-#: ..\include/ku.h:178
+#: ../include/ku.h:181
 msgid "Prope&rties\t["
 msgstr "內容(&R)\t["
 
-#: ..\include/ku.h:180
+#: ../include/ku.h:183
 msgid "M&etadata\t]"
 msgstr "圖片資訊(&E)\t]"
 
-#: ..\include/ku.h:181
+#: ../include/ku.h:184
 msgid "S&ummary\t`"
 msgstr "摘要(&U)\t`"
 
-#: ..\include/ku.h:182
+#: ../include/ku.h:185
 msgid "Status &Bar\tCtrl+B"
 msgstr "狀態列(&B)\tCtrl+B"
 
-#: ..\include/ku.h:183
+#: ../include/ku.h:186
 msgid "&Interrupt\tCtrl+I"
 msgstr "中止(&I)\tCtrl+I"
 
-#: ..\include/ku.h:184
+#: ../include/ku.h:187
 msgid "&Reload\tF5"
 msgstr "重新載入(&R)\tF5"
 
-#: ..\include/ku.h:185
+#: ../include/ku.h:188
 msgid "Minimi&ze\tCtrl+Z"
 msgstr "最小化(&Z)\tCtrl+Z"
 
-#: ..\include/ku.h:186
+#: ../include/ku.h:189
 msgid "&Restore"
 msgstr "還原(&R)"
 
-#: ..\include/ku.h:187
+#: ../include/ku.h:190
 msgid "&Quit\tCtrl+Q"
 msgstr "離開(&Q)\tCtrl+Q"
 
-#: ..\include/ku.h:189
+#: ../include/ku.h:192
 msgid "&Edit"
 msgstr "編輯(&E)"
 
-#: ..\include/ku.h:190
+#: ../include/ku.h:193
 msgid "Rotate -90\tAlt+LEFT"
 msgstr "逆時針旋轉90度\tAlt+LEFT"
 
-#: ..\include/ku.h:191
+#: ../include/ku.h:194
 msgid "Rotate +90\tAlt+RIGHT"
 msgstr "順時針旋轉90度\tAlt+RIGHT"
 
-#: ..\include/ku.h:192
+#: ../include/ku.h:195
 msgid "&Scale"
 msgstr "縮放圖片尺寸(&S)"
 
-#: ..\include/ku.h:194
-#: ..\include/ku.h:248
+#: ../include/ku.h:197 ../include/ku.h:251
 msgid "&Traverse"
 msgstr "瀏覽(&T)"
 
-#: ..\include/ku.h:195
+#: ../include/ku.h:198
 msgid "Go &Home\tAlt+HOME"
 msgstr "家目錄(&H)\tAlt+HOME"
 
-#: ..\include/ku.h:196
+#: ../include/ku.h:199
 msgid "Fa&vorite\tAlt+END"
 msgstr "慣用目錄(&V)\tAlt+END"
 
-#: ..\include/ku.h:197
+#: ../include/ku.h:200
 msgid "&Previous in Directory"
 msgstr "目錄中的前一個檔案(&P)"
 
-#: ..\include/ku.h:198
+#: ../include/ku.h:201
 msgid "&Next in Directory"
 msgstr "目錄中的後一個檔案(&N)"
 
-#: ..\include/ku.h:199
+#: ../include/ku.h:202
 msgid "&First in Directory"
 msgstr "目錄中的最前一個檔案(&F)"
 
-#: ..\include/ku.h:200
+#: ../include/ku.h:203
 msgid "La&st in Directory"
 msgstr "目錄中的最後一個檔案(&S)"
 
-#: ..\include/ku.h:201
+#: ../include/ku.h:204
 msgid "Move &Up in Tree"
 msgstr "在資料夾窗格中上移(&U)"
 
-#: ..\include/ku.h:202
+#: ../include/ku.h:205
 msgid "Move &Down in Tree"
 msgstr "在資料夾窗格中下移(&D)"
 
-#: ..\include/ku.h:203
+#: ../include/ku.h:206
 msgid "Move &Left in Tree"
 msgstr "在資料夾窗格中左移(&L)"
 
-#: ..\include/ku.h:204
+#: ../include/ku.h:207
 msgid "Move &Right in Tree"
 msgstr "在資料夾窗格中右移(&R)"
 
-#: ..\include/ku.h:205
+#: ../include/ku.h:208
 msgid "Back in History\tCtrl+UP"
 msgstr "上一筆紀錄\tCtrl+UP"
 
-#: ..\include/ku.h:206
+#: ../include/ku.h:209
 msgid "Forward in History\tCtrl+DOWN"
 msgstr "下一筆紀錄\tCtrl+DOWN"
 
-#: ..\include/ku.h:207
+#: ../include/ku.h:210
 msgid "Jump to Branch in History\tCtrl+BACK"
 msgstr "跳至紀錄中的分支\tCtrl+BACK"
 
-#: ..\include/ku.h:209
-#: ..\include/ku.h:250
+#: ../include/ku.h:212 ../include/ku.h:253
 msgid "&View"
 msgstr "檢視(&V)"
 
-#: ..\include/ku.h:210
+#: ../include/ku.h:213
 msgid "F&ull Screen\tENTER"
 msgstr "全螢幕檢視(&U)\tENTER"
 
-#: ..\include/ku.h:211
+#: ../include/ku.h:214
 msgid "Zoom &In\t+"
 msgstr "拉近(&I)\t+"
 
-#: ..\include/ku.h:212
+#: ../include/ku.h:215
 msgid "Zoom &Out\t-"
 msgstr "拉遠(&O)\t-"
 
-#: ..\include/ku.h:213
+#: ../include/ku.h:216
 msgid "Zoom &100%\t*"
 msgstr "原始比例(&1)\t*"
 
-#: ..\include/ku.h:214
+#: ../include/ku.h:217
 msgid "Zoom &Fit\t/"
 msgstr "最適大小(&F)\t/"
 
-#: ..\include/ku.h:215
+#: ../include/ku.h:218
 msgid "Zoom &Extend\t\\"
 msgstr "最適裁切(&E)\t\\"
 
-#: ..\include/ku.h:216
+#: ../include/ku.h:219
 msgid "Opa&que"
 msgstr "半透明(&Q)"
 
-#: ..\include/ku.h:217
+#: ../include/ku.h:220
 msgid "&Slide Show\tSPACE"
 msgstr "投影片播放(&S)\tSPACE"
 
-#: ..\include/ku.h:218
+#: ../include/ku.h:221
 msgid "Pause &Slide Show\tSPACE"
 msgstr "暫停播放(&S)\tSPACE"
 
-#: ..\include/ku.h:219
+#: ../include/ku.h:222
 msgid "Continue &Slide Show\tSPACE"
 msgstr "繼續播放(&S)\tSPACE"
 
-#: ..\include/ku.h:221
+#: ../include/ku.h:224
 msgid "&Panel"
 msgstr "窗格(&P)"
 
-#: ..\include/ku.h:222
+#: ../include/ku.h:225
 msgid "&Filesystem\tF10"
 msgstr "資料夾窗格(&F)\tF10"
 
-#: ..\include/ku.h:223
+#: ../include/ku.h:226
 msgid "&Archive\tF11"
 msgstr "壓縮檔窗格(&A)\tF11"
 
-#: ..\include/ku.h:224
+#: ../include/ku.h:227
 msgid "&Thumbnail\tF12"
 msgstr "縮圖窗格(&T)\tF12"
 
-#: ..\include/ku.h:226
-#: ..\include/ku.h:273
+#: ../include/ku.h:229 ../include/ku.h:276
 msgid "&Manage"
 msgstr "管理(&M)"
 
-#: ..\include/ku.h:227
+#: ../include/ku.h:230
 msgid "&New Directory"
 msgstr "新建目錄(&N)"
 
-#: ..\include/ku.h:228
+#: ../include/ku.h:231
 msgid "&Rename File\tF2"
 msgstr "重新命名(&R)\tF2"
 
-#: ..\include/ku.h:229
+#: ../include/ku.h:232
 msgid "Cu&t File\tCtrl+X"
 msgstr "剪下檔案(&T)\tCtrl+X"
 
-#: ..\include/ku.h:230
+#: ../include/ku.h:233
 msgid "&Copy File\tCtrl+C"
 msgstr "複製檔案(&C)\tCtrl+C"
 
-#: ..\include/ku.h:231
+#: ../include/ku.h:234
 msgid "&Paste File\tCtrl+V"
 msgstr "貼上檔案(&P)\tCtrl+V"
 
-#: ..\include/ku.h:232
+#: ../include/ku.h:235
 msgid "&Delete File\tDEL"
 msgstr "刪除檔案(&D)\tDEL"
 
-#: ..\include/ku.h:233
+#: ../include/ku.h:236
 msgid "&Move File To..."
 msgstr "搬移檔案至(&M)..."
 
-#: ..\include/ku.h:234
+#: ../include/ku.h:237
 msgid "Copy File &To..."
 msgstr "複製檔案至(&T)..."
 
-#: ..\include/ku.h:236
+#: ../include/ku.h:239
 msgid "Tool&s"
 msgstr "工具(&S)"
 
-#: ..\include/ku.h:237
-#: ..\include/ku.h:276
+#: ../include/ku.h:240 ../include/ku.h:279
 msgid "&Rescale Manager"
 msgstr "轉檔管理員(&R)"
 
-#: ..\include/ku.h:238
-#: ..\include/ku.h:277
+#: ../include/ku.h:241 ../include/ku.h:280
 msgid "&PicasaWeb Manager"
 msgstr "PicasaWeb管理員(&P)"
 
-#: ..\include/ku.h:240
+#: ../include/ku.h:243
 msgid "&Option"
 msgstr "設置(&O)"
 
-#: ..\include/ku.h:241
+#: ../include/ku.h:244
 msgid "&Shell Integration"
 msgstr "介面整合(&S)"
 
-#: ..\include/ku.h:242
+#: ../include/ku.h:245
 msgid "File &Association"
 msgstr "檔案關聯(&A)"
 
-#: ..\include/ku.h:243
+#: ../include/ku.h:246
 msgid "&Desktop"
 msgstr "桌面(&D)"
 
-#: ..\include/ku.h:244
+#: ../include/ku.h:247
 msgid "Set as &Wallpaper"
 msgstr "設為桌布(&W)"
 
-#: ..\include/ku.h:245
+#: ../include/ku.h:248
 msgid "&None Wallpaper"
 msgstr "純色桌布(&N)"
 
-#: ..\include/ku.h:246
+#: ../include/ku.h:249
 msgid "&Background Color"
 msgstr "桌面底色(&B)"
 
-#: ..\include/ku.h:247
+#: ../include/ku.h:250
 msgid "&Language"
 msgstr "語言(&L)"
 
-#: ..\include/ku.h:249
+#: ../include/ku.h:252
 msgid "&Favorite"
 msgstr "慣用目錄(&F)"
 
-#: ..\include/ku.h:251
+#: ../include/ku.h:254
 msgid "Fixed &Style"
 msgstr "固定檢視方式(&S)"
 
-#: ..\include/ku.h:252
+#: ../include/ku.h:255
 msgid "&Auto Fit"
 msgstr "自動最適(&A)"
 
-#: ..\include/ku.h:253
+#: ../include/ku.h:256
 msgid "Zoom &Fit"
 msgstr "最適大小(&F)"
 
-#: ..\include/ku.h:254
+#: ../include/ku.h:257
 msgid "Zoom &Extend"
 msgstr "最適裁切(&E)"
 
-#: ..\include/ku.h:255
+#: ../include/ku.h:258
 msgid "Fixed &Scale"
 msgstr "固定檢視比例(&S)"
 
-#: ..\include/ku.h:256
+#: ../include/ku.h:259
 msgid "Fixed &Rotation"
 msgstr "固定旋轉角度(&R)"
 
-#: ..\include/ku.h:257
+#: ../include/ku.h:260
 msgid "Fixed &LeftTop"
 msgstr "固定移動位置(&L)"
 
-#: ..\include/ku.h:258
+#: ../include/ku.h:261
 msgid "Load &Completely"
 msgstr "總是完整載入全檔(&C)"
 
-#: ..\include/ku.h:259
+#: ../include/ku.h:262
 msgid "&Prefetch"
 msgstr "預載(&P)"
 
-#: ..\include/ku.h:260
+#: ../include/ku.h:263
 msgid "Scale &Filter"
 msgstr "縮放濾鏡(&F)"
 
-#: ..\include/ku.h:261
+#: ../include/ku.h:264
 msgid "Bo&x"
 msgstr "Bo&x"
 
-#: ..\include/ku.h:262
+#: ../include/ku.h:265
 msgid "&Bicubic"
 msgstr "&Bicubic"
 
-#: ..\include/ku.h:263
+#: ../include/ku.h:266
 msgid "Bi&linear"
 msgstr "Bi&linear"
 
-#: ..\include/ku.h:264
+#: ../include/ku.h:267
 msgid "B-&Spline"
 msgstr "B-&Spline"
 
-#: ..\include/ku.h:265
+#: ../include/ku.h:268
 msgid "&Catmull-Rom"
 msgstr "&Catmull-Rom"
 
-#: ..\include/ku.h:266
+#: ../include/ku.h:269
 msgid "&Lanczos"
 msgstr "&Lanczos"
 
-#: ..\include/ku.h:267
+#: ../include/ku.h:270
 msgid "Slide Sho&w"
 msgstr "投影片播放(&W)"
 
-#: ..\include/ku.h:268
+#: ../include/ku.h:271
 msgid "Repeat"
 msgstr "循環"
 
-#: ..\include/ku.h:269
-#: ..\include/ku.h:321
+#: ../include/ku.h:272 ../include/ku.h:324
 msgid "Interval"
 msgstr "播放間隔"
 
-#: ..\include/ku.h:270
+#: ../include/ku.h:273
 msgid "S&ummary"
 msgstr "摘要(&U)"
 
-#: ..\include/ku.h:271
+#: ../include/ku.h:274
 msgid "&Position"
 msgstr "位置(&P)"
 
-#: ..\include/ku.h:272
+#: ../include/ku.h:275
 msgid "&Color"
 msgstr "色彩(&C)"
 
-#: ..\include/ku.h:274
+#: ../include/ku.h:277
 msgid "Set &Directories for Hotkey"
 msgstr "設定目錄快捷鍵(&D)"
 
-#: ..\include/ku.h:275
+#: ../include/ku.h:278
 msgid "&External Tools"
 msgstr "外部編輯器(&E)"
 
-#: ..\include/ku.h:278
+#: ../include/ku.h:281
 msgid "&Max Concurrent"
 msgstr "並行工作數上限(&M)"
 
-#: ..\include/ku.h:279
+#: ../include/ku.h:282
 msgid "&Generate Config File"
 msgstr "建立組態檔"
 
-#: ..\include/ku.h:281
+#: ../include/ku.h:284
 msgid "&Help"
 msgstr "說明(&H)"
 
-#: ..\include/ku.h:282
+#: ../include/ku.h:285
 msgid "&About"
 msgstr "關於(&A)"
 
-#: ..\include/ku.h:284
+#: ../include/ku.h:287
 msgid "&Remove It"
 msgstr "單張移除(&R)"
 
-#: ..\include/ku.h:285
+#: ../include/ku.h:288
 msgid "&Clear All"
 msgstr "全部移除(&C)"
 
-#: ..\include/ku.h:290
+#: ../include/ku.h:293
 msgid "Please select language:"
 msgstr "請選擇語言:"
 
-#: ..\include/ku.h:292
+#: ../include/ku.h:295
 msgid "Do you want to continue?"
 msgstr "確定要繼續嗎?"
 
-#: ..\include/ku.h:293
+#: ../include/ku.h:296
 msgid ""
 "\n"
 "Do you want to skip it and continue?"
@@ -634,15 +637,15 @@ msgstr ""
 "\n"
 "略過這個動作並繼續嗎?"
 
-#: ..\include/ku.h:294
+#: ../include/ku.h:297
 msgid "Confirm"
 msgstr "確認"
 
-#: ..\include/ku.h:295
+#: ../include/ku.h:298
 msgid "Rotate/Clone original file losslessly?"
 msgstr "無損地旋轉/複製原始檔案?"
 
-#: ..\include/ku.h:296
+#: ../include/ku.h:299
 msgid ""
 "This function is NOT complete!\n"
 "File quality and information may be STRIPPED!!\n"
@@ -650,11 +653,11 @@ msgstr ""
 "此功能並\"不\"完整!\n"
 "檔案品質與資訊可能會漏失!\n"
 
-#: ..\include/ku.h:297
+#: ../include/ku.h:300
 msgid "The original file will be overwritten!!\n"
 msgstr "原始檔案將被覆蓋!!\n"
 
-#: ..\include/ku.h:298
+#: ../include/ku.h:301
 msgid ""
 "Current file has been modified,\n"
 "reload original file now?"
@@ -662,39 +665,40 @@ msgstr ""
 "檔案已更動,\n"
 "是否要重新載入?"
 
-#: ..\include/ku.h:299
+#: ../include/ku.h:302
 msgid "Please input directory name:"
 msgstr "請輸入目錄名稱:"
 
-#: ..\include/ku.h:300
+#: ../include/ku.h:303
 msgid "Please input new name:"
 msgstr "請輸入新名稱:"
 
-#: ..\include/ku.h:301
+#: ../include/ku.h:304
 msgid "The file will be deleted!\n"
 msgstr "檔案將被刪除!\n"
 
-#: ..\include/ku.h:302
+#: ../include/ku.h:305
 msgid ""
-"Favorite is default location on startup, and can be found quickly by clicking Favorite button/menu.\n"
+"Favorite is default location on startup, and can be found quickly by "
+"clicking Favorite button/menu.\n"
 "Current: "
 msgstr ""
 "慣用目錄是開啟時的預設位置, 並可由慣用目錄按鈕/選單快速找到.\n"
 "目前設為: "
 
-#: ..\include/ku.h:304
+#: ../include/ku.h:307
 msgid "Drive"
 msgstr "磁碟"
 
-#: ..\include/ku.h:305
+#: ../include/ku.h:308
 msgid "Directory"
 msgstr "目錄"
 
-#: ..\include/ku.h:306
+#: ../include/ku.h:309
 msgid "File"
 msgstr "檔案"
 
-#: ..\include/ku.h:307
+#: ../include/ku.h:310
 msgid ""
 "Please select where to add\n"
 "\"Browse with kuView\" entry:\n"
@@ -703,44 +707,43 @@ msgstr ""
 "請選擇要在哪些右鍵選單加入\n"
 "\"Browse with kuView\" 項目:"
 
-#: ..\include/ku.h:308
+#: ../include/ku.h:311
 msgid "Browse with kuView"
 msgstr "Browse with kuView"
 
-#: ..\include/ku.h:309
+#: ../include/ku.h:312
 msgid "Please select file extension:"
 msgstr "請選擇關聯副檔名:"
 
-#: ..\include/ku.h:310
-#: ..\include/ku.h:328
+#: ../include/ku.h:313 ../include/ku.h:331
 msgid "Center"
 msgstr "置中"
 
-#: ..\include/ku.h:311
+#: ../include/ku.h:314
 msgid "Tile"
 msgstr "並排顯示"
 
-#: ..\include/ku.h:312
+#: ../include/ku.h:315
 msgid "Stretch"
 msgstr "延展"
 
-#: ..\include/ku.h:313
+#: ../include/ku.h:316
 msgid "Scale to Fit"
 msgstr "縮放至最適大小"
 
-#: ..\include/ku.h:314
+#: ../include/ku.h:317
 msgid "Scale to Extend"
 msgstr "縮放至最適裁切"
 
-#: ..\include/ku.h:315
+#: ../include/ku.h:318
 msgid "Please select how to set wallpaper:"
 msgstr "請選擇設置桌布的形式:"
 
-#: ..\include/ku.h:316
+#: ../include/ku.h:319
 msgid "Do you want to disable wallpaper?"
 msgstr "停用圖片並設為純色桌布嗎?"
 
-#: ..\include/ku.h:318
+#: ../include/ku.h:321
 msgid ""
 "Please input a number between 0 and 255:\n"
 "(0 is fully transparent, and 255 is fully opaque)"
@@ -748,61 +751,59 @@ msgstr ""
 "請輸入介於0~255的數值:\n"
 "(0為全透明, 255為不透明)"
 
-#: ..\include/ku.h:319
+#: ../include/ku.h:322
 msgid "opaque value:"
 msgstr "透明度:"
 
-#: ..\include/ku.h:320
+#: ../include/ku.h:323
 msgid "Please input interval in second:"
 msgstr "請輸入播放間隔: (in second)"
 
-#: ..\include/ku.h:322
+#: ../include/ku.h:325
 msgid "Please input the maximum number of concurrent tasks:"
 msgstr "請輸入允許同時進行的工作數量上限:"
 
-#: ..\include/ku.h:323
+#: ../include/ku.h:326
 msgid "&Close"
 msgstr "關閉(&C)"
 
-#: ..\include/ku.h:324
+#: ../include/ku.h:327
 msgid "&Print..."
 msgstr "列印...(&P)"
 
-#: ..\include/ku.h:325
+#: ../include/ku.h:328
 msgid "&Align..."
 msgstr "對齊...(&A)"
 
-#: ..\include/ku.h:326
+#: ../include/ku.h:329
 msgid "&Scale..."
 msgstr "縮放...(&S)"
 
-#: ..\include/ku.h:327
+#: ../include/ku.h:330
 msgid "Please select the position button for alignment:"
 msgstr "請點選對齊方式:"
 
-#: ..\include/ku.h:329
-#: ..\include/ku.h:335
+#: ../include/ku.h:332 ../include/ku.h:338
 msgid "Left"
 msgstr "靠左"
 
-#: ..\include/ku.h:330
+#: ../include/ku.h:333
 msgid "Right"
 msgstr "靠右"
 
-#: ..\include/ku.h:331
-#: ..\include/ku.h:336
+#: ../include/ku.h:334 ../include/ku.h:339
 msgid "Top"
 msgstr "靠上"
 
-#: ..\include/ku.h:332
+#: ../include/ku.h:335
 msgid "Bottom"
 msgstr "靠下"
 
-#: ..\include/ku.h:333
+#: ../include/ku.h:336
 msgid "Please enter the scale ratio:"
 msgstr "請輸入縮放比例:"
 
-#: ..\include/ku.h:334
+#: ../include/ku.h:337
 msgid ""
 "It is not a valid number!\n"
 "Please try again..."
@@ -810,7 +811,7 @@ msgstr ""
 "不是有效的數字!\n"
 "請重新輸入:"
 
-#: ..\include/ku.h:337
+#: ../include/ku.h:340
 msgid ""
 "Current file can be copied or moved to specified directories by hotkey:\n"
 "    Ctrl + NUM\tcopy to directory NUM\n"
@@ -822,318 +823,321 @@ msgstr ""
 "    Alt + NUM\t搬移至編號為NUM的目錄\n"
 "請將慣用的目錄加到此清單: (最多可有9個目錄)"
 
-#: ..\include/ku.h:338
-msgid "Config file is generated successfully. It will be imported automatically on startup."
+#: ../include/ku.h:341
+msgid ""
+"Config file is generated successfully. It will be imported automatically on "
+"startup."
 msgstr "組態檔已成功建立. 開啟時將自動載入."
 
-#: ..\include/ku.h:339
+#: ../include/ku.h:342
 msgid "Failed to generate config file. Please check working directory: "
 msgstr "建立組態檔失敗. 請檢查工作目錄:"
 
-#: ..\include/ku.h:340
+#: ../include/ku.h:343
 msgid "The album will be deleted!\n"
 msgstr "此相簿將被刪除!\n"
 
-#: ..\include/ku.h:344
+#: ../include/ku.h:347
 msgid "Add"
 msgstr "新增"
 
-#: ..\include/ku.h:345
+#: ../include/ku.h:348
 msgid "&Delete"
 msgstr "刪除"
 
-#: ..\include/ku.h:346
+#: ../include/ku.h:349
 msgid "Rep&lace"
 msgstr "取代"
 
-#: ..\include/ku.h:347
+#: ../include/ku.h:350
 msgid "&OK"
 msgstr "確定"
 
-#: ..\include/ku.h:348
+#: ../include/ku.h:351
 msgid "&Cancel"
 msgstr "取消"
 
-#: ..\include/ku.h:410
+#: ../include/ku.h:413
 msgid "Comments"
 msgstr "註解"
 
-#: ..\include/ku.h:411
+#: ../include/ku.h:414
 msgid "Main"
 msgstr "主要"
 
-#: ..\include/ku.h:412
+#: ../include/ku.h:415
 msgid "Exif"
 msgstr "延伸"
 
-#: ..\include/ku.h:413
+#: ../include/ku.h:416
 msgid "GPS"
 msgstr "GPS"
 
-#: ..\include/ku.h:414
+#: ../include/ku.h:417
 msgid "Maker Note"
 msgstr "Maker Note"
 
-#: ..\include/ku.h:415
+#: ../include/ku.h:418
 msgid "Interoperability"
 msgstr "Interoperability"
 
-#: ..\include/ku.h:416
+#: ../include/ku.h:419
 msgid "IPTC"
 msgstr "IPTC"
 
-#: ..\include/ku.h:417
+#: ../include/ku.h:420
 msgid "XMP"
 msgstr "XMP"
 
-#: ..\include/ku.h:418
+#: ../include/ku.h:421
 msgid "GeoTIFF"
 msgstr "GeoTIFF"
 
-#: ..\include/ku.h:419
+#: ../include/ku.h:422
 msgid "Animation"
 msgstr "Animation"
 
-#: ..\include/ku.h:420
+#: ../include/ku.h:423
 msgid "Tag"
 msgstr "標籤"
 
-#: ..\include/ku.h:421
+#: ../include/ku.h:424
 msgid "Value"
 msgstr "內容"
 
-#: ..\include/ku.h:422
+#: ../include/ku.h:425
 msgid "Description"
 msgstr "說明"
 
-#: ..\include/ku.h:450
+#: ../include/ku.h:453
 msgid "Source"
 msgstr "來源"
 
-#: ..\include/ku.h:451
+#: ../include/ku.h:454
 msgid "Destination"
 msgstr "目的地"
 
-#: ..\include/ku.h:452
+#: ../include/ku.h:455
 msgid "Progress"
 msgstr "進度"
 
-#: ..\include/ku.h:453
+#: ../include/ku.h:456
 msgid "Status"
 msgstr "狀態"
 
-#: ..\include/ku.h:454
+#: ../include/ku.h:457
 msgid "Size"
 msgstr "尺寸"
 
-#: ..\include/ku.h:455
+#: ../include/ku.h:458
 msgid "Format"
 msgstr "格式"
 
-#: ..\include/ku.h:456
+#: ../include/ku.h:459
 msgid "Filter"
 msgstr "濾鏡"
 
-#: ..\include/ku.h:457
+#: ../include/ku.h:460
 msgid "When Filename Exists"
 msgstr "當檔名已存在"
 
-#: ..\include/ku.h:458
+#: ../include/ku.h:461
 msgid "Auto Rename"
 msgstr "自動更名"
 
-#: ..\include/ku.h:459
+#: ../include/ku.h:462
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: ..\include/ku.h:460
+#: ../include/ku.h:463
 msgid "Skip"
 msgstr "略過"
 
-#: ..\include/ku.h:461
+#: ../include/ku.h:464
 msgid "Custom..."
 msgstr "自訂..."
 
-#: ..\include/ku.h:462
+#: ../include/ku.h:465
 msgid "Action"
 msgstr "動作"
 
-#: ..\include/ku.h:463
+#: ../include/ku.h:466
 msgid "Upload"
 msgstr "上傳"
 
-#: ..\include/ku.h:464
+#: ../include/ku.h:467
 msgid "Download"
 msgstr "下載"
 
-#: ..\include/ku.h:465
+#: ../include/ku.h:468
 msgid "Delete"
 msgstr "刪除"
 
-#: ..\include/ku.h:466
+#: ../include/ku.h:469
 msgid "Account"
 msgstr "帳戶"
 
-#: ..\include/ku.h:467
+#: ../include/ku.h:470
 msgid "Password"
 msgstr "密碼"
 
-#: ..\include/ku.h:468
+#: ../include/ku.h:471
 msgid "Local"
 msgstr "本地"
 
-#: ..\include/ku.h:469
+#: ../include/ku.h:472
 msgid "Remote"
 msgstr "遠端"
 
-#: ..\include/ku.h:470
+#: ../include/ku.h:473
 msgid "Login"
 msgstr "登入"
 
-#: ..\include/ku.h:471
+#: ../include/ku.h:474
 msgid "Anonymous"
 msgstr "匿名"
 
-#: ..\include/ku.h:472
+#: ../include/ku.h:475
 msgid "Owner"
 msgstr "擁有者"
 
-#: ..\include/ku.h:473
+#: ../include/ku.h:476
 msgid "Album"
 msgstr "相簿"
 
-#: ..\include/ku.h:474
+#: ../include/ku.h:477
 msgid "Query"
 msgstr "查詢"
 
-#: ..\include/ku.h:475
+#: ../include/ku.h:478
 msgid "New"
 msgstr "新增"
 
-#: ..\include/ku.h:476
+#: ../include/ku.h:479
 msgid "Create a subdirectory for the album"
 msgstr "為此相簿建立子目錄"
 
-#: ..\include/ku.h:477
+#: ../include/ku.h:480
 msgid "Title"
 msgstr "標題"
 
-#: ..\include/ku.h:478
+#: ../include/ku.h:481
 msgid "Location"
 msgstr "拍攝地點"
 
-#: ..\include/ku.h:479
+#: ../include/ku.h:482
 msgid "Access"
 msgstr "顯示設定"
 
-#: ..\include/ku.h:480
+#: ../include/ku.h:483
 msgid "Public"
 msgstr "公開在網路上"
 
-#: ..\include/ku.h:481
+#: ../include/ku.h:484
 msgid "Private"
 msgstr "擁有連結的使用者"
 
-#: ..\include/ku.h:482
+#: ../include/ku.h:485
 msgid "Protected"
 msgstr "私人"
 
-#: ..\include/ku.h:484
+#: ../include/ku.h:487
 msgid "Running"
 msgstr "進行中"
 
-#: ..\include/ku.h:485
+#: ../include/ku.h:488
 msgid "Queuing"
 msgstr "佇列中"
 
-#: ..\include/ku.h:486
+#: ../include/ku.h:489
 msgid "Paused"
 msgstr "暫停"
 
-#: ..\include/ku.h:487
+#: ../include/ku.h:490
 msgid "Cancelled"
 msgstr "已取消"
 
-#: ..\include/ku.h:488
+#: ../include/ku.h:491
 msgid "Failed"
 msgstr "失敗"
 
-#: ..\include/ku.h:489
+#: ../include/ku.h:492
 msgid "Incomplete"
 msgstr "不完整"
 
-#: ..\include/ku.h:490
+#: ../include/ku.h:493
 msgid "Completed"
 msgstr "完成"
 
-#: ..\include/ku.h:491
+#: ../include/ku.h:494
 msgid "Not enough space on destination."
 msgstr "目的地空間不足."
 
-#: ..\include/ku.h:492
+#: ../include/ku.h:495
 msgid "Destination is not writable."
 msgstr "目的地無法寫入."
 
-#: ..\include/ku.h:493
+#: ../include/ku.h:496
 msgid "Some files cannot be read."
 msgstr "部分檔案無法讀取."
 
-#: ..\include/ku.h:494
+#: ../include/ku.h:497
 msgid "Some files cannot be rescaled."
 msgstr "部分檔案無法轉檔."
 
-#: ..\include/ku.h:495
+#: ../include/ku.h:498
 msgid "Failed to write on destination."
 msgstr "目的地寫入失敗."
 
-#: ..\include/ku.h:496
+#: ../include/ku.h:499
 msgid "&New Task"
 msgstr "新增工作(&N)"
 
-#: ..\include/ku.h:497
+#: ../include/ku.h:500
 msgid "&Pause Task"
 msgstr "暫停工作(&P)"
 
-#: ..\include/ku.h:498
+#: ../include/ku.h:501
 msgid "&Resume Task"
 msgstr "繼續工作(&R)"
 
-#: ..\include/ku.h:499
+#: ../include/ku.h:502
 msgid "&Cancel Task"
 msgstr "取消工作(&C)"
 
-#: ..\include/ku.h:500
+#: ../include/ku.h:503
 msgid "&Remove Task"
 msgstr "移除工作(&R)"
 
-#: ..\include/ku.h:501
+#: ../include/ku.h:504
 msgid "&All"
 msgstr "全選(&A)"
 
-#: ..\include/ku.h:502
+#: ../include/ku.h:505
 msgid "&None"
 msgstr "清除(&N)"
 
-#: ..\include/ku.h:503
+#: ../include/ku.h:506
 msgid "&Inverse"
 msgstr "反相(&I)"
 
-#: ..\include/ku.h:520
+#: ../include/ku.h:523
 msgid "Picture and Fax Viewer"
 msgstr "圖片和傳真檢視器"
 
-#: ..\include/ku.h:522
+#: ../include/ku.h:525
 msgid "Default Viewer"
 msgstr "預設檢視器"
 
-#: ..\include/ku.h:524
+#: ../include/ku.h:527
 msgid "Google Maps"
 msgstr "Google地圖"
 
 #~ msgid "Edit"
 #~ msgstr "編輯"
+
 #~ msgid "JPEG file"
 #~ msgstr "JPEG檔案"
+
 #~ msgid "Please select a valid file to set as wallpaper!"
 #~ msgstr "請選擇"
-

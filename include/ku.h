@@ -111,8 +111,8 @@
 #define STRING_APPNAME wxT("kuView")
 #define STRING_VERSION wxT("Version: 1.8 [") + wxString(STRING_REV).AfterFirst(' ').BeforeLast(' ') + wxT("]")
 //#define STRING_VERSION wxT("Version: 1.6")
-#define STRING_PROJECT wxT("Project: http://kujawiak.sourceforge.net/")
-#define STRING_AUTHOR  wxT("Author: augustino@users.sourceforge.net")
+#define STRING_PROJECT _("Project: ") + wxT("https://github.com/LiMinggang/kujawiak")
+#define STRING_AUTHOR  _("Author: ") + wxT("https://github.com/LiMinggang")
 
 
 // -------- status string --------
@@ -553,8 +553,8 @@
 #define CFG_SUMMARY_POSITION      wxT("Position")
 #define CFG_SUMMARY_COLOR         wxT("Color")
 #define CFG_GROUP_MANAGE          wxT("Manage")
-#define CFG_MANAGE_DIRSET         wxT("DirSet_%d")
-#define CFG_GROUP_EXTERNAL        wxT("ExternalTool_%d")
+#define CFG_MANAGE_DIRSET         wxT("DirSet_")
+#define CFG_GROUP_EXTERNAL        wxT("ExternalTool_")
 #define CFG_EXTERNAL_NAME         wxT("Name")
 #define CFG_EXTERNAL_EXEC         wxT("Exec")
 #define CFG_EXTERNAL_ARGS         wxT("Args")

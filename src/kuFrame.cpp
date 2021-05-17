@@ -794,7 +794,7 @@ void kuFrame::OnIdle(wxIdleEvent& event) {
             if(dirs[i]==wxEmptyString) {
                 path += sep;
                 continue;
-            } else if(path.Last()==sep || path.IsEmpty()) {
+            } else if(path.IsEmpty() || path.Last()==sep) {
                 path += dirs[i];
             } else {
                 path += sep + dirs[i];
